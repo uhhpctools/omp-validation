@@ -1,6 +1,6 @@
 #by Chunhua Liao
 # Nov 27, 2005
-include Makefile.override
+#include Makefile.override
 
 C_BUILD_DIR = C/TEST
 F90_BUILD_DIR = F90/TEST
@@ -13,11 +13,10 @@ BUILD_COMPONENTS = $(C_COMPONENTS) $(F90_COMPONENTS)
 
 all:c f90
 
-f90:$(F90_COMPONENTS)
-#	cd F90/TEST ; gmake run
+#f90:$(F90_COMPONENTS) causing path problem if use this one. strange.
+f90:
 	gmake -C $(F90_BUILD_DIR) run
-c:$(C_COMPONENTS)
-#	cd $(F90_BUILD_DIR) && gmake run
+c:
 	gmake -C $(C_BUILD_DIR) run
 clean:
 	gmake -C $(F90_BUILD_DIR) clean
