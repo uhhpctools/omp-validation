@@ -1,0 +1,175 @@
+OpenMP-Testsuite
+
+Version 1.0b
+
+
+
+I.	How to compile and run the tests
+	A) Using the runtest script.
+	B) Manual generation of stand alone tests for a directive
+II.	How to add new tests / The structure of testtemplates
+	A) Description of the template structure
+
+------------------------------------------------------------------------------------------
+I.	How to compile and run the tests
+------------------------------------------------------------------------------------------
+
+You have two main ways to run tests with the testsuite:
+First you can use the runtestscript, which generates and runs the tests specified in an an 
+inputfile, or you can compile the tests by your own using the ompts_parser.pl script.
+
+	A) Using the runtest script.
+
+Using the runtest.pl script is rather easy. You can use the the testsuite only after two steps:
+1.)	Modify the Makefile to your wishes coosing your comiler and the necessary compiler flags.
+2.) Generate a file containing the names of the tests (one test per line) or use one of the 
+	existingan lists and run the runtest.pl script with the filename.
+
+	#	>	./runtest.pl testlist
+
+With the testsuite there come three testlists: One containing all tests, one with the tests 
+for version 1.0 of OpenMP and one with the tests for version 2.0/2.5 of OpenMP.
+If you dont't want to test the directives in orphaned mode you can use the -norphan option.
+You also can use the runtest.pl script eather to compile all tests or run compiled tests
+e.g. for cross compilation on other platforms. For this there are the options -norun and 
+-nocompile.
+With the --help option you can show the complete list of options and thier explanations.
+
+	B) Manual generation of stand alone tests for a directive
+
+1.) Run ompts_makeHeader.pl. This will generate an up to date headerfile.
+2.) The sources for the tests are in the templates directory. Generate the 
+	sourcecode for the tests you want to run with the ompts_parser.pl script
+	Dependent on if you want to create only a test or it's crosstest you have to
+	add some more options:
+	- If you want to create the sourcecode for the test you have to set the -test option.
+	- If you want to create the sourcecode for the crosstest you have to set 
+	  the -crosstest option.
+	If you want to create the source for an 'orphaned' test version - if it is supported - 
+	you have to add the -orphan option.
+
+	#	Here is an example to create the source for the test and crosstest to the check 
+	#	if the compiler has openmp support:
+	#	>	./ompts_parser.pl -test -crosstest templates/has_openmp.tpl
+	
+	The script will create the sourcecode for the tests. The files are named like
+	the tested OpenMP directives with the prefix test for the test and crosstest for 
+	the crosstest:
+	
+	#	In the example:
+	#	>	test_has_openmp.c and 
+	#	>	crosstest_has_openmp.c
+
+3.) You now can compile the created output. At the moment you have to do this yourself.
+
+	#	In this example with the intel compiler:
+	#	>	icc -openmp -o test_has_openmp test_has_openmp.c
+	#	>	icc -openmp -o crosstest_has_openmp crosstest_has_openmp.c
+
+4.) Now you can run the test. 
+
+	#	In the example:
+	#		./test_has_openmp
+
+	It will display some inforamtions on the display. If the directive worked correct 
+	you will get the message
+	#	>	"Directiv worked without errors."
+
+	If not you can get more information in the created log file which is named like 
+	the test.
+
+	#	In the example:
+	#	>	test_has_openmp.log
+
+
+------------------------------------------------------------------------------------------
+II.	How to add new tests / The structure of testtemplates
+------------------------------------------------------------------------------------------
+
+The testsuite is based on templates so that you only have one file for test,crosstest 
+and orphantest.
+
+	A) Description of the template structure
+
+The syntax of the templates is much like xml. So each test begins with '<ompts:test>' and 
+ends with '</ompts:test>'.
+
+In between there are several other blocks holding information:
+
+- <ompts:testdescription> </omtps:testdescription>
+Inbetween this tag you can give an description on what the test checks and how it works.
+
+- <ompts:ompversion> </ompts:version>
+This tag is used to specify the OpenMP-version which includes the tested directive.
+
+- <ompts:directive> </ompts:directive>
+Used to specify the directive how it is called in the programming language.
+
+- <ompts:dependences> </ompts:dependences>
+With this tag you can specify other omp directives which are necessary for the correct 
+execution of your test. The directives have to be listed by the name of their testfunctions 
+but with spaces instead underlines in the name. (e.g. 'omp master' for the master directive 
+which is checked by the test named 'omp_master') Multiple directives are seperated by ','.
+
+- <ompts:testcode> </ompts:testcode>
+In this tag stands the whole sourcecode for the test / crosstest.
+Each test has to be written as a function which takes a filepointer 'FILE * logFile' and 
+returns an int. If the test has been passed succesfull it has to return 0. The filepointer 
+can be used to write information into a logfile.
+
+To tell the testsuite the name of your testfunction you have to enclodse it into the 
+'<ompts:testcode:functionname> </ompts:testcode:functionname>' tag.
+
+An example to demonstrate the syntax up to this point of description:
+
+	<ompts:test>
+	<ompts:testdescription>Some description</ompts:testdescription>
+	<ompts:ompversion>2.0</ompts:ompversion>
+	<ompts:directive>omp_new_directive</ompts:directive>
+	<ompts:dependences>omp barrier,omp parallel for reduction</ompts:dependences>
+	<ompts:testcode>
+	#include "omp_testsuite.h" /* including the global headerfile of the testsuite */
+	/* global definitions */
+
+	int <ompts:testcode:functionname>my_function</ompts:testcode:functionname>(FILE * logFile){
+		/* directives */
+	}
+	
+	/* other stuff */
+	</ompts:testcode>
+	</ompts:test> 
+
+If there are differences between test and crosstest you can use the <ompts:check> </ompts:check> 
+and <ompts:crosscheck> </ompts:crosscheck> tag.
+When generating the test the parser will use the code enclosed in <onpts:check> tags and cut out 
+the code written in <ompts:crosscheck> tags. So you have two possibilities to write your template 
+for test and crosstest:
+The first way you can write the complete code is to write the test in one <ompts:check> tag and 
+later the crosstest in one <ompts:crosscheck> tag. 
+The second way is to write both tests only by enclosing differing parts in according tags.
+
+The first method should be prefered if test and crosstest differ much from each other. The second 
+e.g. if you only want to change a few options like replaceing an omp singleprivate clauase by an 
+omp private clause or to cut out an directive like omp flush.
+When you use the first way you have to take care of the functionname! You have to declare it twice 
+with <ompts:testcode:functionname>!
+
+- <ompts:orpahn> </ompts:orphan>
+This tag can be used if you want to enable your test to check the directive in orphan regions, too. 
+The code enclosed in this part will be written to an separate function which will be called instead. 
+If you have variables which are used outside this region you have to declare them as global variables 
+enclosed in an <ompts:orphan:vars> tag. For more information see the description of the <omps:orpahn:vars> 
+tag.
+
+- <ompts:orphan:vars> </ompts:orphan:vars>
+This tag is used to specify global variables for an orphan region. For each variable you have to use a 
+single declaration. You can either decalar all variables in one single or in several differnt regions.
+
+Example:
+	<ompts:orphan:vars>
+	int i; int j;
+	double d;
+	double d2;
+	</ompts:orphan:vars>
+
+

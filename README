@@ -1,0 +1,157 @@
+
+
+   =======================================================================
+   |               OpenMP Validation Suite  v 1.0                         | 
+   |  High Performance Computing Center Stuttgart & University of Houston |
+   |                     Nov. 2005                                        | 
+   =======================================================================
+
+This OpenMP validation suite contains 43 tests for OpenMP C and 44 tests for
+Fortran 90 (WORKSHARE is the extra).
+
+I.   Directories of Our OpenMP Validation Suite
+II.  How to Compile and Run Tests
+III. Understanding the Results
+IV.  Known Issues and Workarounds
+V.   Contact and Support
+
+            I. Directories of Our OpenMP Validation Suite
+
+The root directory of our OpenMP validation suite is called
+OpenMPValidation. It contains two subdirectories: F90 and C.
+And our new design with flexible enviornment that enables
+you to compile and run your desired tests is located in the
+TEST directory under F90 and C. Note that we include a
+directory called Perl under C directory. The Perl directory
+is of beta release and it contains some template files that 
+can help developers to build new tests easily.
+
+              OpenMPValidation
+                     |
+           __________|_________
+           |                  |
+           |                  | 
+          F90                 C
+           |                  | 
+           |             _____|_____ 
+          TEST           |         |
+                         |         | 
+                       TEST       Perl 
+
+In the next section, you need to go to OpenMPValidation/F90/TEST
+or OpenMPValidation/C/TEST directory, in order to compile and
+run Fortran 90 or C tests respectively.
+
+   cd OpenMPValidation/F90/TEST 
+
+         or
+
+   cd OpenMPValidation/C/TEST
+
+          
+                 II. How to Compile and Run Tests
+
+Suppose you have already been in the OpenMPValidation/F90/TEST
+or OpenMPValidation/C/TEST directory. We highly recommend you to
+use gmake and bash to perform the test.
+
+1. Specify the compiler's name and compiler options in the Makefile
+   of the current directory. For example, to use OpenUH compiler,
+   add these two lines in Makefile
+   
+   CC = uhcc
+   CFLAGS = -mp
+ 
+
+2. Compile and run the validation suite. Simply type
+       gmake run
+
+   By default, all the tests specified in the text file
+   called ALL_TEST are performed.
+
+   - To run a specific list of tests, for example, OpenMP 1.0 tests,
+     you could type
+       gmake run testfile=OMP1_TEST
+
+   - For OpenMP 2.0 tests, type
+       gmake run testfile=OMP2_TEST
+
+   Any individual test or a collection of tests can be built. You can
+   simply copy and paste their names from the file ALL_TEST, and save it, 
+   say, as CUSTOM_TEST. To run it, just type
+       gmake run testfile=CUSTOM_TEST
+
+3. Other commands that you may want use just in case
+
+   - To remove all the binaries, type
+       gmake clean
+
+                 III. Understanding the Results
+
+A test for an OpenMP construct x or some legal combinations 
+consists of two test functions: check_x() and cross_check_x(). 
+Both of them will be executed for a certain number of times 
+to catch possible race conditions.
+
+* What is a cross check?
+
+A cross check tries to evaluate the result of a test when the tested 
+construct is missing (or substituted by another one as required 
+by the semantics), and determine the dependency of the result 
+from the correct implementation. 
+
+A cross check missing the tested construct is expected to fail to confirm the 
+right result comes from the correct implementation of the tested construct.
+
+* what is the certainty of a test?
+
+p=Nf/M where Nf is the number of failed cross checks, M is the total repeat 
+number of times for the test.  The probability that an incorrect implementation
+passes the test is Pa=(1-p)^M and the certainty of the test is Pc = 1-Pa.
+
+
+The best case: the check passes and all cross checks fail: p=1,  Pa=0, 
+    Certainty Pc=1-0=100%
+It is normal to have less than 100% certainty because a race condition is not
+guaranteed to happen. 
+
+* Results
+   Failed the compilation: failed tests in logfile: failed.compilation
+   Failed due to any wrong result from Check_X()
+   Successful with a certainty: always right result for Check_X()
+
+                      IV. Known Issues and Workaround 
+
+* Some 'make' commands cannot handle the Makefile, please use 'gmake' instead.
+
+* 0% certainty for omp_flush test:  inconsistency between cache and memory is 
+difficult to be observed. So the cross_check for FLUSH still pass usually.
+
+* very long execution time for do_schedule_guided test: we use inter-thread 
+synchronization for each iteration to be scheduled.  
+
+* The validation process may abort or hang on if there is a severe link or 
+runtime error for one test. Delete the problematic test(s) from the test file 
+and run the validation process again for remaining tests. Our next version 
+using perl to build independent excutables for each test will address this 
+problem.
+
+                           V.   Contact and Support
+
+Contact:    http://www.cs.uh.edu/~openuh
+Bug report: http://spanner.hpctools.uh.edu/bugzilla/
+
+Contributors:
+* High Performance Computing Center Stuttgart:
+	Matthias S. Mueller, Christoph Niethammer, Pavel Neytchev
+* University of Houston: 
+	Barbara Chapman, Yi Wen, Zhenying Liu, Chunhua Liao
+
+Publications: 
+* Matthias S. Muller, Pavel Neytchev. "An OpenMP Validation Suite",   Fifth 
+European Workshop on OpenMP , Aachen University, Germany, September 22-26, 2003.
+
+* Matthias Muller, Christoph Niethammer, Barbara Chapman, Yi Wen, Zhenying Liu.
+ "Validation OpenMP 2.5 for Fortran and C/C++". Proceedings of the 6th European
+ Workshop on OpenMP, (EWOMP 2004). pp. 91-96. Stockholm, Sweden. October 18 . 19, 2004.
+
