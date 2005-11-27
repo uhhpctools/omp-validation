@@ -14,8 +14,10 @@ BUILD_COMPONENTS = $(C_COMPONENTS) $(F90_COMPONENTS)
 all:c f90
 
 f90:$(F90_COMPONENTS)
+#	cd F90/TEST ; gmake run
 	gmake -C $(F90_BUILD_DIR) run
 c:$(C_COMPONENTS)
+#	cd $(F90_BUILD_DIR) && gmake run
 	gmake -C $(C_BUILD_DIR) run
 clean:
 	gmake -C $(F90_BUILD_DIR) clean
