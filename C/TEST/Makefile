@@ -88,6 +88,7 @@ NUM_THREADS= 2
 #CC = pathcc
 #CFLAGS = -mp -Ofast -lm
 #CLINKFLAGS = $(CFLAGS)
+-include ../../Makefile.override
 
 ifdef testfile
 TESTFILE = $(testfile)
