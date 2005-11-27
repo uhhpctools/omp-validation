@@ -48,7 +48,7 @@ NUM_THREADS=2
 #FC=orf90
 #FFLAGS= -mp
 #FLINKFLAGS= -mp
--include ../../Makefile.override
+#include ../../Makefile.override
 
 #-------------------------------------------------
 # No need to change anything below usually

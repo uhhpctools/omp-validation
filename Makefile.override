@@ -8,6 +8,6 @@ CFLAGS = -mp
 CLINKFLAGS = $(CFLAGS)
 
 #Fortran compiler
-FC=uhf90
-FFLAGS= -mp
-FLINKFLAGS= -mp
+FC = uhf90
+FFLAGS = -mp
+FLINKFLAGS = -mp
