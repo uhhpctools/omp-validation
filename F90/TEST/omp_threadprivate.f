@@ -14,6 +14,7 @@
         real, save::myvalue
 	integer omp_get_num_threads, omp_get_thread_num
         real my_random
+        logical dynvar
 	real, allocatable:: data(:)
         integer random_size
 	intrinsic random_number
@@ -25,12 +26,13 @@
 !!!!!!!!!!$omp threadprivate(/csum0/,/cmyvalue/)
 !$omp threadprivate(sum0,myvalue)
 	include "omp_testsuite.f"
+        dynvar =.FALSE.
 	sum = 0
 	failed = 0
         sum0=0
         myvalue=0
         random_size=45
-        call omp_set_dynamic(.FALSE.)
+        call omp_set_dynamic(.false.)
 !$omp parallel
 	sum0 = 0
 !$omp do
@@ -47,7 +49,7 @@
 	  print *, ' known_sum =', known_sum, ', sum =',sum
 	end if
 
-	call omp_set_dynamic(.FALSE.)
+	call omp_set_dynamic(.false.)
 	
 !$omp parallel
 !$omp master
@@ -101,7 +103,7 @@
         sum = 0
 	failed = 0
         random_size=45
-	call omp_set_dynamic(.FALSE.)
+	call omp_set_dynamic(.false.)
 !$omp parallel
 	crosssum0 = 0
 !$omp do 

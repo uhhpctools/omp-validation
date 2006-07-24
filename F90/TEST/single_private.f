@@ -23,13 +23,12 @@
           nr_threads_in_single = nr_threads_in_single + 1
 !$omp flush
           myit = myit + 1
-!          nr_threads_in_single = nr_threads_in_single - 1
+          nr_threads_in_single = nr_threads_in_single - 1
           myresult = myresult + nr_threads_in_single
 !$omp end single nowait
         end do
 !$omp critical
-!        result = result + myresult
-        result = result + nr_threads_in_single
+        result = result + myresult
         nr_iterations = nr_iterations + myit
 !$omp end critical
 !$omp end parallel
@@ -40,9 +39,6 @@
         end if
         end
 
-!********************************************************************
-! Functions: crschk_single_private
-!********************************************************************
         integer function crschk_single_private()
         implicit none
         integer nr_threads_in_single, result, myresult, myit
@@ -63,13 +59,12 @@
           nr_threads_in_single = nr_threads_in_single + 1
 !$omp flush
           myit = myit + 1
-!          nr_threads_in_single = nr_threads_in_single - 1
+          nr_threads_in_single = nr_threads_in_single - 1
           myresult = myresult + nr_threads_in_single
 !$omp end single nowait
         end do
 !$omp critical
-!        result = result + myresult
-        result = result + nr_threads_in_single
+        result = result + myresult
         nr_iterations = nr_iterations + myit
 !$omp end critical
 !$omp end parallel

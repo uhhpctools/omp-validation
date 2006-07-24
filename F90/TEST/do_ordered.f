@@ -23,11 +23,13 @@
         sum = 0
         is_larger = 1
         last_i = 0
+        write(*,*) "before parallel"
 !$omp parallel private(my_islarger)
+        write(*,*) "in parallel"
         my_islarger = 1
 !$omp do schedule(static,1) ordered
         do i=1, 99
-!$omp ordered
+!$omp ordered        
           if ( chk_i_islarger(i) .eq. 1 .and. my_islarger .eq. 1) then
             my_islarger = 1
           else
@@ -37,6 +39,7 @@
 !$omp end ordered
         end do
 !$omp end do
+!        write(*,*) "After ordered loop"
 !$omp critical
         if (is_larger .eq. 1 .and. my_islarger .eq. 1 ) then
           is_larger = 1

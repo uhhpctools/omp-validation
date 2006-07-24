@@ -16,9 +16,9 @@
       endtime=omp_get_wtime()
       measured_time=endtime-start
 !      print *, "measureed time", measured_time
-      write(1,*) "work took",measured_time,"sec. time."
-      if(measured_time.gt.0.9*wait_time .AND.
-     x measured_time .lt. 1.1*wait_time) then
+      write(fileunit,*) "work took",measured_time,"sec. time."
+      if(measured_time.gt.0.99*wait_time .AND.
+     x measured_time .lt. 1.01*wait_time) then
               chk_omp_time=1
       else
               chk_omp_time=0
@@ -39,10 +39,10 @@
       call sleep(wait_time)
 
       measured_time=endtime-start
-      write(1,*) "work took",measured_time,"sec. time."
+      write(fileunit,*) "work took",measured_time,"sec. time."
 
-      if(measured_time.gt.0.9*wait_time .AND.
-     x measured_time .lt. 1.1*wait_time) then
+      if(measured_time.gt.0.99*wait_time .AND.
+     x measured_time .lt. 1.01*wait_time) then
               crschk_omp_time=1
       else
               crschk_omp_time=0
