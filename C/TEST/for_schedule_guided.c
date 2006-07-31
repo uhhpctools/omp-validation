@@ -25,7 +25,7 @@
 
 #define CFSMAX_SIZE 150  /*choose small iteration space for small sync. overhead*/
 #define MAX_TIME 5
-#define SLEEPTIME 0.5
+#define SLEEPTIME 1
 
 int
 check_for_schedule_guided (FILE * logFile)
