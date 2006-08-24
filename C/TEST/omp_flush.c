@@ -48,14 +48,14 @@ crosscheck_omp_flush (FILE * logFile)
     if (rank == 1)
       {
 	result2 = 3;
-#pragma omp flush(result2)
+/* #pragma omp flush(result2) */
 	dummy = result2;
       }
 
     if (rank == 0)
       {
 	my_sleep (1.);
-#pragma omp flush(result2)
+/* #pragma omp flush(result2) */
 	result1 = result2;
       }
   }

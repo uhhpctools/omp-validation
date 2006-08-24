@@ -117,7 +117,8 @@ int crosscheck_omp_ticks_time(FILE * logFile);
 int crosscheck_omp_num_threads(FILE * logFile);
 
 
-typedef int (*a_ptr_to_test_function)();
+typedef int (*a_ptr_to_test_function)(FILE * logFile);
+//typedef int (*a_ptr_to_test_function)();
 
 
 

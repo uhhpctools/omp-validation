@@ -5,7 +5,7 @@
         integer function chk_i_islarger(i)
         implicit none
         integer i, islarger, last_i
-        integer common last_i
+        common last_i
         if ( i .gt. last_i) then
           islarger = 1
         else
@@ -19,7 +19,7 @@
         implicit none
         integer sum, known_sum, i, my_islarger,is_larger,last_i
         integer chk_i_islarger
-        integer common last_i
+        common last_i
         sum = 0
         is_larger = 1
         last_i = 0
@@ -57,7 +57,7 @@
         implicit none
         integer sum, known_sum, i , my_islarger, is_larger, last_i
         integer chk_i_islarger
-        integer common last_i
+        common last_i
         sum = 0
         is_larger = 1
         last_i = 0

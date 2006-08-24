@@ -1,7 +1,7 @@
-
 #include <stdio.h>
 #include <math.h>
 #include "omp_testsuite.h"
+#include <omp.h>
 
 int
 check_for_firstprivate (FILE * logFile)

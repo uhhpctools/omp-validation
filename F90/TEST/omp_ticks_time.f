@@ -9,7 +9,7 @@
       double precision omp_get_wtick
       integer fileunit
       tick=omp_get_wtick()
-      write(fileunit,*) "work took",tick,"sec. time."
+      write(1,*) "work took",tick,"sec. time."
       if(tick .gt. 0. .AND. tick .lt. 0.01) then
               chk_omp_ticks_time=1
       else

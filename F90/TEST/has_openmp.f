@@ -24,7 +24,6 @@
         end
 
         integer function crschk_has_OpenMP()
-        integer crschk_has_OpenMP
         crschk_has_OpenMP=0
 !version 1.
 !        crschk_has_OpenMP=1

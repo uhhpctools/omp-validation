@@ -2,6 +2,7 @@
 # By Chunhua Liao
 # University of Houston
 #
+# Matthias Mueller, ZIH, Technische Universitaet Dresden
 #-------------------------------------------------
 #Set the desired compiler and options
 #change NUM_THREADS to the proper one on your machine
@@ -9,6 +10,12 @@
 
 # the number of threads this validation suite will use
 NUM_THREADS= 2
+
+# GCC 4.2 experimental
+#
+#CC = gcc
+#CFLAGS = -fopenmp
+#CLINKFLAGS = -fopenmp -lgomp -lm
 
 # Fujitsu Compilers:
 #CC = fcc
@@ -22,11 +29,11 @@ NUM_THREADS= 2
 #CLINKFLAGS = $(CFLAGS)
 
 # Intel compilers:
-#
+# first line of flags is tested
 #CC = ecc
 #CC = icc
-#CFLAGS = -O3 -ipo -openmp
 #CFLAGS = -Wall -O0 -openmp
+#CFLAGS = -O3 -ipo -openmp
 #CFLAGS =  -openmp
 #CLINKFLAGS = $(CFLAGS)
 
@@ -75,9 +82,9 @@ NUM_THREADS= 2
 #CLINKFLAGS = $(CFLAGS)
 #
 # open64 compilers
-#CC = opencc
-#CFLAGS = -mp -Ofast -lm
-#CLINKFLAGS = $(CFLAGS)
+CC = uhcc
+CFLAGS = -mp -lm
+CLINKFLAGS = $(CFLAGS)
 
 # ORC compilers
 #CC = orcc
@@ -88,7 +95,6 @@ NUM_THREADS= 2
 #CC = pathcc
 #CFLAGS = -mp -Ofast -lm
 #CLINKFLAGS = $(CFLAGS)
-include ../../Makefile.override
 
 ifdef testfile
 TESTFILE = $(testfile)
@@ -127,9 +133,12 @@ feasible_test.h:
 	 ./preCompilation $(TEST_FILENAME) $(CC) $(CFLAGS)
 
 #compile main.c and link with other objects to get  executables
-main:feasible_test.h
-	$(CC) $(CFLAGS) $(CLINKFLAGS) -o main main.c *.o
-	
+
+main.o:feasible_test.h
+	$(CC) $(CFLAGS) -c main.c
+main:main.o 
+	$(CC) $(CFLAGS) -o main *.o $(CLINKFLAGS)
+
 clean:
 	rm -f *.o failed.compilation feasible_test.h main test.log *~ 
 

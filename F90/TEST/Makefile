@@ -8,6 +8,12 @@
 #-------------------------------------------------
 
 NUM_THREADS=2
+#OpenUH Compiler
+#FC=uhf90
+#FFLAGS= -mp -Ofast -lm
+#FLINKFLAGS=-mp -Ofast -lm
+#
+
 #SUN Fortran Compiler:
 #FC=f90
 #FFLAGS=-xopenmp -O3 -g
@@ -39,16 +45,20 @@ NUM_THREADS=2
 #FFLAGS= -mp -Ofast -lm
 #FLINKFLAGS=-mp -Ofast -lm
 #
+#NEC Compiler
+#FC=sxf90
+#FFLAGS= -Popenmp
+#FLINKFLAGS=-Popenmp
+#
 #Open64 Compiler
-#FC=openf90
-#FFLAGS=  -Ofast -mp
-#FLINKFLAGS=-Ofast -mp
+FC=uhf90
+FFLAGS=  -mp
+FLINKFLAGS=-mp
 #
 #ORC Compiler
 #FC=orf90
 #FFLAGS= -mp
 #FLINKFLAGS= -mp
-include ../../Makefile.override
 
 #-------------------------------------------------
 # No need to change anything below usually

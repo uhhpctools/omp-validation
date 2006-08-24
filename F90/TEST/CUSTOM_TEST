@@ -1,4 +1,1 @@
-do_schedule_guided
-omp_barrier
-omp_flush
 omp_time
