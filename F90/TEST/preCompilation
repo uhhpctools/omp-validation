@@ -28,6 +28,7 @@ exec 6>&1
 exec >> $sourceBody
 
 echo
+echo "        "call flush'(6)'
 echo "        "write '(1,*)' \"--------------------------------------------------\"
 echo "        "write '(1,*)' \"check "$aa"\"
 echo "        "write '(1,*)' \"--------------------------------------------------\"
@@ -74,11 +75,11 @@ echo "         "'write (1,*) "Result for '"$aa"':"'
 echo "        "'if (result .EQ. 1) then'
 echo "              "'write (1,*) "Directive worked without errors."'
 echo "              "'write (1,*) "Crosschecks verified this result with", 100.0*crossfailed/N'
-echo "              "'write (*,*) "'"$aa"'..",'
+echo "              "'write (*,*) "'"$aa"' ... ",'
 echo "     &  "'"verified with", 100.0*crossfailed/N ,"% certainty."'
 echo "        "else
 echo "              "'write (1,*) "Directive failed the tests!"'
-echo "              "'write (*,*) " '"$aa"'...FAILED."'
+echo "              "'write (*,*) "'"$aa"' ... FAILED"'
 echo "        "endif
 echo
 

@@ -83,8 +83,9 @@ NUM_THREADS= 2
 #
 # open64 compilers
 CC = uhcc
-CFLAGS = -mp -lm
+CFLAGS = -mp -lm 
 CLINKFLAGS = $(CFLAGS)
+include ../../Makefile.override
 
 # ORC compilers
 #CC = orcc

@@ -52,8 +52,10 @@ NUM_THREADS=2
 #
 #Open64 Compiler
 FC=uhf90
-FFLAGS=  -mp
-FLINKFLAGS=-mp
+FFLAGS=  -mp 
+FLINKFLAGS=-mp 
+include ../../Makefile.override
+
 #
 #ORC Compiler
 #FC=orf90
