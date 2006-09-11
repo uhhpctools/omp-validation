@@ -23,7 +23,7 @@
 !$omp parallel shared(lck,nr_threads_in_single,nr_iterations,result)
 !$omp do
       do i=1,LOOPCOUNT
-      DO while(OMP_TEST_NEST_LOCK(LCK) .EQV. 0)
+      DO while(OMP_TEST_NEST_LOCK(LCK) .EQV. .FALSE.)
                 end do
 !$omp flush
       nr_threads_in_single=nr_threads_in_single+1
