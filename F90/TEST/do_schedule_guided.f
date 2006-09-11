@@ -1,24 +1,49 @@
 !********************************************************************
 ! Functions: chk_do_schedule_guided
-! this version is buggy. I'll fix it in the next version.
+! Translated from C version
 ! by Zhenying Liu of U. of Houston.
+!/*
+!* Test for guided scheduling
+!* Ensure threads get chunks interleavely first
+!* Then judge the chunk sizes are decreasing until to a stable value
+!* Modifed by Chunhua Liao
+!* For example, 100 iteration on 2 threads, chunksize 7
+!* one line for each dispatch, 0/1 means thread id
+!*0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  24
+!*1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1              18
+!*0 0 0 0 0 0 0 0 0 0 0 0 0 0                      14
+!*1 1 1 1 1 1 1 1 1 1                              10
+!*0 0 0 0 0 0 0 0                                   8
+!*1 1 1 1 1 1 1                                     7
+!*0 0 0 0 0 0 0                                     7
+!*1 1 1 1 1 1 1                                     7
+!*0 0 0 0 0                                         5
+!*/
+!
+! the trick here is to let threads grab chunks interleavely.
+! Thread A will not proceed until it knows Thread B grabs a chunk after it.
+! How does A knows?  By testing that maxiter is greater than A's
+!
+! Thread A grabs a chunk(c1) first, but not proceeds until thread B grabs
+! another chunk(c2) and sets maxiter, which is greater than any iterations
+! from c1.
+! Similarly , Thread B working on c2  also stops until c1 is finished and
+! Thread A grabs chunk(c3) and set maxiter,which is greater than any iteration
+!from c2
 !********************************************************************
-
         integer function chk_do_schedule_guided(logfile)
         implicit none
         integer CFSMAX_SIZE, MAX_TIME
         integer omp_get_thread_num,omp_get_num_threads
         character*20 logfile
-        double precision SLEEP_TIME
         integer chunk_size
         integer threads
         integer tmp_count, count
         integer, allocatable :: tmp(:)
         integer i, ii, flag, notout, maxiter
         integer result
-        double precision SLEEPTIME
 ! ... choose small iteration space for small sync. overhead
-        parameter (CFSMAX_SIZE = 150,SLEEP_TIME=1)
+        parameter (CFSMAX_SIZE = 150)
         parameter (MAX_TIME = 5, chunk_size=7)
         integer tids(0:CFSMAX_SIZE-1), tid
         result = 0
@@ -67,11 +92,13 @@
      &          .and. maxiter .eq. i ) then
                do while ( notout .ge. 1 .and. count .lt. MAX_TIME
      &           .and. maxiter .eq. i )
+!          print *, "thread waiting:..",tid, ": iter=",i
 !                 call sleep(SLEEPTIME)
-                 call sleep(SLEEPTIME)
-                 count = count + SLEEPTIME
+                 call sleep(1)
+                 count = count + 1
                end do         
            end if
+!          print *, "......thread passing..",tid, ": iteration=",i 
            tids(i) = tid
           end do
 !$omp end do nowait ! bug 161,Liao
