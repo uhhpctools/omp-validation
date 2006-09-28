@@ -56,9 +56,10 @@
 !$OMP END CRITICAL
 
 ! test if PARALLEL is treated as a single unit of work
-!$OMP PARALLEL
-        scalar3=scalar3+1
-!$OMP END PARALLEL
+! laks: replace parallel to single
+!!$OMP MASTER
+!        scalar3=scalar3+1
+!!$OMP END MASTER
 
         WHERE ( CC .ne. 0 ) DD = 1.0/CC
 
@@ -70,9 +71,10 @@
 !sequential equivalent statements for comparison 
        BB=BB+1
        scalar02=scalar02+1
-       scalar12=scalar12+1
-       scalar22=scalar22+1
-       scalar32=scalar32+1
+! laksono: increase by 2
+       scalar12=scalar12+2
+       scalar22=scalar22+2
+!       scalar32=scalar32+2
 
 !      write (1,*) "ck:sum of AA is",SUM(AA)," sum of BB is ",sum(BB)
        if (SUM(AA)/=SUM(BB)) then
@@ -176,9 +178,10 @@
 !$OMP END CRITICAL
 
 ! test if PARALLEL is treated as a single unit of work
-!$OMP PARALLEL
-        scalar3=scalar3+1
-!$OMP END PARALLEL
+! laksono: replace paralell with single directive
+!!$OMP MASTER
+!        scalar3=scalar3+1
+!!$OMP END MASTER
 
         WHERE ( CC .ne. 0 ) DD = 1.0/CC
 
@@ -190,9 +193,10 @@
 !sequential equivalent statements for comparison
        BB=BB+1
        scalar02=scalar02+1
-       scalar12=scalar12+1
-       scalar22=scalar22+1
-       scalar32=scalar32+1
+! laksono: increase by 2 instead of 1
+       scalar12=scalar12+2
+       scalar22=scalar22+2
+!      scalar32=scalar32+1
 
 !      write (1,*) "ck:sum of AA is",SUM(AA)," sum of BB is ",sum(BB)
        if (SUM(AA)/=SUM(BB)) then
