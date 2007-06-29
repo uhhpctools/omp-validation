@@ -5,7 +5,7 @@ NUM_THREADS=2
 #C compiler
 CC = uhcc
 CFLAGS = -mp
-CLINKFLAGS = $(CFLAGS)
+CLINKFLAGS = $(CFLAGS) -lm
 
 #Fortran compiler
 FC = uhf90
