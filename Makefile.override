@@ -3,8 +3,8 @@
                                                                 
 NUM_THREADS=2
 #C compiler
-CC = uhcc
-CFLAGS = -mp
+CC = opencc
+CFLAGS = -mp 
 CLINKFLAGS = $(CFLAGS) -lm
 
 #Fortran compiler
