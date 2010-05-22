@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/openmpvalid/!svn/ver/502/trunk/OpenMPvalidation/SRC/V2
+END
+ompts_standaloneProc.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmpvalid/!svn/ver/467/trunk/OpenMPvalidation/SRC/V2/ompts_standaloneProc.c
+END
+ompts_standaloneProc.f
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmpvalid/!svn/ver/432/trunk/OpenMPvalidation/SRC/V2/ompts_standaloneProc.f
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/openmpvalid/!svn/ver/412/trunk/OpenMPvalidation/SRC/V2/LICENSE
+END
+ompts_makeHeader.pl
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/openmpvalid/!svn/ver/424/trunk/OpenMPvalidation/SRC/V2/ompts_makeHeader.pl
+END
+ompts_parserFunctions.pm
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/openmpvalid/!svn/ver/502/trunk/OpenMPvalidation/SRC/V2/ompts_parserFunctions.pm
+END
+ompts.conf
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/openmpvalid/!svn/ver/500/trunk/OpenMPvalidation/SRC/V2/ompts.conf
+END
+customtest.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/openmpvalid/!svn/ver/502/trunk/OpenMPvalidation/SRC/V2/customtest.txt
+END
+omp_testsuite.f
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/openmpvalid/!svn/ver/502/trunk/OpenMPvalidation/SRC/V2/omp_testsuite.f
+END
+ompts_parser.pl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/openmpvalid/!svn/ver/497/trunk/OpenMPvalidation/SRC/V2/ompts_parser.pl
+END
+omp_testsuite.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/openmpvalid/!svn/ver/432/trunk/OpenMPvalidation/SRC/V2/omp_testsuite.h
+END
+template_parser_fortran.pl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmpvalid/!svn/ver/502/trunk/OpenMPvalidation/SRC/V2/template_parser_fortran.pl
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/openmpvalid/!svn/ver/430/trunk/OpenMPvalidation/SRC/V2/README
+END
+common_utility.f
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/openmpvalid/!svn/ver/319/trunk/OpenMPvalidation/SRC/V2/common_utility.f
+END
+template_parser_c.pl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/openmpvalid/!svn/ver/502/trunk/OpenMPvalidation/SRC/V2/template_parser_c.pl
+END
+ompts-c.conf
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/openmpvalid/!svn/ver/430/trunk/OpenMPvalidation/SRC/V2/ompts-c.conf
+END
+testsV1-c.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/openmpvalid/!svn/ver/319/trunk/OpenMPvalidation/SRC/V2/testsV1-c.txt
+END
+testsV2-c.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/openmpvalid/!svn/ver/319/trunk/OpenMPvalidation/SRC/V2/testsV2-c.txt
+END
+ompts-f.conf
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/openmpvalid/!svn/ver/362/trunk/OpenMPvalidation/SRC/V2/ompts-f.conf
+END
+testlist-c.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/openmpvalid/!svn/ver/502/trunk/OpenMPvalidation/SRC/V2/testlist-c.txt
+END
+testlist-f.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/openmpvalid/!svn/ver/396/trunk/OpenMPvalidation/SRC/V2/testlist-f.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/openmpvalid/!svn/ver/502/trunk/OpenMPvalidation/SRC/V2/Makefile
+END
+omp_my_sleep.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/openmpvalid/!svn/ver/467/trunk/OpenMPvalidation/SRC/V2/omp_my_sleep.h
+END
+runtest.pl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/openmpvalid/!svn/ver/501/trunk/OpenMPvalidation/SRC/V2/runtest.pl
+END

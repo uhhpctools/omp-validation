@@ -1,0 +1,530 @@
+21/5/2010 18.43.18: Warning: Old binary directory detected!
+21/5/2010 18.43.18: Warning: Old binary directory for language c found.
+21/5/2010 18.43.18: Testing for "has_openmp":
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Warning: Old binary directory detected!
+21/5/2010 18.43.18: Warning: Old binary directory for language c found.
+21/5/2010 18.43.18: Testing for "omp_atomic":
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Testing for "omp_atomic" in orphaned mode:
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Warning: Old binary directory detected!
+21/5/2010 18.43.18: Warning: Old binary directory for language c found.
+21/5/2010 18.43.18: Testing for "omp_barrier":
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Testing for "omp_barrier" in orphaned mode:
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Warning: Old binary directory detected!
+21/5/2010 18.43.18: Warning: Old binary directory for language c found.
+21/5/2010 18.43.18: Testing for "omp_critical":
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Testing for "omp_critical" in orphaned mode:
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Warning: Old binary directory detected!
+21/5/2010 18.43.18: Warning: Old binary directory for language c found.
+21/5/2010 18.43.18: Testing for "omp_flush":
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Testing for "omp_flush" in orphaned mode:
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Warning: Old binary directory detected!
+21/5/2010 18.43.18: Warning: Old binary directory for language c found.
+21/5/2010 18.43.18: Testing for "omp_for_firstprivate":
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Testing for "omp_for_firstprivate" in orphaned mode:
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Warning: Old binary directory detected!
+21/5/2010 18.43.18: Warning: Old binary directory for language c found.
+21/5/2010 18.43.18: Testing for "omp_for_lastprivate":
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Testing for "omp_for_lastprivate" in orphaned mode:
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Warning: Old binary directory detected!
+21/5/2010 18.43.18: Warning: Old binary directory for language c found.
+21/5/2010 18.43.18: Testing for "omp_for_ordered":
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Testing for "omp_for_ordered" in orphaned mode:
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Warning: Old binary directory detected!
+21/5/2010 18.43.18: Warning: Old binary directory for language c found.
+21/5/2010 18.43.18: Testing for "omp_for_private":
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Testing for "omp_for_private" in orphaned mode:
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Warning: Old binary directory detected!
+21/5/2010 18.43.18: Warning: Old binary directory for language c found.
+21/5/2010 18.43.18: Testing for "omp_for_reduction":
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Testing for "omp_for_reduction" in orphaned mode:
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Warning: Old binary directory detected!
+21/5/2010 18.43.18: Warning: Old binary directory for language c found.
+21/5/2010 18.43.18: Testing for "omp_for_schedule_dynamic":
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Testing for "omp_for_schedule_dynamic" in orphaned mode:
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Warning: Old binary directory detected!
+21/5/2010 18.43.18: Warning: Old binary directory for language c found.
+21/5/2010 18.43.18: Testing for "omp_for_schedule_guided":
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Testing for "omp_for_schedule_guided" in orphaned mode:
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Warning: Old binary directory detected!
+21/5/2010 18.43.18: Warning: Old binary directory for language c found.
+21/5/2010 18.43.18: Testing for "omp_for_schedule_static":
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Testing for "omp_for_schedule_static" in orphaned mode:
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Warning: Old binary directory detected!
+21/5/2010 18.43.18: Warning: Old binary directory for language c found.
+21/5/2010 18.43.18: Testing for "omp_for_nowait":
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Testing for "omp_for_nowait" in orphaned mode:
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Warning: Old binary directory detected!
+21/5/2010 18.43.18: Warning: Old binary directory for language c found.
+21/5/2010 18.43.18: Testing for "omp_get_num_threads":
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Testing for "omp_get_num_threads" in orphaned mode:
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Warning: Old binary directory detected!
+21/5/2010 18.43.18: Warning: Old binary directory for language c found.
+21/5/2010 18.43.18: Testing for "omp_get_wtick":
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Testing for "omp_get_wtick" in orphaned mode:
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Warning: Old binary directory detected!
+21/5/2010 18.43.18: Warning: Old binary directory for language c found.
+21/5/2010 18.43.18: Testing for "omp_get_wtime":
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Testing for "omp_get_wtime" in orphaned mode:
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Warning: Old binary directory detected!
+21/5/2010 18.43.18: Warning: Old binary directory for language c found.
+21/5/2010 18.43.18: Testing for "omp_in_parallel":
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.18: ERROR: Compilation of the test failed.
+21/5/2010 18.43.18: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.18: Testing for "omp_in_parallel" in orphaned mode:
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.18: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_lock":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Testing for "omp_lock" in orphaned mode:
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_master":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Testing for "omp_master" in orphaned mode:
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_nested":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Testing for "omp_nested" in orphaned mode:
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_nest_lock":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Testing for "omp_nest_lock" in orphaned mode:
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_parallel_copyin":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Testing for "omp_parallel_copyin" in orphaned mode:
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_parallel_for_firstprivate":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_parallel_for_lastprivate":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_parallel_for_ordered":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Testing for "omp_parallel_for_ordered" in orphaned mode:
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_parallel_for_private":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_parallel_for_reduction":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_parallel_num_threads":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Testing for "omp_parallel_num_threads" in orphaned mode:
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_parallel_sections_firstprivate":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_parallel_sections_lastprivate":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_parallel_sections_private":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_parallel_sections_reduction":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_section_firstprivate":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Testing for "omp_section_firstprivate" in orphaned mode:
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_section_lastprivate":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Testing for "omp_section_lastprivate" in orphaned mode:
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_section_private":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Testing for "omp_section_private" in orphaned mode:
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_sections_reduction":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_sections_nowait":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Testing for "omp_sections_nowait" in orphaned mode:
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_parallel_for_if":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_single_copyprivate":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Testing for "omp_single_copyprivate" in orphaned mode:
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.19: ERROR: Compilation of the test failed.
+21/5/2010 18.43.19: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.19: Warning: Old binary directory detected!
+21/5/2010 18.43.19: Warning: Old binary directory for language c found.
+21/5/2010 18.43.19: Testing for "omp_single_nowait":
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.19: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.20: ERROR: Compilation of the test failed.
+21/5/2010 18.43.20: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.20: Testing for "omp_single_nowait" in orphaned mode:
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.20: ERROR: Compilation of the test failed.
+21/5/2010 18.43.20: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.20: Warning: Old binary directory detected!
+21/5/2010 18.43.20: Warning: Old binary directory for language c found.
+21/5/2010 18.43.20: Testing for "omp_single_private":
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.20: ERROR: Compilation of the test failed.
+21/5/2010 18.43.20: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.20: Testing for "omp_single_private" in orphaned mode:
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.20: ERROR: Compilation of the test failed.
+21/5/2010 18.43.20: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.20: Warning: Old binary directory detected!
+21/5/2010 18.43.20: Warning: Old binary directory for language c found.
+21/5/2010 18.43.20: Testing for "omp_single":
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.20: ERROR: Compilation of the test failed.
+21/5/2010 18.43.20: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.20: Testing for "omp_single" in orphaned mode:
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.20: ERROR: Compilation of the test failed.
+21/5/2010 18.43.20: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.20: Warning: Old binary directory detected!
+21/5/2010 18.43.20: Warning: Old binary directory for language c found.
+21/5/2010 18.43.20: Testing for "omp_test_lock":
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.20: ERROR: Compilation of the test failed.
+21/5/2010 18.43.20: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.20: Testing for "omp_test_lock" in orphaned mode:
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.20: ERROR: Compilation of the test failed.
+21/5/2010 18.43.20: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.20: Warning: Old binary directory detected!
+21/5/2010 18.43.20: Warning: Old binary directory for language c found.
+21/5/2010 18.43.20: Testing for "omp_test_nest_lock":
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.20: ERROR: Compilation of the test failed.
+21/5/2010 18.43.20: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.20: Testing for "omp_test_nest_lock" in orphaned mode:
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.20: ERROR: Compilation of the test failed.
+21/5/2010 18.43.20: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.20: Warning: Old binary directory detected!
+21/5/2010 18.43.20: Warning: Old binary directory for language c found.
+21/5/2010 18.43.20: Testing for "omp_threadprivate":
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.20: ERROR: Compilation of the test failed.
+21/5/2010 18.43.20: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.20: Warning: Old binary directory detected!
+21/5/2010 18.43.20: Warning: Old binary directory for language c found.
+21/5/2010 18.43.20: Testing for "omp_threadprivate_for":
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.20: ERROR: Compilation of the test failed.
+21/5/2010 18.43.20: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.20: Warning: Old binary directory detected!
+21/5/2010 18.43.20: Warning: Old binary directory for language c found.
+21/5/2010 18.43.20: Testing for "omp_parallel_default":
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.20: ERROR: Compilation of the test failed.
+21/5/2010 18.43.20: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.20: Warning: Old binary directory detected!
+21/5/2010 18.43.20: Warning: Old binary directory for language c found.
+21/5/2010 18.43.20: Testing for "omp_master_3":
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.20: ERROR: Compilation of the test failed.
+21/5/2010 18.43.20: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.20: Testing for "omp_master_3" in orphaned mode:
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.20: ERROR: Compilation of the test failed.
+21/5/2010 18.43.20: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.20: Warning: Old binary directory detected!
+21/5/2010 18.43.20: Warning: Old binary directory for language c found.
+21/5/2010 18.43.20: Testing for "omp_for_schedule_static_3":
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.20: ERROR: Compilation of the test failed.
+21/5/2010 18.43.20: ERROR: Compilation of the crosstest failed.
+21/5/2010 18.43.20: Testing for "omp_for_schedule_static_3" in orphaned mode:
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the test failed.
+21/5/2010 18.43.20: ERROR: Generation of sourcecode for the crosstest failed.
+21/5/2010 18.43.20: ERROR: Compilation of the test failed.
+21/5/2010 18.43.20: ERROR: Compilation of the crosstest failed.

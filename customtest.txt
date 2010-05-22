@@ -1,0 +1,3 @@
+# Add custom tests in this list
+has_openmp
+omp_for_firstprivate
