@@ -46,15 +46,15 @@ omp_single
 omp_test_lock
 omp_test_nest_lock
 omp_threadprivate
-omp_threadprivate_for
-omp_parallel_default
+#omp_threadprivate_for
+#omp_parallel_default
  
 # New tests for OpenMP 3.0
 omp_master_3
-#omp_task
-#omp_task_if
-#omp_task_untied
-#omp_task_private
-#omp_task_firstprivate
-#omp_taskwait
+omp_task
+omp_task_if
+omp_task_untied
+omp_task_private
+omp_task_firstprivate
+omp_taskwait
 omp_for_schedule_static_3

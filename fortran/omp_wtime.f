@@ -4,7 +4,7 @@
 <ompts:directive>omp_get_wtime</ompts:directive>
 <ompts:testcode>
       INTEGER FUNCTION <ompts:testcode:functionname>omp_wtime</ompts:testcode:functionname>(fileunit)
-!        USE omp_lib
+        USE omp_lib
         IMPLICIT NONE
         <ompts:orphan:vars>
         DOUBLE PRECISION start

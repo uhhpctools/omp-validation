@@ -5,7 +5,7 @@
 <ompts:dependences>omp flush</ompts:dependences>
 <ompts:testcode>
       INTEGER FUNCTION <ompts:testcode:functionname>omp_nest_lock</ompts:testcode:functionname>()
-        !USE OMP_LIB
+        USE OMP_LIB
         IMPLICIT NONE
         INTEGER result
 !result is:

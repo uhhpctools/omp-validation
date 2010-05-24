@@ -4,7 +4,7 @@
 <ompts:directive>omp_get_wtick</ompts:directive>
 <ompts:testcode>
       INTEGER FUNCTION <ompts:testcode:functionname>omp_get_wticks</ompts:testcode:functionname>()
-!        USE omp_lib
+        USE omp_lib
         IMPLICIT NONE
 <ompts:orphan:vars>
         DOUBLE PRECISION tick

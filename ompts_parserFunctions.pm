@@ -130,8 +130,7 @@ sub create_orph_fortranfunctions
 	foreach $_(@defs)
 	{
 		$functionsrc .= "\n      SUBROUTINE orph$i\_$prefix\_$functionname\($orphan_parms\)\n      ";
-#        $functionsrc .= "USE omp_lib\n       INCLUDE \"omp_testsuite.f\"\n";
-        $functionsrc .= "       INCLUDE \"omp_testsuite.f\"\n";
+        $functionsrc .= "USE omp_lib\n       INCLUDE \"omp_testsuite.f\"\n";
 		$functionsrc .= $orphanvarsdefs."\n";
 		$functionsrc .= $_;
 		$functionsrc .= "\n";

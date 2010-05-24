@@ -5,7 +5,7 @@
 <ompts:dependences>omp flush</ompts:dependences>
 <ompts:testcode>
       INTEGER FUNCTION <ompts:testcode:functionname>omp_lock</ompts:testcode:functionname>()
-!        USE omp_lib
+        USE omp_lib
         IMPLICIT NONE
         INTEGER result
         INTEGER nr_threads_in_single
