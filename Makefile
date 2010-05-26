@@ -168,7 +168,9 @@ omp_testsuite.h: ompts-c.conf c/*
 ctest: omp_my_sleep omp_testsuite
 	./runtest.pl --lang=c testlist-c.txt
 
-ftest:
+ftest: 
+	mkdir -p bin/fortran
+	cp omp_testsuite.f bin/fortran
 	./runtest.pl --lang=fortran testlist-f.txt
 
 print_compile_options:

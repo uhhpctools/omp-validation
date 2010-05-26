@@ -5,7 +5,6 @@
 <ompts:dependences>omp critical</ompts:dependences>
 <ompts:testcode>
       INTEGER FUNCTION <ompts:testcode:functionname>omp_nested</ompts:testcode:functionname>()
-!        USE OMP_LIB
         IMPLICIT NONE
         INCLUDE "omp_testsuite.f"
 <ompts:orphan:vars>

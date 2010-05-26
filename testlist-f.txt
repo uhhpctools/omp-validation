@@ -2,47 +2,47 @@
 # the fortan implementation.
 do_firstprivate
 do_lastprivate
-do_ordered
-do_private
-do_reduction
-do_schedule_dynamic
-do_schedule_guided
-do_schedule_static
-has_openmp
-omp_atomic
-omp_barrier
-omp_copyin
-omp_critical
-omp_flush
-omp_get_num_threads
-omp_in_parallel
-omp_lock
-omp_master
-omp_nest_lock
-omp_test_nest_lock
-omp_nested
-omp_num_threads
-omp_testlock
-omp_threadprivate
-omp_get_wticks
-###omp_workshare_default
-omp_workshare
-### Braucht man den oder obigen erweitern?
-omp_wtime
-par_do_firstprivate
-par_do_lastprivate
-par_do_ordered
-par_do_private
-par_do_reduction
-par_section_firstprivate
-par_section_lastprivate
-par_section_private
-par_section_reduct
-section_firstprivate
-section_lastprivate
-section_private
-section_reduction
-omp_single
-single_copyprivate
-single_nowait
-single_private
+#  do_ordered
+#  do_private
+#  do_reduction
+#  do_schedule_dynamic
+#  do_schedule_guided
+#  do_schedule_static
+#  has_openmp
+#  omp_atomic
+#  omp_barrier
+#  omp_copyin
+#  omp_critical
+#  omp_flush
+#  omp_get_num_threads
+#  omp_in_parallel
+#  omp_lock
+#  omp_master
+#  omp_nest_lock
+#  omp_test_nest_lock
+#  omp_nested
+#  omp_num_threads
+#  omp_testlock
+#  omp_threadprivate
+#  omp_get_wticks
+#  ###omp_workshare_default
+#  omp_workshare
+#  ### Braucht man den oder obigen erweitern?
+#  omp_wtime
+#  par_do_firstprivate
+#  par_do_lastprivate
+#  par_do_ordered
+#  par_do_private
+#  par_do_reduction
+#  par_section_firstprivate
+#  par_section_lastprivate
+#  par_section_private
+#  par_section_reduct
+#  section_firstprivate
+#  section_lastprivate
+#  section_private
+#  section_reduction
+#  omp_single
+#  single_copyprivate
+#  single_nowait
+#  single_private

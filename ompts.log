@@ -103,3 +103,73 @@
 24/5/2010 17.24.40: Testing for "omp_barrier" in orphaned mode:
 24/5/2010 17.24.41: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_barrier >bin/c/orph_test_omp_barrier.out"
 24/5/2010 17.24.41: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_barrier > bin/c/orph_ctest_omp_barrier.out"
+25/5/2010 18.55.11: Testing for "do_firstprivate":
+25/5/2010 18.55.12: ERROR: Compilation of the test failed.
+25/5/2010 18.55.12: ERROR: Compilation of the crosstest failed.
+25/5/2010 18.55.12: Testing for "do_firstprivate" in orphaned mode:
+25/5/2010 18.55.12: ERROR: Compilation of the test failed.
+25/5/2010 18.55.12: ERROR: Compilation of the crosstest failed.
+25/5/2010 18.55.12: Warning: Old binary directory detected!
+25/5/2010 18.55.12: Warning: Old binary directory for language fortran found.
+25/5/2010 18.55.12: Testing for "do_lastprivate":
+25/5/2010 18.55.12: ERROR: Compilation of the test failed.
+25/5/2010 18.55.12: ERROR: Compilation of the crosstest failed.
+25/5/2010 18.55.12: Testing for "do_lastprivate" in orphaned mode:
+25/5/2010 18.55.12: ERROR: Compilation of the test failed.
+25/5/2010 18.55.12: ERROR: Compilation of the crosstest failed.
+25/5/2010 18.58.25: Testing for "do_firstprivate":
+25/5/2010 18.58.25: ERROR: Compilation of the test failed.
+25/5/2010 18.58.25: ERROR: Compilation of the crosstest failed.
+25/5/2010 18.58.25: Testing for "do_firstprivate" in orphaned mode:
+25/5/2010 18.58.26: ERROR: Compilation of the test failed.
+25/5/2010 18.58.26: ERROR: Compilation of the crosstest failed.
+25/5/2010 18.58.26: Warning: Old binary directory detected!
+25/5/2010 18.58.26: Warning: Old binary directory for language fortran found.
+25/5/2010 18.58.26: Testing for "do_lastprivate":
+25/5/2010 18.58.26: ERROR: Compilation of the test failed.
+25/5/2010 18.58.26: ERROR: Compilation of the crosstest failed.
+25/5/2010 18.58.26: Testing for "do_lastprivate" in orphaned mode:
+25/5/2010 18.58.26: ERROR: Compilation of the test failed.
+25/5/2010 18.58.26: ERROR: Compilation of the crosstest failed.
+25/5/2010 19.03.43: Testing for "do_firstprivate":
+25/5/2010 19.03.44: ERROR: Compilation of the test failed.
+25/5/2010 19.03.44: ERROR: Compilation of the crosstest failed.
+25/5/2010 19.03.44: Testing for "do_firstprivate" in orphaned mode:
+25/5/2010 19.03.44: ERROR: Compilation of the test failed.
+25/5/2010 19.03.44: ERROR: Compilation of the crosstest failed.
+25/5/2010 19.03.44: Warning: Old binary directory detected!
+25/5/2010 19.03.44: Warning: Old binary directory for language fortran found.
+25/5/2010 19.03.44: Testing for "do_lastprivate":
+25/5/2010 19.03.44: ERROR: Compilation of the test failed.
+25/5/2010 19.03.44: ERROR: Compilation of the crosstest failed.
+25/5/2010 19.03.44: Testing for "do_lastprivate" in orphaned mode:
+25/5/2010 19.03.44: ERROR: Compilation of the test failed.
+25/5/2010 19.03.44: ERROR: Compilation of the crosstest failed.
+25/5/2010 19.04.37: Testing for "do_firstprivate":
+25/5/2010 19.04.38: ERROR: Compilation of the test failed.
+25/5/2010 19.04.38: ERROR: Compilation of the crosstest failed.
+25/5/2010 19.04.38: Testing for "do_firstprivate" in orphaned mode:
+25/5/2010 19.04.38: ERROR: Compilation of the test failed.
+25/5/2010 19.04.38: ERROR: Compilation of the crosstest failed.
+25/5/2010 19.04.38: Warning: Old binary directory detected!
+25/5/2010 19.04.38: Warning: Old binary directory for language fortran found.
+25/5/2010 19.04.38: Testing for "do_lastprivate":
+25/5/2010 19.04.38: ERROR: Compilation of the test failed.
+25/5/2010 19.04.38: ERROR: Compilation of the crosstest failed.
+25/5/2010 19.04.38: Testing for "do_lastprivate" in orphaned mode:
+25/5/2010 19.04.38: ERROR: Compilation of the test failed.
+25/5/2010 19.04.38: ERROR: Compilation of the crosstest failed.
+25/5/2010 19.05.08: Warning: Old binary directory detected!
+25/5/2010 19.05.08: Warning: Old binary directory for language fortran found.
+25/5/2010 19.05.08: Testing for "do_firstprivate":
+25/5/2010 19.05.11: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/fortran/test_do_firstprivate >bin/fortran/test_do_firstprivate.out"
+25/5/2010 19.05.11: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/fortran/ctest_do_firstprivate > bin/fortran/ctest_do_firstprivate.out"
+25/5/2010 19.05.11: Testing for "do_firstprivate" in orphaned mode:
+25/5/2010 19.05.13: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/fortran/orph_test_do_firstprivate >bin/fortran/orph_test_do_firstprivate.out"
+25/5/2010 19.05.13: Warning: Old binary directory detected!
+25/5/2010 19.05.13: Warning: Old binary directory for language fortran found.
+25/5/2010 19.05.13: Testing for "do_lastprivate":
+25/5/2010 19.05.15: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/fortran/test_do_lastprivate >bin/fortran/test_do_lastprivate.out"
+25/5/2010 19.05.15: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/fortran/ctest_do_lastprivate > bin/fortran/ctest_do_lastprivate.out"
+25/5/2010 19.05.15: Testing for "do_lastprivate" in orphaned mode:
+25/5/2010 19.05.17: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/fortran/orph_test_do_lastprivate >bin/fortran/orph_test_do_lastprivate.out"

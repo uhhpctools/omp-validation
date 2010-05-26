@@ -5,7 +5,6 @@
 <ompts:dependences>omp barrier</ompts:dependences>
 <ompts:testcode>
         INTEGER FUNCTION <ompts:testcode:functionname>omp_flush</ompts:testcode:functionname>()
-!        use omp_lib
         IMPLICIT NONE
         INTEGER result1, dummy, rank
         INTEGER omp_get_thread_num

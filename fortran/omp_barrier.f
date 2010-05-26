@@ -17,7 +17,6 @@
       END
 
       INTEGER FUNCTION <ompts:testcode:functionname>omp_barrier</ompts:testcode:functionname>()
-!        use omp_lib
         IMPLICIT NONE
         INTEGER sleeptime
         INTEGER omp_get_thread_num
