@@ -148,7 +148,7 @@ FFLAGS = -openmp -lm -fpp
 
 #OpenUH Compiler
 CC = uhcc
-CFLAGS = -mp -gnu3
+CFLAGS = -mp
 
 FC = uhf90
 FFLAGS = -mp 
