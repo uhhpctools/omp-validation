@@ -1,0 +1,84 @@
+#Tested Directive	t	ct	ot	oct
+has_openmp	100	100	-	-
+	
+omp_atomic	100	100	100	100
+omp_barrier	100	100	100	100
+omp_critical	100	90	100	90
+omp_flush	100	95	100	40
+omp_for_firstprivate	0	-	0	-
+omp_for_lastprivate	0	-	0	-
+omp_for_ordered	100	100	100	100
+omp_for_private	0	-	0	-
+omp_for_reduction	100	70	100	50
+omp_for_schedule_dynamic	100	100	100	100
+omp_for_schedule_guided	ce	-	100	100
+omp_for_schedule_static	ce	-	ce	-
+omp_for_nowait	ce	-	ce	-
+omp_get_num_threads	ce	-	ce	-
+omp_get_wtick	ce	-	100	100
+omp_get_wtime	ce	-	-	-
+ce	-
+omp_in_parallel	ce	-	ce	-
+omp_lock	ce	-	ce	-
+omp_master	ce	-	100	100
+omp_nested	ce	-	-	-
+ce	-
+omp_nest_lock	ce	-	ce	-
+omp_parallel_copyin	ce	-	ce	-
+omp_parallel_for_firstprivate	ce	-	-	-
+	
+omp_parallel_for_lastprivate	100	100	-	-
+	
+omp_parallel_for_ordered	ce	-	-	-
+ce	-
+omp_parallel_for_private	ce	-	-	-
+	
+omp_parallel_for_reduction	ce	-	-	-
+	
+omp_parallel_num_threads	ce	-	ce	-
+omp_parallel_sections_firstprivate	ce	-	-	-
+	
+omp_parallel_sections_lastprivate	ce	-	-	-
+	
+omp_parallel_sections_private	ce	-	-	-
+	
+omp_parallel_sections_reduction	ce	-	-	-
+	
+omp_section_firstprivate	ce	-	-	-
+ce	-
+omp_section_lastprivate	ce	-	-	-
+ce	-
+omp_section_private	ce	-	-	-
+ce	-
+omp_sections_reduction	ce	-	-	-
+	
+omp_sections_nowait	ce	-	-	-
+ce	-
+omp_parallel_for_if	ce	-	-	-
+	
+omp_single_copyprivate	ce	-	-	-
+ce	-
+omp_single_nowait	ce	-	ce	-
+omp_single_private	ce	-	ce	-
+omp_single	ce	-	-	-
+ce	-
+omp_test_lock	ce	-	-	-
+ce	-
+omp_test_nest_lock	ce	-	-	-
+ce	-
+omp_threadprivate	ce	-	-	-
+	
+omp_threadprivate_for	ce	-	-	-
+	
+omp_master_3	ce	-	-	-
+ce	-
+omp_task	ce	-	ce	-
+omp_task_if	ce	-	-	-
+ce	-
+omp_task_private	ce	-	-	-
+ce	-
+omp_task_firstprivate	ce	-	-	-
+ce	-
+omp_taskwait	ce	-	-	-
+ce	-
+omp_for_schedule_static_3	ce	-	ce	-

@@ -1,0 +1,580 @@
+24/5/2010 17.02.11: Warning: Old binary directory detected!
+24/5/2010 17.02.11: Warning: Old binary directory for language c found.
+24/5/2010 17.02.11: Testing for "has_openmp":
+24/5/2010 17.02.11: ERROR: Compilation of the test failed.
+24/5/2010 17.02.11: ERROR: Compilation of the crosstest failed.
+24/5/2010 17.02.11: Warning: Old binary directory detected!
+24/5/2010 17.02.11: Warning: Old binary directory for language c found.
+24/5/2010 17.02.11: Testing for "omp_atomic":
+24/5/2010 17.02.11: ERROR: Compilation of the test failed.
+24/5/2010 17.02.11: ERROR: Compilation of the crosstest failed.
+24/5/2010 17.02.11: Testing for "omp_atomic" in orphaned mode:
+24/5/2010 17.02.12: ERROR: Compilation of the test failed.
+24/5/2010 17.02.12: ERROR: Compilation of the crosstest failed.
+24/5/2010 17.02.12: Warning: Old binary directory detected!
+24/5/2010 17.02.12: Warning: Old binary directory for language c found.
+24/5/2010 17.02.12: Testing for "omp_barrier":
+24/5/2010 17.02.12: ERROR: Compilation of the test failed.
+24/5/2010 17.02.12: ERROR: Compilation of the crosstest failed.
+24/5/2010 17.02.12: Testing for "omp_barrier" in orphaned mode:
+24/5/2010 17.02.12: ERROR: Compilation of the test failed.
+24/5/2010 17.02.12: ERROR: Compilation of the crosstest failed.
+24/5/2010 17.20.27: Warning: Old binary directory detected!
+24/5/2010 17.20.27: Warning: Old binary directory for language c found.
+24/5/2010 17.20.27: Testing for "has_openmp":
+24/5/2010 17.20.27: ERROR: Compilation of the test failed.
+24/5/2010 17.20.27: ERROR: Compilation of the crosstest failed.
+24/5/2010 17.20.27: Warning: Old binary directory detected!
+24/5/2010 17.20.27: Warning: Old binary directory for language c found.
+24/5/2010 17.20.27: Testing for "omp_atomic":
+24/5/2010 17.20.27: ERROR: Compilation of the test failed.
+24/5/2010 17.20.27: ERROR: Compilation of the crosstest failed.
+24/5/2010 17.20.27: Testing for "omp_atomic" in orphaned mode:
+24/5/2010 17.20.28: ERROR: Compilation of the test failed.
+24/5/2010 17.20.28: ERROR: Compilation of the crosstest failed.
+24/5/2010 17.20.28: Warning: Old binary directory detected!
+24/5/2010 17.20.28: Warning: Old binary directory for language c found.
+24/5/2010 17.20.28: Testing for "omp_barrier":
+24/5/2010 17.20.28: ERROR: Compilation of the test failed.
+24/5/2010 17.20.28: ERROR: Compilation of the crosstest failed.
+24/5/2010 17.20.28: Testing for "omp_barrier" in orphaned mode:
+24/5/2010 17.20.28: ERROR: Compilation of the test failed.
+24/5/2010 17.20.28: ERROR: Compilation of the crosstest failed.
+24/5/2010 17.20.50: Warning: Old binary directory detected!
+24/5/2010 17.20.50: Warning: Old binary directory for language c found.
+24/5/2010 17.20.50: Testing for "has_openmp":
+24/5/2010 17.20.51: ERROR: Compilation of the test failed.
+24/5/2010 17.20.51: ERROR: Compilation of the crosstest failed.
+24/5/2010 17.20.51: Warning: Old binary directory detected!
+24/5/2010 17.20.51: Warning: Old binary directory for language c found.
+24/5/2010 17.20.51: Testing for "omp_atomic":
+24/5/2010 17.20.53: ERROR: Compilation of the test failed.
+24/5/2010 17.20.53: ERROR: Compilation of the crosstest failed.
+24/5/2010 17.20.53: Testing for "omp_atomic" in orphaned mode:
+24/5/2010 17.20.55: ERROR: Compilation of the test failed.
+24/5/2010 17.20.55: ERROR: Compilation of the crosstest failed.
+24/5/2010 17.20.55: Warning: Old binary directory detected!
+24/5/2010 17.20.55: Warning: Old binary directory for language c found.
+24/5/2010 17.20.55: Testing for "omp_barrier":
+24/5/2010 17.20.56: ERROR: Compilation of the test failed.
+24/5/2010 17.20.56: ERROR: Compilation of the crosstest failed.
+24/5/2010 17.20.56: Testing for "omp_barrier" in orphaned mode:
+24/5/2010 17.20.56: ERROR: Compilation of the test failed.
+24/5/2010 17.20.56: ERROR: Compilation of the crosstest failed.
+24/5/2010 17.22.11: Warning: Old binary directory detected!
+24/5/2010 17.22.11: Warning: Old binary directory for language c found.
+24/5/2010 17.22.11: Testing for "has_openmp":
+24/5/2010 17.22.12: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/test_has_openmp >bin/c/test_has_openmp.out"
+24/5/2010 17.22.12: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/ctest_has_openmp > bin/c/ctest_has_openmp.out"
+24/5/2010 17.22.12: Warning: Old binary directory detected!
+24/5/2010 17.22.12: Warning: Old binary directory for language c found.
+24/5/2010 17.22.12: Testing for "omp_atomic":
+24/5/2010 17.22.14: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/test_omp_atomic >bin/c/test_omp_atomic.out"
+24/5/2010 17.22.14: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/ctest_omp_atomic > bin/c/ctest_omp_atomic.out"
+24/5/2010 17.22.14: Testing for "omp_atomic" in orphaned mode:
+24/5/2010 17.22.17: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_atomic >bin/c/orph_test_omp_atomic.out"
+24/5/2010 17.22.17: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_atomic > bin/c/orph_ctest_omp_atomic.out"
+24/5/2010 17.22.17: Warning: Old binary directory detected!
+24/5/2010 17.22.17: Warning: Old binary directory for language c found.
+24/5/2010 17.22.17: Testing for "omp_barrier":
+24/5/2010 17.22.17: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/test_omp_barrier >bin/c/test_omp_barrier.out"
+24/5/2010 17.22.18: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/ctest_omp_barrier > bin/c/ctest_omp_barrier.out"
+24/5/2010 17.22.18: Testing for "omp_barrier" in orphaned mode:
+24/5/2010 17.22.19: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_barrier >bin/c/orph_test_omp_barrier.out"
+24/5/2010 17.22.19: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_barrier > bin/c/orph_ctest_omp_barrier.out"
+24/5/2010 17.24.33: Warning: Old binary directory detected!
+24/5/2010 17.24.33: Warning: Old binary directory for language c found.
+24/5/2010 17.24.33: Testing for "has_openmp":
+24/5/2010 17.24.34: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/test_has_openmp >bin/c/test_has_openmp.out"
+24/5/2010 17.24.34: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/ctest_has_openmp > bin/c/ctest_has_openmp.out"
+24/5/2010 17.24.34: Warning: Old binary directory detected!
+24/5/2010 17.24.34: Warning: Old binary directory for language c found.
+24/5/2010 17.24.34: Testing for "omp_atomic":
+24/5/2010 17.24.36: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/test_omp_atomic >bin/c/test_omp_atomic.out"
+24/5/2010 17.24.36: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/ctest_omp_atomic > bin/c/ctest_omp_atomic.out"
+24/5/2010 17.24.36: Testing for "omp_atomic" in orphaned mode:
+24/5/2010 17.24.38: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_atomic >bin/c/orph_test_omp_atomic.out"
+24/5/2010 17.24.38: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_atomic > bin/c/orph_ctest_omp_atomic.out"
+24/5/2010 17.24.38: Warning: Old binary directory detected!
+24/5/2010 17.24.38: Warning: Old binary directory for language c found.
+24/5/2010 17.24.38: Testing for "omp_barrier":
+24/5/2010 17.24.39: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/test_omp_barrier >bin/c/test_omp_barrier.out"
+24/5/2010 17.24.39: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/ctest_omp_barrier > bin/c/ctest_omp_barrier.out"
+24/5/2010 17.24.40: Testing for "omp_barrier" in orphaned mode:
+24/5/2010 17.24.41: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_barrier >bin/c/orph_test_omp_barrier.out"
+24/5/2010 17.24.41: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_barrier > bin/c/orph_ctest_omp_barrier.out"
+25/5/2010 18.55.11: Testing for "do_firstprivate":
+25/5/2010 18.55.12: ERROR: Compilation of the test failed.
+25/5/2010 18.55.12: ERROR: Compilation of the crosstest failed.
+25/5/2010 18.55.12: Testing for "do_firstprivate" in orphaned mode:
+25/5/2010 18.55.12: ERROR: Compilation of the test failed.
+25/5/2010 18.55.12: ERROR: Compilation of the crosstest failed.
+25/5/2010 18.55.12: Warning: Old binary directory detected!
+25/5/2010 18.55.12: Warning: Old binary directory for language fortran found.
+25/5/2010 18.55.12: Testing for "do_lastprivate":
+25/5/2010 18.55.12: ERROR: Compilation of the test failed.
+25/5/2010 18.55.12: ERROR: Compilation of the crosstest failed.
+25/5/2010 18.55.12: Testing for "do_lastprivate" in orphaned mode:
+25/5/2010 18.55.12: ERROR: Compilation of the test failed.
+25/5/2010 18.55.12: ERROR: Compilation of the crosstest failed.
+25/5/2010 18.58.25: Testing for "do_firstprivate":
+25/5/2010 18.58.25: ERROR: Compilation of the test failed.
+25/5/2010 18.58.25: ERROR: Compilation of the crosstest failed.
+25/5/2010 18.58.25: Testing for "do_firstprivate" in orphaned mode:
+25/5/2010 18.58.26: ERROR: Compilation of the test failed.
+25/5/2010 18.58.26: ERROR: Compilation of the crosstest failed.
+25/5/2010 18.58.26: Warning: Old binary directory detected!
+25/5/2010 18.58.26: Warning: Old binary directory for language fortran found.
+25/5/2010 18.58.26: Testing for "do_lastprivate":
+25/5/2010 18.58.26: ERROR: Compilation of the test failed.
+25/5/2010 18.58.26: ERROR: Compilation of the crosstest failed.
+25/5/2010 18.58.26: Testing for "do_lastprivate" in orphaned mode:
+25/5/2010 18.58.26: ERROR: Compilation of the test failed.
+25/5/2010 18.58.26: ERROR: Compilation of the crosstest failed.
+25/5/2010 19.03.43: Testing for "do_firstprivate":
+25/5/2010 19.03.44: ERROR: Compilation of the test failed.
+25/5/2010 19.03.44: ERROR: Compilation of the crosstest failed.
+25/5/2010 19.03.44: Testing for "do_firstprivate" in orphaned mode:
+25/5/2010 19.03.44: ERROR: Compilation of the test failed.
+25/5/2010 19.03.44: ERROR: Compilation of the crosstest failed.
+25/5/2010 19.03.44: Warning: Old binary directory detected!
+25/5/2010 19.03.44: Warning: Old binary directory for language fortran found.
+25/5/2010 19.03.44: Testing for "do_lastprivate":
+25/5/2010 19.03.44: ERROR: Compilation of the test failed.
+25/5/2010 19.03.44: ERROR: Compilation of the crosstest failed.
+25/5/2010 19.03.44: Testing for "do_lastprivate" in orphaned mode:
+25/5/2010 19.03.44: ERROR: Compilation of the test failed.
+25/5/2010 19.03.44: ERROR: Compilation of the crosstest failed.
+25/5/2010 19.04.37: Testing for "do_firstprivate":
+25/5/2010 19.04.38: ERROR: Compilation of the test failed.
+25/5/2010 19.04.38: ERROR: Compilation of the crosstest failed.
+25/5/2010 19.04.38: Testing for "do_firstprivate" in orphaned mode:
+25/5/2010 19.04.38: ERROR: Compilation of the test failed.
+25/5/2010 19.04.38: ERROR: Compilation of the crosstest failed.
+25/5/2010 19.04.38: Warning: Old binary directory detected!
+25/5/2010 19.04.38: Warning: Old binary directory for language fortran found.
+25/5/2010 19.04.38: Testing for "do_lastprivate":
+25/5/2010 19.04.38: ERROR: Compilation of the test failed.
+25/5/2010 19.04.38: ERROR: Compilation of the crosstest failed.
+25/5/2010 19.04.38: Testing for "do_lastprivate" in orphaned mode:
+25/5/2010 19.04.38: ERROR: Compilation of the test failed.
+25/5/2010 19.04.38: ERROR: Compilation of the crosstest failed.
+25/5/2010 19.05.08: Warning: Old binary directory detected!
+25/5/2010 19.05.08: Warning: Old binary directory for language fortran found.
+25/5/2010 19.05.08: Testing for "do_firstprivate":
+25/5/2010 19.05.11: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/fortran/test_do_firstprivate >bin/fortran/test_do_firstprivate.out"
+25/5/2010 19.05.11: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/fortran/ctest_do_firstprivate > bin/fortran/ctest_do_firstprivate.out"
+25/5/2010 19.05.11: Testing for "do_firstprivate" in orphaned mode:
+25/5/2010 19.05.13: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/fortran/orph_test_do_firstprivate >bin/fortran/orph_test_do_firstprivate.out"
+25/5/2010 19.05.13: Warning: Old binary directory detected!
+25/5/2010 19.05.13: Warning: Old binary directory for language fortran found.
+25/5/2010 19.05.13: Testing for "do_lastprivate":
+25/5/2010 19.05.15: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/fortran/test_do_lastprivate >bin/fortran/test_do_lastprivate.out"
+25/5/2010 19.05.15: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/fortran/ctest_do_lastprivate > bin/fortran/ctest_do_lastprivate.out"
+25/5/2010 19.05.15: Testing for "do_lastprivate" in orphaned mode:
+25/5/2010 19.05.17: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/fortran/orph_test_do_lastprivate >bin/fortran/orph_test_do_lastprivate.out"
+12/7/2011 13.31.22: Warning: Old binary directory detected!
+12/7/2011 13.31.22: Warning: Old binary directory for language c found.
+12/7/2011 13.31.22: Testing for "has_openmp":
+12/7/2011 13.31.23: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/test_has_openmp >bin/c/test_has_openmp.out"
+12/7/2011 13.31.23: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/ctest_has_openmp > bin/c/ctest_has_openmp.out"
+12/7/2011 13.31.23: Warning: Old binary directory detected!
+12/7/2011 13.31.23: Warning: Old binary directory for language c found.
+12/7/2011 13.31.23: Testing for "omp_atomic":
+12/7/2011 13.31.24: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/test_omp_atomic >bin/c/test_omp_atomic.out"
+12/7/2011 13.31.24: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/ctest_omp_atomic > bin/c/ctest_omp_atomic.out"
+12/7/2011 13.31.24: Testing for "omp_atomic" in orphaned mode:
+12/7/2011 13.31.24: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_atomic >bin/c/orph_test_omp_atomic.out"
+12/7/2011 13.31.24: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_atomic > bin/c/orph_ctest_omp_atomic.out"
+12/7/2011 13.31.24: Warning: Old binary directory detected!
+12/7/2011 13.31.24: Warning: Old binary directory for language c found.
+12/7/2011 13.31.24: Testing for "omp_barrier":
+12/7/2011 13.31.24: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/test_omp_barrier >bin/c/test_omp_barrier.out"
+12/7/2011 13.31.25: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/ctest_omp_barrier > bin/c/ctest_omp_barrier.out"
+12/7/2011 13.31.25: Testing for "omp_barrier" in orphaned mode:
+12/7/2011 13.31.25: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_barrier >bin/c/orph_test_omp_barrier.out"
+12/7/2011 13.31.25: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_barrier > bin/c/orph_ctest_omp_barrier.out"
+12/7/2011 13.31.26: Warning: Old binary directory detected!
+12/7/2011 13.31.26: Warning: Old binary directory for language c found.
+12/7/2011 13.31.26: Testing for "omp_critical":
+12/7/2011 13.31.26: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/test_omp_critical >bin/c/test_omp_critical.out"
+12/7/2011 13.31.26: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/ctest_omp_critical > bin/c/ctest_omp_critical.out"
+12/7/2011 13.31.26: Testing for "omp_critical" in orphaned mode:
+12/7/2011 13.31.26: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_critical >bin/c/orph_test_omp_critical.out"
+12/7/2011 13.31.26: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_critical > bin/c/orph_ctest_omp_critical.out"
+12/7/2011 13.31.26: Warning: Old binary directory detected!
+12/7/2011 13.31.26: Warning: Old binary directory for language c found.
+12/7/2011 13.31.26: Testing for "omp_flush":
+12/7/2011 13.31.27: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/test_omp_flush >bin/c/test_omp_flush.out"
+12/7/2011 13.31.37: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/ctest_omp_flush > bin/c/ctest_omp_flush.out"
+12/7/2011 13.31.37: Testing for "omp_flush" in orphaned mode:
+12/7/2011 13.31.37: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_flush >bin/c/orph_test_omp_flush.out"
+12/7/2011 13.31.46: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_flush > bin/c/orph_ctest_omp_flush.out"
+12/7/2011 13.31.46: Warning: Old binary directory detected!
+12/7/2011 13.31.46: Warning: Old binary directory for language c found.
+12/7/2011 13.31.46: Testing for "omp_for_firstprivate":
+12/7/2011 13.31.46: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/test_omp_for_firstprivate >bin/c/test_omp_for_firstprivate.out"
+12/7/2011 13.31.46: Testing for "omp_for_firstprivate" in orphaned mode:
+12/7/2011 13.31.46: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_firstprivate >bin/c/orph_test_omp_for_firstprivate.out"
+12/7/2011 13.31.46: Warning: Old binary directory detected!
+12/7/2011 13.31.46: Warning: Old binary directory for language c found.
+12/7/2011 13.31.46: Testing for "omp_for_lastprivate":
+12/7/2011 13.31.47: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/test_omp_for_lastprivate >bin/c/test_omp_for_lastprivate.out"
+12/7/2011 13.31.47: Testing for "omp_for_lastprivate" in orphaned mode:
+12/7/2011 13.31.47: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_lastprivate >bin/c/orph_test_omp_for_lastprivate.out"
+12/7/2011 13.31.47: Warning: Old binary directory detected!
+12/7/2011 13.31.47: Warning: Old binary directory for language c found.
+12/7/2011 13.31.47: Testing for "omp_for_ordered":
+12/7/2011 13.31.47: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/test_omp_for_ordered >bin/c/test_omp_for_ordered.out"
+12/7/2011 13.31.47: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_ordered > bin/c/ctest_omp_for_ordered.out"
+12/7/2011 13.31.47: Testing for "omp_for_ordered" in orphaned mode:
+12/7/2011 13.31.48: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_ordered >bin/c/orph_test_omp_for_ordered.out"
+12/7/2011 13.31.48: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_ordered > bin/c/orph_ctest_omp_for_ordered.out"
+12/7/2011 13.31.48: Warning: Old binary directory detected!
+12/7/2011 13.31.48: Warning: Old binary directory for language c found.
+12/7/2011 13.31.48: Testing for "omp_for_private":
+12/7/2011 13.31.48: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/test_omp_for_private >bin/c/test_omp_for_private.out"
+12/7/2011 13.31.48: Testing for "omp_for_private" in orphaned mode:
+12/7/2011 13.31.48: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_private >bin/c/orph_test_omp_for_private.out"
+12/7/2011 13.31.49: Warning: Old binary directory detected!
+12/7/2011 13.31.49: Warning: Old binary directory for language c found.
+12/7/2011 13.31.49: Testing for "omp_for_reduction":
+12/7/2011 13.31.49: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/test_omp_for_reduction >bin/c/test_omp_for_reduction.out"
+12/7/2011 13.31.49: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_reduction > bin/c/ctest_omp_for_reduction.out"
+12/7/2011 13.31.49: Testing for "omp_for_reduction" in orphaned mode:
+12/7/2011 13.31.49: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_reduction >bin/c/orph_test_omp_for_reduction.out"
+12/7/2011 13.31.49: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_reduction > bin/c/orph_ctest_omp_for_reduction.out"
+12/7/2011 13.31.49: Warning: Old binary directory detected!
+12/7/2011 13.31.49: Warning: Old binary directory for language c found.
+12/7/2011 13.31.49: Testing for "omp_for_schedule_dynamic":
+12/7/2011 13.31.50: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/test_omp_for_schedule_dynamic >bin/c/test_omp_for_schedule_dynamic.out"
+12/7/2011 13.31.50: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_schedule_dynamic > bin/c/ctest_omp_for_schedule_dynamic.out"
+12/7/2011 13.31.50: Testing for "omp_for_schedule_dynamic" in orphaned mode:
+12/7/2011 13.31.50: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_schedule_dynamic >bin/c/orph_test_omp_for_schedule_dynamic.out"
+12/7/2011 13.31.50: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_schedule_dynamic > bin/c/orph_ctest_omp_for_schedule_dynamic.out"
+12/7/2011 13.31.50: Warning: Old binary directory detected!
+12/7/2011 13.31.50: Warning: Old binary directory for language c found.
+12/7/2011 13.31.50: Testing for "omp_for_schedule_guided":
+12/7/2011 13.31.50: ERROR: Compilation of the test failed.
+12/7/2011 13.31.50: Testing for "omp_for_schedule_guided" in orphaned mode:
+12/7/2011 13.31.51: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_schedule_guided >bin/c/orph_test_omp_for_schedule_guided.out"
+12/7/2011 13.31.51: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_schedule_guided > bin/c/orph_ctest_omp_for_schedule_guided.out"
+12/7/2011 13.31.51: Warning: Old binary directory detected!
+12/7/2011 13.31.51: Warning: Old binary directory for language c found.
+12/7/2011 13.31.51: Testing for "omp_for_schedule_static":
+12/7/2011 13.31.51: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.51: Testing for "omp_for_schedule_static" in orphaned mode:
+12/7/2011 13.31.51: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.51: Warning: Old binary directory detected!
+12/7/2011 13.31.51: Warning: Old binary directory for language c found.
+12/7/2011 13.31.51: Testing for "omp_for_nowait":
+12/7/2011 13.31.52: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.52: Testing for "omp_for_nowait" in orphaned mode:
+12/7/2011 13.31.52: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.52: Warning: Old binary directory detected!
+12/7/2011 13.31.52: Warning: Old binary directory for language c found.
+12/7/2011 13.31.52: Testing for "omp_get_num_threads":
+12/7/2011 13.31.52: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.52: Testing for "omp_get_num_threads" in orphaned mode:
+12/7/2011 13.31.52: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.52: Warning: Old binary directory detected!
+12/7/2011 13.31.52: Warning: Old binary directory for language c found.
+12/7/2011 13.31.52: Testing for "omp_get_wtick":
+12/7/2011 13.31.52: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.52: Testing for "omp_get_wtick" in orphaned mode:
+12/7/2011 13.31.53: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_get_wtick >bin/c/orph_test_omp_get_wtick.out"
+12/7/2011 13.31.53: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_get_wtick > bin/c/orph_ctest_omp_get_wtick.out"
+12/7/2011 13.31.53: Warning: Old binary directory detected!
+12/7/2011 13.31.53: Warning: Old binary directory for language c found.
+12/7/2011 13.31.53: Testing for "omp_get_wtime":
+12/7/2011 13.31.53: ERROR: Generation of sourcecode for the test failed.
+12/7/2011 13.31.53: ERROR: Compilation of the test failed.
+12/7/2011 13.31.53: Testing for "omp_get_wtime" in orphaned mode:
+12/7/2011 13.31.53: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.53: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.53: Warning: Old binary directory detected!
+12/7/2011 13.31.53: Warning: Old binary directory for language c found.
+12/7/2011 13.31.53: Testing for "omp_in_parallel":
+12/7/2011 13.31.53: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.53: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.53: Testing for "omp_in_parallel" in orphaned mode:
+12/7/2011 13.31.53: ERROR: Compilation of the test failed.
+12/7/2011 13.31.53: Warning: Old binary directory detected!
+12/7/2011 13.31.53: Warning: Old binary directory for language c found.
+12/7/2011 13.31.53: Testing for "omp_lock":
+12/7/2011 13.31.54: ERROR: Compilation of the test failed.
+12/7/2011 13.31.54: Testing for "omp_lock" in orphaned mode:
+12/7/2011 13.31.54: ERROR: Compilation of the test failed.
+12/7/2011 13.31.54: Warning: Old binary directory detected!
+12/7/2011 13.31.54: Warning: Old binary directory for language c found.
+12/7/2011 13.31.54: Testing for "omp_master":
+12/7/2011 13.31.54: ERROR: Compilation of the test failed.
+12/7/2011 13.31.54: Testing for "omp_master" in orphaned mode:
+12/7/2011 13.31.54: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_master >bin/c/orph_test_omp_master.out"
+12/7/2011 13.31.54: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_master > bin/c/orph_ctest_omp_master.out"
+12/7/2011 13.31.54: Warning: Old binary directory detected!
+12/7/2011 13.31.54: Warning: Old binary directory for language c found.
+12/7/2011 13.31.54: Testing for "omp_nested":
+12/7/2011 13.31.54: ERROR: Compilation of the test failed.
+12/7/2011 13.31.54: Testing for "omp_nested" in orphaned mode:
+12/7/2011 13.31.55: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.55: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.55: Warning: Old binary directory detected!
+12/7/2011 13.31.55: Warning: Old binary directory for language c found.
+12/7/2011 13.31.55: Testing for "omp_nest_lock":
+12/7/2011 13.31.55: ERROR: Compilation of the test failed.
+12/7/2011 13.31.55: Testing for "omp_nest_lock" in orphaned mode:
+12/7/2011 13.31.55: ERROR: Compilation of the test failed.
+12/7/2011 13.31.55: Warning: Old binary directory detected!
+12/7/2011 13.31.55: Warning: Old binary directory for language c found.
+12/7/2011 13.31.55: Testing for "omp_parallel_copyin":
+12/7/2011 13.31.55: ERROR: Compilation of the test failed.
+12/7/2011 13.31.55: Testing for "omp_parallel_copyin" in orphaned mode:
+12/7/2011 13.31.55: ERROR: Compilation of the test failed.
+12/7/2011 13.31.55: Warning: Old binary directory detected!
+12/7/2011 13.31.55: Warning: Old binary directory for language c found.
+12/7/2011 13.31.55: Testing for "omp_parallel_for_firstprivate":
+12/7/2011 13.31.56: ERROR: Compilation of the test failed.
+12/7/2011 13.31.56: Warning: Old binary directory detected!
+12/7/2011 13.31.56: Warning: Old binary directory for language c found.
+12/7/2011 13.31.56: Testing for "omp_parallel_for_lastprivate":
+12/7/2011 13.31.56: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_for_lastprivate >bin/c/test_omp_parallel_for_lastprivate.out"
+12/7/2011 13.31.56: Starting command "OMP_NUM_THREADS=2; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_for_lastprivate > bin/c/ctest_omp_parallel_for_lastprivate.out"
+12/7/2011 13.31.56: Warning: Old binary directory detected!
+12/7/2011 13.31.56: Warning: Old binary directory for language c found.
+12/7/2011 13.31.56: Testing for "omp_parallel_for_ordered":
+12/7/2011 13.31.56: ERROR: Compilation of the test failed.
+12/7/2011 13.31.56: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.56: Testing for "omp_parallel_for_ordered" in orphaned mode:
+12/7/2011 13.31.56: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.56: ERROR: Compilation of the test failed.
+12/7/2011 13.31.56: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.56: Warning: Old binary directory detected!
+12/7/2011 13.31.56: Warning: Old binary directory for language c found.
+12/7/2011 13.31.56: Testing for "omp_parallel_for_private":
+12/7/2011 13.31.56: ERROR: Generation of sourcecode for the test failed.
+12/7/2011 13.31.56: ERROR: Compilation of the test failed.
+12/7/2011 13.31.56: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.56: Warning: Old binary directory detected!
+12/7/2011 13.31.56: Warning: Old binary directory for language c found.
+12/7/2011 13.31.56: Testing for "omp_parallel_for_reduction":
+12/7/2011 13.31.56: ERROR: Compilation of the test failed.
+12/7/2011 13.31.56: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.56: Warning: Old binary directory detected!
+12/7/2011 13.31.56: Warning: Old binary directory for language c found.
+12/7/2011 13.31.56: Testing for "omp_parallel_num_threads":
+12/7/2011 13.31.56: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.56: ERROR: Compilation of the test failed.
+12/7/2011 13.31.56: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.56: Testing for "omp_parallel_num_threads" in orphaned mode:
+12/7/2011 13.31.56: ERROR: Compilation of the test failed.
+12/7/2011 13.31.56: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.56: Warning: Old binary directory detected!
+12/7/2011 13.31.56: Warning: Old binary directory for language c found.
+12/7/2011 13.31.56: Testing for "omp_parallel_sections_firstprivate":
+12/7/2011 13.31.56: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.56: ERROR: Compilation of the test failed.
+12/7/2011 13.31.56: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.56: Warning: Old binary directory detected!
+12/7/2011 13.31.56: Warning: Old binary directory for language c found.
+12/7/2011 13.31.56: Testing for "omp_parallel_sections_lastprivate":
+12/7/2011 13.31.56: ERROR: Generation of sourcecode for the test failed.
+12/7/2011 13.31.56: ERROR: Compilation of the test failed.
+12/7/2011 13.31.56: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.56: Warning: Old binary directory detected!
+12/7/2011 13.31.56: Warning: Old binary directory for language c found.
+12/7/2011 13.31.56: Testing for "omp_parallel_sections_private":
+12/7/2011 13.31.57: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.57: ERROR: Compilation of the test failed.
+12/7/2011 13.31.57: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.57: Warning: Old binary directory detected!
+12/7/2011 13.31.57: Warning: Old binary directory for language c found.
+12/7/2011 13.31.57: Testing for "omp_parallel_sections_reduction":
+12/7/2011 13.31.57: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.57: ERROR: Compilation of the test failed.
+12/7/2011 13.31.57: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.57: Warning: Old binary directory detected!
+12/7/2011 13.31.57: Warning: Old binary directory for language c found.
+12/7/2011 13.31.57: Testing for "omp_section_firstprivate":
+12/7/2011 13.31.57: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.57: ERROR: Compilation of the test failed.
+12/7/2011 13.31.57: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.57: Testing for "omp_section_firstprivate" in orphaned mode:
+12/7/2011 13.31.57: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.57: ERROR: Compilation of the test failed.
+12/7/2011 13.31.57: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.57: Warning: Old binary directory detected!
+12/7/2011 13.31.57: Warning: Old binary directory for language c found.
+12/7/2011 13.31.57: Testing for "omp_section_lastprivate":
+12/7/2011 13.31.57: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.57: ERROR: Compilation of the test failed.
+12/7/2011 13.31.57: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.57: Testing for "omp_section_lastprivate" in orphaned mode:
+12/7/2011 13.31.57: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.57: ERROR: Compilation of the test failed.
+12/7/2011 13.31.57: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.57: Warning: Old binary directory detected!
+12/7/2011 13.31.57: Warning: Old binary directory for language c found.
+12/7/2011 13.31.57: Testing for "omp_section_private":
+12/7/2011 13.31.57: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.57: ERROR: Compilation of the test failed.
+12/7/2011 13.31.57: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.57: Testing for "omp_section_private" in orphaned mode:
+12/7/2011 13.31.57: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.57: ERROR: Compilation of the test failed.
+12/7/2011 13.31.57: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.57: Warning: Old binary directory detected!
+12/7/2011 13.31.57: Warning: Old binary directory for language c found.
+12/7/2011 13.31.57: Testing for "omp_sections_reduction":
+12/7/2011 13.31.57: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.57: ERROR: Compilation of the test failed.
+12/7/2011 13.31.57: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.57: Warning: Old binary directory detected!
+12/7/2011 13.31.57: Warning: Old binary directory for language c found.
+12/7/2011 13.31.57: Testing for "omp_sections_nowait":
+12/7/2011 13.31.57: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.57: ERROR: Compilation of the test failed.
+12/7/2011 13.31.57: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.57: Testing for "omp_sections_nowait" in orphaned mode:
+12/7/2011 13.31.57: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.57: ERROR: Compilation of the test failed.
+12/7/2011 13.31.57: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.57: Warning: Old binary directory detected!
+12/7/2011 13.31.57: Warning: Old binary directory for language c found.
+12/7/2011 13.31.57: Testing for "omp_parallel_for_if":
+12/7/2011 13.31.57: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.57: ERROR: Compilation of the test failed.
+12/7/2011 13.31.57: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.57: Warning: Old binary directory detected!
+12/7/2011 13.31.57: Warning: Old binary directory for language c found.
+12/7/2011 13.31.57: Testing for "omp_single_copyprivate":
+12/7/2011 13.31.57: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.57: ERROR: Compilation of the test failed.
+12/7/2011 13.31.57: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.57: Testing for "omp_single_copyprivate" in orphaned mode:
+12/7/2011 13.31.57: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.57: ERROR: Compilation of the test failed.
+12/7/2011 13.31.57: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.57: Warning: Old binary directory detected!
+12/7/2011 13.31.57: Warning: Old binary directory for language c found.
+12/7/2011 13.31.57: Testing for "omp_single_nowait":
+12/7/2011 13.31.58: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.58: ERROR: Compilation of the test failed.
+12/7/2011 13.31.58: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.58: Testing for "omp_single_nowait" in orphaned mode:
+12/7/2011 13.31.58: ERROR: Compilation of the test failed.
+12/7/2011 13.31.58: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.58: Warning: Old binary directory detected!
+12/7/2011 13.31.58: Warning: Old binary directory for language c found.
+12/7/2011 13.31.58: Testing for "omp_single_private":
+12/7/2011 13.31.58: ERROR: Compilation of the test failed.
+12/7/2011 13.31.58: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.58: Testing for "omp_single_private" in orphaned mode:
+12/7/2011 13.31.58: ERROR: Compilation of the test failed.
+12/7/2011 13.31.58: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.58: Warning: Old binary directory detected!
+12/7/2011 13.31.58: Warning: Old binary directory for language c found.
+12/7/2011 13.31.58: Testing for "omp_single":
+12/7/2011 13.31.58: ERROR: Compilation of the test failed.
+12/7/2011 13.31.58: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.58: Testing for "omp_single" in orphaned mode:
+12/7/2011 13.31.58: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.58: ERROR: Compilation of the test failed.
+12/7/2011 13.31.58: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.58: Warning: Old binary directory detected!
+12/7/2011 13.31.58: Warning: Old binary directory for language c found.
+12/7/2011 13.31.58: Testing for "omp_test_lock":
+12/7/2011 13.31.58: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.58: ERROR: Compilation of the test failed.
+12/7/2011 13.31.58: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.58: Testing for "omp_test_lock" in orphaned mode:
+12/7/2011 13.31.58: ERROR: Generation of sourcecode for the test failed.
+12/7/2011 13.31.58: ERROR: Compilation of the test failed.
+12/7/2011 13.31.58: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.58: Warning: Old binary directory detected!
+12/7/2011 13.31.58: Warning: Old binary directory for language c found.
+12/7/2011 13.31.58: Testing for "omp_test_nest_lock":
+12/7/2011 13.31.58: ERROR: Compilation of the test failed.
+12/7/2011 13.31.58: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.58: Testing for "omp_test_nest_lock" in orphaned mode:
+12/7/2011 13.31.58: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.58: ERROR: Compilation of the test failed.
+12/7/2011 13.31.58: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.58: Warning: Old binary directory detected!
+12/7/2011 13.31.58: Warning: Old binary directory for language c found.
+12/7/2011 13.31.58: Testing for "omp_threadprivate":
+12/7/2011 13.31.58: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.58: ERROR: Compilation of the test failed.
+12/7/2011 13.31.58: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.58: Warning: Old binary directory detected!
+12/7/2011 13.31.58: Warning: Old binary directory for language c found.
+12/7/2011 13.31.58: Testing for "omp_threadprivate_for":
+12/7/2011 13.31.58: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.58: ERROR: Compilation of the test failed.
+12/7/2011 13.31.58: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.58: Warning: Old binary directory detected!
+12/7/2011 13.31.58: Warning: Old binary directory for language c found.
+12/7/2011 13.31.58: Testing for "omp_master_3":
+12/7/2011 13.31.58: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.58: ERROR: Compilation of the test failed.
+12/7/2011 13.31.58: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.58: Testing for "omp_master_3" in orphaned mode:
+12/7/2011 13.31.58: ERROR: Generation of sourcecode for the test failed.
+12/7/2011 13.31.58: ERROR: Compilation of the test failed.
+12/7/2011 13.31.58: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.58: Warning: Old binary directory detected!
+12/7/2011 13.31.58: Warning: Old binary directory for language c found.
+12/7/2011 13.31.58: Testing for "omp_task":
+12/7/2011 13.31.59: ERROR: Generation of sourcecode for the test failed.
+12/7/2011 13.31.59: ERROR: Compilation of the test failed.
+12/7/2011 13.31.59: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.59: Testing for "omp_task" in orphaned mode:
+12/7/2011 13.31.59: ERROR: Compilation of the test failed.
+12/7/2011 13.31.59: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.59: Warning: Old binary directory detected!
+12/7/2011 13.31.59: Warning: Old binary directory for language c found.
+12/7/2011 13.31.59: Testing for "omp_task_if":
+12/7/2011 13.31.59: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.59: ERROR: Compilation of the test failed.
+12/7/2011 13.31.59: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.59: Testing for "omp_task_if" in orphaned mode:
+12/7/2011 13.31.59: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.59: ERROR: Compilation of the test failed.
+12/7/2011 13.31.59: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.59: Warning: Old binary directory detected!
+12/7/2011 13.31.59: Warning: Old binary directory for language c found.
+12/7/2011 13.31.59: Testing for "omp_task_private":
+12/7/2011 13.31.59: ERROR: Compilation of the test failed.
+12/7/2011 13.31.59: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.59: Testing for "omp_task_private" in orphaned mode:
+12/7/2011 13.31.59: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.59: ERROR: Compilation of the test failed.
+12/7/2011 13.31.59: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.59: Warning: Old binary directory detected!
+12/7/2011 13.31.59: Warning: Old binary directory for language c found.
+12/7/2011 13.31.59: Testing for "omp_task_firstprivate":
+12/7/2011 13.31.59: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.59: ERROR: Compilation of the test failed.
+12/7/2011 13.31.59: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.59: Testing for "omp_task_firstprivate" in orphaned mode:
+12/7/2011 13.31.59: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.59: ERROR: Compilation of the test failed.
+12/7/2011 13.31.59: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.59: Warning: Old binary directory detected!
+12/7/2011 13.31.59: Warning: Old binary directory for language c found.
+12/7/2011 13.31.59: Testing for "omp_taskwait":
+12/7/2011 13.31.59: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.59: ERROR: Compilation of the test failed.
+12/7/2011 13.31.59: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.59: Testing for "omp_taskwait" in orphaned mode:
+12/7/2011 13.31.59: ERROR: Generation of sourcecode for the crosstest failed.
+12/7/2011 13.31.59: ERROR: Compilation of the test failed.
+12/7/2011 13.31.59: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.59: Warning: Old binary directory detected!
+12/7/2011 13.31.59: Warning: Old binary directory for language c found.
+12/7/2011 13.31.59: Testing for "omp_for_schedule_static_3":
+12/7/2011 13.31.59: ERROR: Compilation of the test failed.
+12/7/2011 13.31.59: ERROR: Compilation of the crosstest failed.
+12/7/2011 13.31.59: Testing for "omp_for_schedule_static_3" in orphaned mode:
+12/7/2011 13.31.59: ERROR: Compilation of the test failed.
+12/7/2011 13.31.59: ERROR: Compilation of the crosstest failed.
