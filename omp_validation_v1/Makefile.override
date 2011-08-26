@@ -1,0 +1,13 @@
+#Liao
+# Nov. 2005
+                                                                
+NUM_THREADS=2
+#C compiler
+CC = opencc
+CFLAGS = -mp 
+CLINKFLAGS = $(CFLAGS) -lm
+
+#Fortran compiler
+FC = uhf90
+FFLAGS = -mp
+FLINKFLAGS = -mp

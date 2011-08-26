@@ -1,0 +1,155 @@
+#!/bin/bash
+# precompilation phase to check feasible validation functions
+# Result: 1.Generate a header file for main.f 
+#         to declare integers for viable tests.
+#         2. Generate source code body mainBody.f based on these tests.
+#
+# Author: Chunhua Liao , University of Houston
+# Date: May,13 2005
+#****************************************
+if [ $# -lt 2 ]
+then
+  echo This script need at least two arguments
+  echo Usage:$0 TESTFILE_name compiler_option etc.
+  echo Exampe:$0 ALL_TEST cc -xopenmp
+  exit
+fi  
+
+#------------------------------------------------------------
+# a function to generate the repetitive source body for main.f
+#-------------------------------------------------------------
+generateBody()
+{
+# assign test name to aa
+aa="${array1[$a]}"
+# redirect following stdout to a file
+sourceBody=mainBody.f
+exec 6>&1
+exec >> $sourceBody
+
+echo
+echo "        "call flush'(6)'
+echo "        "write '(1,*)' \"--------------------------------------------------\"
+echo "        "write '(1,*)' \"check "$aa"\"
+echo "        "write '(1,*)' \"--------------------------------------------------\"
+echo 
+echo "        "'num_tests = num_tests +1'
+echo "        "'result = 1'
+echo "        "'crossfailed = 0'
+echo "        "'temp = 0'
+echo
+echo "        "'do j = 1, N'
+echo "            "write '(1,*) "> "' 
+echo "            "'temp = chk_'"$aa"'()'
+echo "            "'if (temp .EQ. 1) then'
+echo "                 "'write (1,*) "No errors occured during the", j,'
+echo "     & "'". test."'
+echo  
+echo "                 "temp1=crschk_"$aa"'()'
+echo "                  "' if (temp1 .eq. 0) then'
+echo "                  "'write (1,*)'
+echo "     &"'"  Crosscheck: Verified result"'
+echo "                          "'crossfailed = crossfailed + 1'
+echo "           "else
+echo "                "'write (1,*)'
+echo "     & "'" Crosscheck: Could not verified the result."'
+echo "            "endif
+echo "        "else
+echo "             "'write (1,*)'
+echo "     &  "'"--> Errors occured during the",j, ". test."'
+echo "               "result=0   
+echo "         "endif
+echo "        "end do
+echo
+echo "        "'if (result .EQ. 0 )then'
+echo "                  "'failed = failed + 1'
+echo "        "else
+echo "                  "' success=success+1'
+echo "        "endif
+echo
+echo "        "'if (crossfailed .GT. 0) then'
+echo "                     "'crosschecked = crosschecked + 1'
+echo "        "endif
+echo
+echo "         "'write (1,*) "Result for '"$aa"':"'
+echo "        "'if (result .EQ. 1) then'
+echo "              "'write (1,*) "Directive worked without errors."'
+echo "              "'write (1,*) "Crosschecks verified this result with", 100.0*crossfailed/N'
+echo "              "'write (*,*) "'"$aa"' ... ",'
+echo "     &  "'"verified with", 100.0*crossfailed/N ,"% certainty."'
+echo "        "else
+echo "              "'write (1,*) "Directive failed the tests!"'
+echo "              "'write (*,*) "'"$aa"' ... FAILED"'
+echo "        "endif
+echo
+
+#restore stdout
+exec 1>&6 6>&-
+
+}
+
+
+
+# parsing arguments
+LoadFile=$1
+shift
+CompilerOption=$*
+
+# An array to store all test in order
+# ALL_TEST contains the names of test files
+declare -a array1
+array1=($(cat "$LoadFile"))
+
+#echo ${array1[@]}
+element_count=${#array1[*]}
+#echo $element_count
+
+
+# preCompile all .f files for test functions.
+#********************************************
+
+for ((a=0;a<$element_count;a++))
+do
+    if [ ! -e "${array1[$a]}".o ]
+    then
+    echo   $CompilerOption -c "${array1[$a]}".f
+    #cc -xopenmp -c "${array1[$a]}".f 
+    # $1 -c $2 "${array1[$a]}".f
+    $CompilerOption -c "${array1[$a]}".f
+   fi
+done
+
+# check the existence of .o, writing header for main.f
+# *******************************************   
+#Generate integer declarations for the main.f
+if [ -e testdeclarations.f ]
+then
+rm testdeclarations.f 
+fi
+touch testdeclarations.f 
+
+if [ -e failed.compilation ]
+then 
+  rm failed.compilation
+fi
+touch failed.compilation
+
+if [ -e mainBody.f ]
+then 
+  rm mainBody.f
+fi
+touch mainBody.f
+
+for ((a=0;a<$element_count;a++))
+do
+    if [ -e "${array1[$a]}".o ]
+    then
+      echo "        "integer chk_${array1[$a]}>> testdeclarations.f
+      echo "        "integer crschk_${array1[$a]}>> testdeclarations.f
+# call the function to generate main.f body
+      generateBody
+      continue
+    else
+      echo "test$(($a+1)) ${array1[$a]} did not pass the compilation." >> failed.compilation
+    fi
+done
