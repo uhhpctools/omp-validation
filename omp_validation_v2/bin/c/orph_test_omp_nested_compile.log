@@ -1,3 +1,0 @@
-make[1]: Entering directory `/home/cwang/ompvalidation/omp_validation_v2'
-uhcc -mp    bin/c/orph_test_omp_nested.c   -o bin/c/orph_test_omp_nested
-make[1]: Leaving directory `/home/cwang/ompvalidation/omp_validation_v2'

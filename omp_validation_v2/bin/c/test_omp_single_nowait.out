@@ -1,8 +1,0 @@
-######## OpenMP Validation Suite V 3.0a ######
-## Repetitions:  20                       ####
-## Loop Count :   1000                    ####
-##############################################
-Testing omp single nowait
-
-Directive worked without errors.
-Result: 0
