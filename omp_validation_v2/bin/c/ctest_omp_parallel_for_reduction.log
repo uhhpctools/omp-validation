@@ -1,0 +1,204 @@
+######## OpenMP Validation Suite V 3.0a ######
+## Repetitions:  20                       ####
+## Loop Count :   1000                    ####
+##############################################
+Testing omp parallel for reduction
+
+
+
+1. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 463938 instead of 500500
+Error in difference with integers: Result was 8548 instead of 0.
+
+Error in logic AND part 2.
+Error: Test failed.
+
+
+2. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 494041 instead of 500500
+Error in difference with integers: Result was 1442 instead of 0.
+Error in sum with doubles: Result was 1.166667 instead of 1.500000 (Difference: -3.333333E-01)
+
+Error in Product with integers: Result was 22400 instead of 3628800
+
+Error: Test failed.
+
+
+3. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 488871 instead of 500500
+Error in difference with integers: Result was 17036 instead of 0.
+
+Error: Test failed.
+
+
+4. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 497896 instead of 500500
+Error in difference with integers: Result was 6423 instead of 0.
+
+Error in Difference with doubles: Result was 1.371742E-03 instead of 0.0
+Error: Test failed.
+
+
+5. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 444040 instead of 500500
+Error in difference with integers: Result was 925 instead of 0.
+
+Error in logic OR part 2.
+Error: Test failed.
+
+
+6. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 464678 instead of 500500
+Error in difference with integers: Result was 27074 instead of 0.
+Error in sum with doubles: Result was 1.487502 instead of 1.500000 (Difference: -1.249809E-02)
+
+Error in Product with integers: Result was 45360 instead of 3628800
+
+Error in BIT OR part 2
+Error: Test failed.
+
+
+7. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 491818 instead of 500500
+Error in difference with integers: Result was 40659 instead of 0.
+Error in sum with doubles: Result was 1.499976 instead of 1.500000 (Difference: -2.446179E-05)
+
+Error in Difference with doubles: Result was 1.152263E-01 instead of 0.0
+Error in Product with integers: Result was 22400 instead of 3628800
+
+Error: Test failed.
+
+
+8. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 479385 instead of 500500
+Error in difference with integers: Result was 17988 instead of 0.
+Error in sum with doubles: Result was 1.388889 instead of 1.500000 (Difference: -1.111111E-01)
+
+Error: Test failed.
+
+
+9. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 480745 instead of 500500
+Error in difference with integers: Result was 23471 instead of 0.
+Error in sum with doubles: Result was 1.384774 instead of 1.500000 (Difference: -1.152263E-01)
+
+Error: Test failed.
+
+
+10. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 496925 instead of 500500
+Error in difference with integers: Result was 37852 instead of 0.
+Error in sum with doubles: Result was 1.166667 instead of 1.500000 (Difference: -3.333333E-01)
+
+Error in BIT OR part 2
+Error: Test failed.
+
+
+11. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 455472 instead of 500500
+Error in difference with integers: Result was 794 instead of 0.
+Error in sum with doubles: Result was 1.388889 instead of 1.500000 (Difference: -1.111111E-01)
+
+Error in Product with integers: Result was 1814400 instead of 3628800
+
+Error in logic OR part 2.
+Error: Test failed.
+
+
+12. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 493619 instead of 500500
+Error in difference with integers: Result was 14825 instead of 0.
+Error in sum with doubles: Result was 1.166667 instead of 1.500000 (Difference: -3.333333E-01)
+
+Error in BIT AND part 2.
+Error: Test failed.
+
+
+13. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 476794 instead of 500500
+Error in sum with doubles: Result was 1.166667 instead of 1.500000 (Difference: -3.333333E-01)
+
+Error in Difference with doubles: Result was 1.234568E-02 instead of 0.0
+Error: Test failed.
+
+
+14. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 460855 instead of 500500
+Error in difference with integers: Result was 128058 instead of 0.
+
+Error in Difference with doubles: Result was 3.703704E-02 instead of 0.0
+Error in Product with integers: Result was 129600 instead of 3628800
+
+Error: Test failed.
+
+
+15. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 430754 instead of 500500
+Error in difference with integers: Result was 569 instead of 0.
+
+Error in Product with integers: Result was 1209600 instead of 3628800
+
+Error: Test failed.
+
+
+16. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 491824 instead of 500500
+Error in difference with integers: Result was 1532 instead of 0.
+
+Error in Difference with doubles: Result was 3.333333E-01 instead of 0.0
+Error in Product with integers: Result was 129600 instead of 3628800
+
+Error: Test failed.
+
+
+17. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 476125 instead of 500500
+Error in difference with integers: Result was 19062 instead of 0.
+
+Error: Test failed.
+
+
+18. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 460049 instead of 500500
+Error in difference with integers: Result was 7545 instead of 0.
+
+Error in logic OR part 2.
+Error: Test failed.
+
+
+19. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 479650 instead of 500500
+Error in difference with integers: Result was 1286 instead of 0.
+
+Error in BIT OR part 2
+Error: Test failed.
+
+
+20. run of ctest_omp_parallel_for_reduction out of 20
+
+Error in sum with integers: Result was 493850 instead of 500500
+Error in difference with integers: Result was 2511 instead of 0.
+
+Error in Difference with doubles: Result was 3.703704E-02 instead of 0.0
+Error: Test failed.
+
+Directive failed the test 20 times out of 20. 0 were successful

@@ -1,0 +1,1 @@
+uhcc -mp    bin/c/orph_ctest_omp_for_firstprivate.c   -o bin/c/orph_ctest_omp_for_firstprivate

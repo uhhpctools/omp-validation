@@ -1,0 +1,156 @@
+*************************
+Test time: 11.01.2011-10:10:54
+*************************
+
+*************************
+OpenUH build configuraton
+*************************
+OpenUH/Open64 Compiler Suite: Version 4.2
+Built on: 2011-11-01 10:11:08 -0500
+Thread model: posix
+Configured with --with-build-compiler=GNU --with-build-optimize=DEFAULT 
+GNU gcc version 4.2.0 (Open64 4.2 driver)
+
+*************************
+TEST FOR THE C COMPILER
+*************************
+#Tested Directive	t	ct	ot	oct
+has_openmp	100	100	-	-
+	
+omp_atomic	100	100	100	100
+omp_barrier	100	100	100	100
+omp_critical	100	60	100	0
+omp_flush	100	95	100	90
+omp_for_firstprivate	100	0	100	0
+omp_for_lastprivate	100	100	100	95
+omp_for_ordered	100	100	100	100
+omp_for_private	100	100	100	100
+omp_for_reduction	100	100	100	100
+omp_for_schedule_dynamic	100	100	100	100
+omp_for_schedule_guided	100	100	100	100
+omp_for_schedule_static	100	100	100	100
+omp_for_nowait	100	100	100	100
+omp_get_num_threads	100	100	100	100
+omp_get_wtick	100	100	100	100
+omp_get_wtime	100	100	100	100
+omp_in_parallel	100	100	100	100
+omp_lock	100	95	100	95
+omp_master	100	100	100	100
+omp_nested	100	100	100	100
+omp_nest_lock	100	100	100	95
+omp_parallel_copyin	100	100	100	100
+omp_parallel_for_firstprivate	100	100	-	-
+	
+omp_parallel_for_lastprivate	100	100	-	-
+	
+omp_parallel_for_ordered	100	100	100	100
+omp_parallel_for_private	100	100	-	-
+	
+omp_parallel_for_reduction	100	100	-	-
+	
+omp_parallel_num_threads	100	100	100	100
+omp_parallel_sections_firstprivate	100	100	-	-
+	
+omp_parallel_sections_lastprivate	100	100	-	-
+	
+omp_parallel_sections_private	100	95	-	-
+	
+omp_parallel_sections_reduction	100	100	-	-
+	
+omp_section_firstprivate	100	100	100	100
+omp_section_lastprivate	100	100	100	100
+omp_section_private	100	90	100	80
+omp_sections_reduction	100	100	-	-
+	
+omp_sections_nowait	100	100	100	100
+omp_parallel_for_if	100	100	-	-
+	
+omp_single_copyprivate	100	100	100	100
+omp_single_nowait	100	100	100	100
+omp_single_private	100	100	100	100
+omp_single	100	100	100	100
+omp_test_lock	100	90	100	95
+omp_test_nest_lock	100	95	100	100
+omp_threadprivate	100	100	-	-
+	
+omp_threadprivate_for	100	0	-	-
+	
+omp_parallel_default	100	100	-	-
+	
+omp_parallel_shared	100	100	-	-
+	
+omp_parallel_private	100	100	100	100
+omp_parallel_firstprivate	100	100	100	100
+omp_parallel_if	100	100	-	-
+	
+omp_parallel_reduction 	ce	-	-	-
+	
+omp_master_3	100	100	100	100
+omp_task	100	100	100	100
+omp_task_if	100	100	5	-
+omp_task_private	100	100	100	100
+omp_task_firstprivate	100	100	100	100
+omp_taskwait	100	100	100	100
+omp_for_schedule_static_3	100	100	100	139
+
+******************************
+TEST FOR THE FORTRAN COMPILER
+******************************
+#Tested Directive	t	ct	ot	oct
+do_firstprivate	100	100	0	-
+do_lastprivate	100	95	0	-
+do_ordered	100	100	100	90
+do_private	100	95	0	-
+do_reduction	100	100	100	100
+do_schedule_dynamic	100	100	100	0
+do_schedule_guided	100	100	100	100
+do_schedule_static	100	100	0	-
+has_openmp	100	100	-	-
+	
+omp_atomic	100	100	100	100
+omp_barrier	100	100	100	100
+omp_copyin	0	-	0	-
+omp_critical	100	90	100	85
+omp_flush	100	0	100	0
+omp_get_num_threads	100	100	100	100
+omp_in_parallel	100	100	100	100
+omp_lock	ce	-	ce	-
+omp_master	100	100	100	100
+omp_nest_lock	ce	-	ce	-
+omp_test_nest_lock	ce	-	-	-
+	
+omp_nested	100	100	100	100
+omp_num_threads	100	100	100	100
+omp_testlock	ce	-	-	-
+	
+omp_threadprivate	100	100	-	-
+	
+omp_get_wticks	100	100	100	100
+omp_workshare	0	-	-	-
+	
+omp_wtime	100	100	100	100
+par_do_firstprivate	100	100	-	-
+	
+par_do_lastprivate	100	100	-	-
+	
+par_do_ordered	100	100	0	-
+par_do_private	100	60	-	-
+	
+par_do_reduction	100	100	-	-
+	
+par_section_firstprivate	100	100	-	-
+	
+par_section_lastprivate	100	100	-	-
+	
+par_section_private	100	85	-	-
+	
+par_section_reduct	100	100	-	-
+	
+section_firstprivate	100	100	100	100
+section_lastprivate	100	100	100	100
+section_private	100	85	100	95
+section_reduction	100	100	100	100
+omp_single	100	100	100	100
+single_copyprivate	100	100	100	100
+single_nowait	100	100	100	100
+single_private	100	100	100	100

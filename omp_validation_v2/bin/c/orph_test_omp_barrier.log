@@ -1,0 +1,108 @@
+######## OpenMP Validation Suite V 3.0a ######
+## Repetitions:  20                       ####
+## Loop Count :   1000                    ####
+##############################################
+Testing omp barrier
+
+
+
+1. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+
+2. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+
+3. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+
+4. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+
+5. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+
+6. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+
+7. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+
+8. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+
+9. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+
+10. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+
+11. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+
+12. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+
+13. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+
+14. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+
+15. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+
+16. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+
+17. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+
+18. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+
+19. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+
+20. run of orph_test_omp_barrier out of 20
+
+Test successful.
+
+Directive worked without errors.
