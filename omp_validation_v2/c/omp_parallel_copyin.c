@@ -1,6 +1,6 @@
 <ompts:test>
 <ompts:testdescription>Test which checks the omp parallel copyin directive.</ompts:testdescription>
-<ompts:ompversion>2.0</ompts:ompversion>
+<ompts:ompversion>3.0</ompts:ompversion>
 <ompts:directive>omp parallel copyin</ompts:directive>
 <ompts:dependences>omp critical,omp threadprivate</ompts:dependences>
 <ompts:testcode>

@@ -1,6 +1,6 @@
 <ompts:test>
 <ompts:testdescription>Test which checks the omp_parallel_num_threads directive by counting the threads in a parallel region which was started with an explicitly stated number of threads.</ompts:testdescription>
-<ompts:ompversion>2.0</ompts:ompversion>
+<ompts:ompversion>3.0</ompts:ompversion>
 <ompts:directive>omp parellel num_threads</ompts:directive>
 <ompts:dependences>omp master,omp parallel reduction,omp atomic</ompts:dependences>
 <ompts:testcode>

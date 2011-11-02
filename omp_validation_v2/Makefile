@@ -65,15 +65,15 @@
 
 # Intel compilers:
 #CC = ecc
-CC = icc
+#CC = icc
 #CC = omcc
-CFLAGS = -O3 -ip -openmp
+#CFLAGS = -O3 -ip -openmp
 #CFLAGS = -Wall -O0 -openmp
 #CFLAGS =  -openmp -lm
 #CFLAGS =  -openmp -lm -DVERBOSE
 
-FC = ifort
-FFLAGS = -openmp -lm -fpp
+#FC = ifort
+#FFLAGS = -openmp -lm -fpp
 
 
 # Omni compilers:

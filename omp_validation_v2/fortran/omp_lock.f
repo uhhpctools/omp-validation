@@ -1,20 +1,21 @@
 <ompts:test>
 <ompts:testdescription>Test which checks the omp_set_lock  and the omp_unset_lock function by counting the threads entering and exiting a single region with locks.</ompts:testdescription>
-<ompts:ompversion>2.0</ompts:ompversion>
+<ompts:ompversion>3.0</ompts:ompversion>
 <ompts:directive>omp_lock</ompts:directive>
 <ompts:dependences>omp flush</ompts:dependences>
 <ompts:testcode>
       INTEGER FUNCTION <ompts:testcode:functionname>omp_lock</ompts:testcode:functionname>()
         IMPLICIT NONE
-        INTEGER result
+        include "omp_lib.h"
+	INTEGER result
         INTEGER nr_threads_in_single
         INTEGER nr_iterations
         INTEGER i
 !lock variable
-                <ompts:orphan:vars>
-        INTEGER (KIND=OMP_LOCK_KIND) :: lock
-        COMMON /orphvars/ lock
-                </ompts:orphan:vars>
+       !         <ompts:orphan:vars>
+        INTEGER (KIND=OMP_LOCK_KIND) :: lock 
+       ! COMMON /orphvars/ lock
+        !        </ompts:orphan:vars>
 
 !result is:
 !  0 -- if the test fails
@@ -27,22 +28,22 @@
 !$omp parallel shared(lock,nr_threads_in_single,nr_iterations,result)
 !$omp do
         DO i=1,LOOPCOUNT
-                  <ompts:orphan>
+        !          <ompts:orphan>
                   <ompts:check>
           CALL omp_set_lock(lock)
                   </ompts:check>
-                  </ompts:orphan>
+         !         </ompts:orphan>
 !$omp flush
           nr_threads_in_single=nr_threads_in_single+1
 !$omp flush
           nr_iterations=nr_iterations+1
           nr_threads_in_single=nr_threads_in_single-1
           result=result+nr_threads_in_single
-                  <ompts:orphan>
+          !        <ompts:orphan>
                   <ompts:check>
           CALL omp_unset_lock(lock)
                   </ompts:check>
-                  </ompts:orphan>
+          !        </ompts:orphan>
         END DO
 !$omp end do
 !$omp end parallel

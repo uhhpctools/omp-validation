@@ -47,8 +47,15 @@ omp_test_lock
 omp_test_nest_lock
 omp_threadprivate
 omp_threadprivate_for
-#omp_parallel_default
- 
+
+# added by Cheng
+omp_parallel_default
+omp_parallel_shared
+omp_parallel_private
+omp_parallel_firstprivate
+omp_parallel_if
+omp_parallel_reduction 
+
 # New tests for OpenMP 3.0
 omp_master_3
 omp_task
