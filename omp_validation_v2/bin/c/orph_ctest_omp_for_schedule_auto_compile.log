@@ -1,1 +1,0 @@
-uhcc -mp    bin/c/orph_ctest_omp_for_schedule_auto.c   -o bin/c/orph_ctest_omp_for_schedule_auto

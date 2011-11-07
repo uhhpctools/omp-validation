@@ -1,3 +1,0 @@
-make[1]: Entering directory `/home/cwang/ompvalidation/omp_validation_v2'
-uhcc -mp    bin/c/test_omp_test_lock.c   -o bin/c/test_omp_test_lock
-make[1]: Leaving directory `/home/cwang/ompvalidation/omp_validation_v2'
