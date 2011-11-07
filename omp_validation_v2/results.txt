@@ -1,2 +1,2 @@
 #Tested Directive	t	ct	ot	oct
-omp_for_firstprivate	100	100	100	100
+omp_for_collapse		TO		TO

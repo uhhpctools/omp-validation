@@ -54,8 +54,9 @@ omp_parallel_shared
 omp_parallel_private
 omp_parallel_firstprivate
 omp_parallel_if
-omp_parallel_reduction 
-
+omp_parallel_reduction
+omp_for_schedule_auto 
+omp_for_collapse
 # New tests for OpenMP 3.0
 omp_master_3
 omp_task

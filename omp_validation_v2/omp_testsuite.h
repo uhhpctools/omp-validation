@@ -60,6 +60,8 @@ int test_omp_parallel_if(FILE * logfile);  /* Test for omp parallel if */
 int crosstest_omp_parallel_if(FILE * logfile);  /* Crosstest for omp parallel if */
 int test_omp_section_lastprivate(FILE * logfile);  /* Test for omp section lastprivate */
 int crosstest_omp_section_lastprivate(FILE * logfile);  /* Crosstest for omp section lastprivate */
+int test_omp_for_collapse(FILE * logfile);  /* Test for omp for collapse */
+int crosstest_omp_for_collapse(FILE * logfile);  /* Crosstest for omp for collapse */
 int test_omp_parallel_for_firstprivate(FILE * logfile);  /* Test for omp parallel for firstprivate */
 int crosstest_omp_parallel_for_firstprivate(FILE * logfile);  /* Crosstest for omp parallel for firstprivate */
 int test_omp_parallel_copyin(FILE * logfile);  /* Test for omp parallel copyin */
@@ -132,6 +134,8 @@ int test_omp_in_parallel(FILE * logfile);  /* Test for omp_in_parallel */
 int crosstest_omp_in_parallel(FILE * logfile);  /* Crosstest for omp_in_parallel */
 int test_omp_parallel_sections_firstprivate(FILE * logfile);  /* Test for omp parallel sections firstprivate */
 int crosstest_omp_parallel_sections_firstprivate(FILE * logfile);  /* Crosstest for omp parallel sections firstprivate */
+int test_omp_for_auto(FILE * logfile);  /* Test for omp for auto */
+int crosstest_omp_for_auto(FILE * logfile);  /* Crosstest for omp for auto */
 int test_omp_section_private(FILE * logfile);  /* Test for omp section private */
 int crosstest_omp_section_private(FILE * logfile);  /* Crosstest for omp section private */
 int test_omp_parallel_sections_private(FILE * logfile);  /* Test for omp parallel sections private */

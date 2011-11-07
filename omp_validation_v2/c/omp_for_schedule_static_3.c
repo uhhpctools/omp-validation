@@ -20,6 +20,8 @@
 #define SLEEPTIME 0.0005
 #endif
 
+#define VERBOSE 0
+
 
 int <ompts:testcode:functionname>omp_for_schedule_static_3</ompts:testcode:functionname> (FILE * logFile)
 {
