@@ -1,0 +1,29 @@
+######## OpenMP Validation Suite V 3.0a ######
+## Repetitions:  20                       ####
+## Loop Count :   1000                    ####
+##############################################
+Testing omp barrier
+
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Directive failed the test 20 times out of 20.
+0 test(s) were successful
+Result: 100

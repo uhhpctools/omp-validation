@@ -1,0 +1,178 @@
+######## OpenMP Validation Suite V 3.0a ######
+## Repetitions:  20                       ####
+## Loop Count :   1000                    ####
+##############################################
+Testing omp for reduction
+
+
+
+1. run of ctest_omp_for_reduction out of 20
+
+Error in sum with integers: Result was 499104 instead of 500500.
+Error in difference with integers: Result was 63 instead of 0.
+
+Error in sum with doubles: Result was 1.499994 instead of: 1.500000 (Difference: -5.645029E-06)
+Error: Test failed.
+
+
+2. run of ctest_omp_for_reduction out of 20
+
+Error in Product with integers: Result was 453600 instead of 3628800
+
+Error in sum with doubles: Result was 1.166667 instead of: 1.500000 (Difference: -3.333333E-01)
+Error in Difference with doubles: Result was 1.881676E-06 instead of 0.0
+Error: Test failed.
+
+
+3. run of ctest_omp_for_reduction out of 20
+
+Error in sum with integers: Result was 499349 instead of 500500.
+Error in difference with integers: Result was 9 instead of 0.
+
+Error in sum with doubles: Result was 1.495885 instead of: 1.500000 (Difference: -4.115226E-03)
+Error: Test failed.
+
+
+4. run of ctest_omp_for_reduction out of 20
+
+Error in difference with integers: Result was 1223 instead of 0.
+
+Error in sum with doubles: Result was 1.487603 instead of: 1.500000 (Difference: -1.239669E-02)
+Error: Test failed.
+
+
+5. run of ctest_omp_for_reduction out of 20
+
+Error in difference with integers: Result was 23510 instead of 0.
+Error: Test failed.
+
+
+6. run of ctest_omp_for_reduction out of 20
+
+Error in sum with integers: Result was 497995 instead of 500500.
+Error in Product with integers: Result was 907200 instead of 3628800
+Error: Test failed.
+
+
+7. run of ctest_omp_for_reduction out of 20
+
+Error in difference with integers: Result was 4843 instead of 0.
+Error in Product with integers: Result was 1209600 instead of 3628800
+
+Error in sum with doubles: Result was 1.495885 instead of: 1.500000 (Difference: -4.115226E-03)
+Error: Test failed.
+
+
+8. run of ctest_omp_for_reduction out of 20
+
+Error in Product with integers: Result was 403200 instead of 3628800
+
+Error in sum with doubles: Result was 1.498623 instead of: 1.500000 (Difference: -1.377410E-03)
+Error in Difference with doubles: Result was 5.668260E-06 instead of 0.0
+Error: Test failed.
+
+
+9. run of ctest_omp_for_reduction out of 20
+
+Error in sum with integers: Result was 497920 instead of 500500.
+
+Error in sum with doubles: Result was 1.495426 instead of: 1.500000 (Difference: -4.574363E-03)
+Error: Test failed.
+
+
+10. run of ctest_omp_for_reduction out of 20
+
+Error in difference with integers: Result was 43106 instead of 0.
+Error in Product with integers: Result was 1209600 instead of 3628800
+
+Error in sum with doubles: Result was 1.495885 instead of: 1.500000 (Difference: -4.115226E-03)
+Error in BIT OR part 2
+Error: Test failed.
+
+
+11. run of ctest_omp_for_reduction out of 20
+
+Error in sum with integers: Result was 496624 instead of 500500.
+
+Error in sum with doubles: Result was 1.487603 instead of: 1.500000 (Difference: -1.239669E-02)
+Error in Difference with doubles: Result was 5.668260E-06 instead of 0.0
+Error: Test failed.
+
+
+12. run of ctest_omp_for_reduction out of 20
+
+Error in sum with integers: Result was 498673 instead of 500500.
+Error in difference with integers: Result was 500 instead of 0.
+
+Error in sum with doubles: Result was 1.495868 instead of: 1.500000 (Difference: -4.132231E-03)
+Error: Test failed.
+
+
+13. run of ctest_omp_for_reduction out of 20
+
+Error in difference with integers: Result was 896 instead of 0.
+Error in Product with integers: Result was 1209600 instead of 3628800
+
+Error in sum with doubles: Result was 1.495885 instead of: 1.500000 (Difference: -4.115226E-03)
+Error: Test failed.
+
+
+14. run of ctest_omp_for_reduction out of 20
+
+Error in sum with integers: Result was 500496 instead of 500500.
+Error in difference with integers: Result was 12651 instead of 0.
+Error: Test failed.
+
+
+15. run of ctest_omp_for_reduction out of 20
+
+Error in sum with integers: Result was 494353 instead of 500500.
+
+Error in sum with doubles: Result was 1.495885 instead of: 1.500000 (Difference: -4.115226E-03)
+Error: Test failed.
+
+
+16. run of ctest_omp_for_reduction out of 20
+
+Error in sum with integers: Result was 489822 instead of 500500.
+Error in difference with integers: Result was 24231 instead of 0.
+
+Error in sum with doubles: Result was 1.495868 instead of: 1.500000 (Difference: -4.132231E-03)
+Error: Test failed.
+
+
+17. run of ctest_omp_for_reduction out of 20
+
+Error in difference with integers: Result was 56412 instead of 0.
+
+Error in sum with doubles: Result was 1.487603 instead of: 1.500000 (Difference: -1.239669E-02)
+Error in Difference with doubles: Result was 1.530430E-04 instead of 0.0
+Error: Test failed.
+
+
+18. run of ctest_omp_for_reduction out of 20
+
+Error in sum with integers: Result was 499346 instead of 500500.
+
+Error in sum with doubles: Result was 1.487637 instead of: 1.500000 (Difference: -1.236268E-02)
+Error in Difference with doubles: Result was 1.700478E-05 instead of 0.0
+Error: Test failed.
+
+
+19. run of ctest_omp_for_reduction out of 20
+
+Error in sum with integers: Result was 499528 instead of 500500.
+Error in difference with integers: Result was 47 instead of 0.
+Error in Product with integers: Result was 453600 instead of 3628800
+
+Error in sum with doubles: Result was 1.462810 instead of: 1.500000 (Difference: -3.719008E-02)
+Error: Test failed.
+
+
+20. run of ctest_omp_for_reduction out of 20
+
+Error in sum with integers: Result was 500208 instead of 500500.
+Error in difference with integers: Result was 5018 instead of 0.
+Error: Test failed.
+
+Directive failed the test 20 times out of 20. 0 were successful

@@ -1,0 +1,25 @@
+######## OpenMP Validation Suite V 3.0a ######
+## Repetitions:  20                       ####
+## Loop Count :   1000                    ####
+##############################################
+Testing omp parallel sections private
+
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Directive failed the test 16 times out of 20.
+4 test(s) were successful
+Result: 80

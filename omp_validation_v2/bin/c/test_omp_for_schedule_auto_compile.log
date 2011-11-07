@@ -1,0 +1,1 @@
+uhcc -mp    bin/c/test_omp_for_schedule_auto.c   -o bin/c/test_omp_for_schedule_auto

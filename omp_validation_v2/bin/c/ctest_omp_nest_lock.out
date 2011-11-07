@@ -1,0 +1,28 @@
+######## OpenMP Validation Suite V 3.0a ######
+## Repetitions:  20                       ####
+## Loop Count :   1000                    ####
+##############################################
+Testing omp_nest_lock
+
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Directive failed the test 19 times out of 20.
+1 test(s) were successful
+Result: 95

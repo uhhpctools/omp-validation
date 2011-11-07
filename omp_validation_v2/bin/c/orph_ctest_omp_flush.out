@@ -1,0 +1,27 @@
+######## OpenMP Validation Suite V 3.0a ######
+## Repetitions:  20                       ####
+## Loop Count :   1000                    ####
+##############################################
+Testing omp flush
+
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Error: Test failed.
+Directive failed the test 18 times out of 20.
+2 test(s) were successful
+Result: 90

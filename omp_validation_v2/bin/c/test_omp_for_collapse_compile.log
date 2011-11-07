@@ -1,0 +1,1 @@
+uhcc -mp    bin/c/test_omp_for_collapse.c   -o bin/c/test_omp_for_collapse

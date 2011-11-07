@@ -1,0 +1,188 @@
+######## OpenMP Validation Suite V 3.0a ######
+## Repetitions:  20                       ####
+## Loop Count :   1000                    ####
+##############################################
+Testing omp parallel for nowait
+
+
+
+1. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+
+2. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+
+3. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+
+4. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+
+5. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+
+6. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+
+7. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+
+8. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+
+9. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+
+10. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+
+11. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+
+12. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+
+13. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+
+14. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+
+15. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+
+16. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+
+17. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+
+18. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+
+19. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+
+20. run of orph_ctest_omp_for_nowait out of 20
+
+Thread nr 0 entering for loop and going to sleep.
+Thread nr 0 woke up and set count = 1.
+Thread nr 0 exited first for loop and enters the second.
+Thread nr 1 exited first for loop and enters the second.
+Error: Test failed.
+
+Directive failed the test 20 times out of 20. 0 were successful
