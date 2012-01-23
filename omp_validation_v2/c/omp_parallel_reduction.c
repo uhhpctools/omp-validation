@@ -9,7 +9,8 @@
 
 
 int <ompts:testcode:functionname>omp_parallel_reduction</ompts:testcode:functionname>(FILE * logFile){
-	int sum=0;
+	<ompts:orphan:vars>
+    int sum=0;
 	int known_sum;
 	double dsum=0;
 	double dknown_sum;
@@ -31,10 +32,10 @@ int <ompts:testcode:functionname>omp_parallel_reduction</ompts:testcode:function
 	int i;
 	double dpt;
 	int result=0;
-
+</ompts:orphan:vars>
 	dt = 1./3.;
 	known_sum = (LOOPCOUNT*(LOOPCOUNT+1))/2;
-
+<ompts:orphan>
 #pragma omp parallel for schedule(dynamic,1) <ompts:check>reduction(+:sum)</ompts:check><ompts:crosscheck></ompts:crosscheck>
 	for (i=1;i<=LOOPCOUNT;i++)
 	{
@@ -260,7 +261,7 @@ int <ompts:testcode:functionname>omp_parallel_reduction</ompts:testcode:function
 		result++;
 		fprintf(logFile,"Error in EXCLUSIV BIT OR part 2\n");
 	}
-
+    </ompts:orphan>
 	/*printf("\nResult:%d\n",result);*/
 	return (result==0);
 }

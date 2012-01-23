@@ -8,9 +8,12 @@
 #include "omp_testsuite.h"
 
 int <ompts:testcode:functionname>omp_parallel_sections_firstprivate</ompts:testcode:functionname>(FILE * logFile){
-int sum=7;
+  <ompts:orphan:vars>
+  int sum=7;
   int sum0=11;
+  </ompts:orphan:vars>
   int known_sum;
+<ompts:orphan>
 #pragma omp parallel sections <ompts:check>firstprivate(sum0)</ompts:check><ompts:crosscheck>private(sum0)</ompts:crosscheck>
   {
 #pragma omp section 
@@ -35,6 +38,7 @@ int sum=7;
       }                         /*end of critical */
     }               
     }      /*end of parallel sections*/
+</ompts:orphan>
 known_sum=11*3+7;
 return (known_sum==sum); 
 }                              /* end of check_section_firstprivate*/

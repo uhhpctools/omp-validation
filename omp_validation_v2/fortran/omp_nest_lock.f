@@ -6,6 +6,7 @@
 <ompts:testcode>
       INTEGER FUNCTION <ompts:testcode:functionname>omp_nest_lock</ompts:testcode:functionname>()
         IMPLICIT NONE
+        include "omp_lib.h"
         INTEGER result
 !result is:
 !  0 -- if the test fails

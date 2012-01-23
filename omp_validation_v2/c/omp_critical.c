@@ -12,30 +12,31 @@
 int <ompts:testcode:functionname>omp_critical</ompts:testcode:functionname> (FILE * logFile)
 {
     <ompts:orphan:vars>
-	int sum;
+	int sum=0;
+    int i;
     </ompts:orphan:vars>
 
     int known_sum;
 
-    sum = 0;
-
 #pragma omp parallel
     {
 	<ompts:orphan>
-	    int i;
+    int mysum=0;
 #pragma omp for
 	    for (i = 0; i < 1000; i++)
 	    {
-		<ompts:check>#pragma omp critical</ompts:check>
-		{
-		    sum = sum + i;
-		}	/* end of critical */
-	    }	/* end of for */
-	</ompts:orphan>
+		    mysum = mysum + i;
+	    }    /* end of for */
+
+<ompts:check>#pragma omp critical</ompts:check>
+	sum = mysum +sum;
+        
+        </ompts:orphan>
     }	/* end of parallel */
 
     known_sum = 999 * 1000 / 2;
     return (known_sum == sum);
+
 }
 </ompts:testcode>
 </ompts:test>

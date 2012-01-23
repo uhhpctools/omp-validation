@@ -8,11 +8,15 @@
 #include "omp_testsuite.h"
 
 int <ompts:testcode:functionname>omp_parallel_sections_lastprivate</ompts:testcode:functionname>(FILE * logFile){
+  <ompts:orphan:vars>
   int sum=0;
   int sum0=0;
-  int known_sum;
   int i;
   int i0=-1;
+  </ompts:orphan:vars>
+  int known_sum;
+  
+  <ompts:orphan>
 #pragma omp parallel sections private(i,sum0) <ompts:check>lastprivate(i0)</ompts:check><ompts:crosscheck>private(i0)</ompts:crosscheck>
     {
 #pragma omp section  
@@ -55,7 +59,8 @@ int <ompts:testcode:functionname>omp_parallel_sections_lastprivate</ompts:testco
 	}                         /*end of critical*/
       }
     }/* end of parallel sections*/
-   known_sum=(999*1000)/2;
+  </ompts:orphan> 
+  known_sum=(999*1000)/2;
   return ((known_sum==sum) && (i0==999) );
 }
 </ompts:testcode>

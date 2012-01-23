@@ -9,7 +9,8 @@
 
 
 int <ompts:testcode:functionname>omp_parallel_sections_reduction</ompts:testcode:functionname>(FILE * logFile){
-	int sum=7;
+	<ompts:orphan:vars>
+    int sum=7;
 	int known_sum;	
 	double dpt=1,dsum=0;
 	double dknown_sum;
@@ -27,10 +28,13 @@ int <ompts:testcode:functionname>omp_parallel_sections_reduction</ompts:testcode
 	int logics[1000];
 	int i;
 	int result=0;
+    </ompts:orphan:vars>
 
 	/*  int my_islarger;*/
 	/*int is_larger=1;*/
 	known_sum = (999*1000)/2+7;
+
+    <ompts:orphan>
 #pragma omp parallel sections private(i) <ompts:check>reduction(+:sum)</ompts:check><ompts:crosscheck></ompts:crosscheck>
 	{
 #pragma omp section
@@ -545,7 +549,7 @@ int <ompts:testcode:functionname>omp_parallel_sections_reduction</ompts:testcode
 		result++;
 		fprintf(logFile,"Error in EXCLUSIV BIT OR part 2\n");
 	}
-
+</ompts:orphan>
 	/*printf("\nResult:%d\n",result);*/
 	return (result==0);
 }

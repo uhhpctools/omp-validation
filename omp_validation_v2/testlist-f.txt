@@ -20,7 +20,7 @@ omp_lock
 omp_master
 omp_nest_lock
 omp_test_nest_lock
-omp_nested
+#omp_nested
 omp_num_threads
 omp_testlock
 omp_threadprivate

@@ -10,16 +10,18 @@
 
 int <ompts:testcode:functionname>omp_parallel_shared</ompts:testcode:functionname> (FILE * logFile)
 {
+  <ompts:orphan:vars>
   int i;
   int sum = 0;
+  </ompts:orphan:vars>
+  
   int known_sum;
-  int mysum;
-
   known_sum = (LOOPCOUNT * (LOOPCOUNT + 1)) / 2 ;
 
-#pragma omp parallel <ompts:check>shared(sum)</ompts:check> private(mysum<ompts:crosscheck>,sum</ompts:crosscheck>)
+#pragma omp parallel <ompts:check>shared(sum)</ompts:check> <ompts:crosscheck>firstprivate(sum)</ompts:crosscheck>
   {
-	mysum = 0;
+    <ompts:orphan>
+    int mysum = 0;
 #pragma omp for
 	for (i = 1; i <= LOOPCOUNT; i++)
 	{
@@ -29,6 +31,8 @@ int <ompts:testcode:functionname>omp_parallel_shared</ompts:testcode:functionnam
 	{
 	  sum = sum + mysum;
 	}   /* end of critical */
+</ompts:orphan>
+
   }   /* end of parallel */
   if (known_sum != sum) {
   	fprintf(logFile, "KNOWN_SUM = %d; SUM = %d\n", known_sum, sum);

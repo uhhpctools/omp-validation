@@ -8,15 +8,22 @@
 #include "omp_testsuite.h"
 
 int <ompts:testcode:functionname>omp_parallel_sections_private</ompts:testcode:functionname>(FILE * logFile){
+  <ompts:orphan:vars>
   int sum=7;
   int sum0=0;
-  int known_sum;
   int i;
-#pragma omp parallel sections private(<ompts:check>sum0,</ompts:check><ompts:crosscheck></ompts:crosscheck>i)
+  </ompts:orphan:vars>
+  int known_sum;
+
+
+<ompts:orphan>
+#pragma omp parallel sections private(<ompts:check>sum0,</ompts:check> i)
   {
 #pragma omp section 
     {
+      <ompts:check>
       sum0=0;
+      </ompts:check>
       for (i=1;i<400;i++)
 	sum0=sum0+i;
 #pragma omp critical
@@ -26,7 +33,9 @@ int <ompts:testcode:functionname>omp_parallel_sections_private</ompts:testcode:f
     }    
 #pragma omp section
     {
+      <ompts:check>
       sum0=0;
+      </ompts:check>
       for(i=400;i<700;i++)
 	sum0=sum0+i;
 #pragma omp critical
@@ -36,7 +45,9 @@ int <ompts:testcode:functionname>omp_parallel_sections_private</ompts:testcode:f
     }
 #pragma omp section
     {
+      <ompts:check>
       sum0=0;
+      </ompts:check>
       for(i=700;i<1000;i++)
 	sum0=sum0+i;
 #pragma omp critical
@@ -45,6 +56,7 @@ int <ompts:testcode:functionname>omp_parallel_sections_private</ompts:testcode:f
       }                         /*end of critical */
     }               
   }        /*end of paralell sections*/
+</ompts:orphan>
 known_sum=(999*1000)/2+7;
 return (known_sum==sum); 
 }                              /* end of check_section_private*/

@@ -35,15 +35,15 @@
 #########################################################
 
 # GNU Compiler
-#CC     = gcc
-#CFLAGS = -fopenmp -lm
-#CFLAGS = -fopenmp -lm -O3
+CC     = gcc
+CFLAGS = -fopenmp -lm
+#CFLAGS = -fopenmp -lm 
 #FC     = gfortran
 #FFLAGS = -fopenmp -lm
 #FFLAGS = -fopenmp -lm -O3
 
 #CC=icc
-#CFLAGS=-openmp
+#CFLAGS=-openmp -lm 
 
 # Fujitsu Compilers:
 #CC = fcc
@@ -148,10 +148,10 @@
 
 #OpenUH Compiler
 CC = uhcc
-CFLAGS = -mp
+CFLAGS = -mp 
 
-FC = uhf90
-FFLAGS = -mp 
+#FC = uhf90
+#FFLAGS = -mp -O3
 
 
 omp_my_sleep: 

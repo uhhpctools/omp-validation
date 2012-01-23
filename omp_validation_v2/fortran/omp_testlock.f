@@ -6,6 +6,7 @@
 <ompts:testcode>
       INTEGER FUNCTION <ompts:testcode:functionname>omp_testlock</ompts:testcode:functionname>()
         IMPLICIT NONE
+        include "omp_lib.h"
         INTEGER result
         INTEGER nr_threads_in_single
         INTEGER (KIND=OMP_LOCK_KIND)::lock

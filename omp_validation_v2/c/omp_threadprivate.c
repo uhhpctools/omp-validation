@@ -16,9 +16,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+<ompts:orphan:vars>
 static int sum0 = 0;
-<ompts:check>#pragma omp threadprivate(sum0)</ompts:check>
+</ompts:orphan:vars>
 
+<ompts:orphan>
+<ompts:check>#pragma omp threadprivate(sum0)</ompts:check>
+</ompts:orphan>
 static int myvalue = 0;
 <ompts:check>#pragma omp threadprivate(myvalue)</ompts:check>
 

@@ -25,7 +25,9 @@ int <ompts:testcode:functionname>omp_section_private</ompts:testcode:functionnam
 	{
 #pragma omp section 
 	    {
-		sum0 = 0;
+		<ompts:check>
+        sum0 = 0;
+        </ompts:check>
 		for (i = 1; i < 400; i++)
 		    sum0 = sum0 + i;
 #pragma omp critical
@@ -35,7 +37,9 @@ int <ompts:testcode:functionname>omp_section_private</ompts:testcode:functionnam
 	    }    
 #pragma omp section
 	    {
+          <ompts:check>
 		sum0 = 0;
+          </ompts:check>
 		for (i = 400; i < 700; i++)
 		    sum0 = sum0 + i;
 #pragma omp critical
@@ -45,7 +49,9 @@ int <ompts:testcode:functionname>omp_section_private</ompts:testcode:functionnam
 	    }
 #pragma omp section
 	    {
+          <ompts:check>
 		sum0 = 0;
+          </ompts:check>
 		for (i = 700; i < 1000; i++)
 		    sum0 = sum0 + i;
 #pragma omp critical

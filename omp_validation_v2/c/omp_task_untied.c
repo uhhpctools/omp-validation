@@ -1,8 +1,8 @@
 <ompts:test>
-<ompts:testdescription>Test which checks the untied clause of the omp task directive. The idear of the tests is to generate a set of tasks in a single region. We create more tasks then threads exist, so at least one thread should handle more than one thread. Then we send the half of the threads into a bussy loop. We let finish the other threads. Now we should get rescheduled some untied tasks to the idle threads.</ompts:testdescription>
+<ompts:testdescription>Test for untied clause. First generate a set of tasks and pause it immediately. Then we resume half of them and check whether they are scheduled by different threads</ompts:testdescription>
 <ompts:ompversion>3.0</ompts:ompversion>
 <ompts:directive>omp task untied</ompts:directive>
-<ompts:dependences>omp single, omp flush</ompts:dependences>
+<ompts:dependences>omp taskwait</ompts:dependences>
 <ompts:testcode>
 #include <stdio.h>
 #include <math.h>
@@ -10,70 +10,50 @@
 #include "omp_my_sleep.h"
 
 int <ompts:testcode:functionname>omp_task_untied</ompts:testcode:functionname>(FILE * logFile){
-    int i;
-    <ompts:orphan:vars>
-    int result = 0;
-    int started = 0;
-    int state = 1;
-    int num_tasks = 0;
-    int num_threads;
-    int max_num_tasks;
-    </ompts:orphan:vars>
 
-
-    #pragma omp parallel 
+  <ompts:orphan:vars>
+  int i;
+  int count = 0;
+  int start_tid[NUM_TASKS];
+  int current_tid[NUM_TASKS];
+  </ompts:orphan:vars>
+  for (i=0; i< NUM_TASKS; i++){
+    start_tid[i]=0;
+    current_tid[i]=0;
+  }
+  
+  #pragma omp parallel
+  {
+    #pragma omp single
     {
-        #pragma omp single
+      for (i = 0; i < NUM_TASKS; i++) {
+        <ompts:orphan>
+        int myi = i;
+        <ompts:check>#pragma omp task untied</ompts:check>
         {
-            num_threads = omp_get_num_threads();
-            max_num_tasks = num_threads * MAX_TASKS_PER_THREAD;
+          my_sleep(SLEEPTIME);
+          start_tid[myi] = omp_get_thread_num();
+          
+          #pragma omp taskwait
+          
+          if((start_tid[myi] %2) ==0){
+            //my_sleep(SLEEPTIME);
+            current_tid[myi] = omp_get_thread_num();
+          } /*end of if*/
+        } /* end of omp task */
+        </ompts:orphan>
+      } /* end of for */
+    } /* end of single */
+  } /* end of parallel */
 
-            for (i = 0; i < max_num_tasks; i++) {
-                <ompts:orphan>
-                #pragma omp task <ompts:check>untied</ompts:check>
-                {
-                    int start_tid;
-                    int current_tid;
-
-                    start_tid = omp_get_thread_num();
-                    #pragma omp critical
-                    { num_tasks++; }
-
-                    while (num_tasks < max_num_tasks) {
-                        my_sleep (SLEEPTIME);
-                        #pragma omp flush (num_tasks)
-                    }
-
-
-                    if ((start_tid % 2) == 0) {
-                        do {
-                            my_sleep (SLEEPTIME);
-                            current_tid = omp_get_thread_num ();
-                            if (current_tid != start_tid) {
-                                #pragma omp critical
-                                { result++; }
-                                break;
-                            }
-                            #pragma omp flush (state)
-                        } while (state);
-                    } 
-                } /* end of omp task */
-                </ompts:orphan>
-            } /* end of for */
-
-            /* wait until all tasks have been created and were sheduled at least
-             * a first time */
-            while (num_tasks < max_num_tasks) {
-                my_sleep (SLEEPTIME);
-                #pragma omp flush (num_tasks)
-            }
-            /* wait a little moment more until we stop the test */
-            my_sleep(SLEEPTIME_LONG);
-            state = 0;
-        } /* end of single */
-    } /* end of parallel */
-
-    return result;
-} 
+  for (i=0;i<NUM_TASKS; i++)
+  {
+    //printf("start_tid[%d]=%d, current_tid[%d]=%d\n",i, start_tid[i], i , current_tid[i]);
+    if (current_tid[i] == start_tid[i])
+      count++;
+  }
+  return (count<NUM_TASKS);
+}
 </ompts:testcode>
+
 </ompts:test>

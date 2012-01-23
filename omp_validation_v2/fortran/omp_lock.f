@@ -6,16 +6,18 @@
 <ompts:testcode>
       INTEGER FUNCTION <ompts:testcode:functionname>omp_lock</ompts:testcode:functionname>()
         IMPLICIT NONE
+        <ompts:orphan>
         include "omp_lib.h"
-	INTEGER result
+        </ompts:orphan>
+	    INTEGER result
         INTEGER nr_threads_in_single
         INTEGER nr_iterations
         INTEGER i
 !lock variable
-       !         <ompts:orphan:vars>
+                <ompts:orphan:vars>
         INTEGER (KIND=OMP_LOCK_KIND) :: lock 
-       ! COMMON /orphvars/ lock
-        !        </ompts:orphan:vars>
+        COMMON /orphvars/ lock
+                </ompts:orphan:vars>
 
 !result is:
 !  0 -- if the test fails

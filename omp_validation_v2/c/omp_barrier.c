@@ -24,12 +24,12 @@ int <ompts:testcode:functionname>omp_barrier</ompts:testcode:functionname> (FILE
     <ompts:orphan>
 	int rank;
 	rank = omp_get_thread_num ();
-	if (rank == 1) {
-	    my_sleep (SLEEPTIME);
-	    result2 = 3;
+	if (rank ==1) {
+        my_sleep(SLEEPTIME_LONG);
+        result2 = 3;
 	}
 <ompts:check>#pragma omp barrier</ompts:check>
-	if (rank == 0) {
+	if (rank == 2) {
 	    result1 = result2;
 	}
     </ompts:orphan>

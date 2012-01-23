@@ -8,7 +8,11 @@
 #include "omp_testsuite.h"
 
 int <ompts:testcode:functionname>has_openmp</ompts:testcode:functionname>(FILE * logFile){
+    <ompts:orphan:vars>
     int rvalue = 0;
+    </ompts:orphan:vars>
+
+    <ompts:orphan>
     <ompts:check>
 #ifdef _OPENMP
 	rvalue = 1;
@@ -19,6 +23,7 @@ int <ompts:testcode:functionname>has_openmp</ompts:testcode:functionname>(FILE *
 	rvalue = 1;
 #endif
     </ompts:crosscheck>
+      </ompts:orphan>
 	return (rvalue);
 }
 </ompts:testcode>
