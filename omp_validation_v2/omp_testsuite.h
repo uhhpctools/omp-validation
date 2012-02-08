@@ -92,8 +92,8 @@ int test_omp_for_lastprivate(FILE * logfile);  /* Test for omp for lastprivate *
 int crosstest_omp_for_lastprivate(FILE * logfile);  /* Crosstest for omp for lastprivate */
 int test_omp_parallel_num_threads(FILE * logfile);  /* Test for omp parellel num_threads */
 int crosstest_omp_parallel_num_threads(FILE * logfile);  /* Crosstest for omp parellel num_threads */
-int test_omp_task_untied(FILE * logfile);  /* Test for omp task untied */
-int crosstest_omp_task_untied(FILE * logfile);  /* Crosstest for omp task untied */
+int test_omp_taskyield(FILE * logfile);  /* Test for omp taskyield */
+int crosstest_omp_taskyield(FILE * logfile);  /* Crosstest for omp taskyield */
 int test_omp_parallel_for_private(FILE * logfile);  /* Test for omp parallel for private */
 int crosstest_omp_parallel_for_private(FILE * logfile);  /* Crosstest for omp parallel for private */
 int test_omp_get_wtime(FILE * logfile);  /* Test for omp_get_wtime */
@@ -122,8 +122,6 @@ int test_omp_nested(FILE * logfile);  /* Test for omp_nested */
 int crosstest_omp_nested(FILE * logfile);  /* Crosstest for omp_nested */
 int test_omp_for_schedule_static_3(FILE * logfile);  /* Test for omp for schedule(static) */
 int crosstest_omp_for_schedule_static_3(FILE * logfile);  /* Crosstest for omp for schedule(static) */
-int test_omp_task_untied(FILE * logfile);  /* Test for omp task untied */
-int crosstest_omp_task_untied(FILE * logfile);  /* Crosstest for omp task untied */
 int test_omp_in_parallel(FILE * logfile);  /* Test for omp_in_parallel */
 int crosstest_omp_in_parallel(FILE * logfile);  /* Crosstest for omp_in_parallel */
 int test_omp_parallel_sections_lastprivate(FILE * logfile);  /* Test for omp parallel sections lastprivate */
@@ -146,8 +144,6 @@ int test_omp_parallel_for_ordered(FILE * logfile);  /* Test for omp parallel for
 int crosstest_omp_parallel_for_ordered(FILE * logfile);  /* Crosstest for omp parallel for ordered */
 int test_omp_for_nowait(FILE * logfile);  /* Test for omp parallel for nowait */
 int crosstest_omp_for_nowait(FILE * logfile);  /* Crosstest for omp parallel for nowait */
-int test_omp_task_untied(FILE * logfile);  /* Test for omp task untied */
-int crosstest_omp_task_untied(FILE * logfile);  /* Crosstest for omp task untied */
 int test_omp_for_reduction(FILE * logfile);  /* Test for omp for reduction */
 int crosstest_omp_for_reduction(FILE * logfile);  /* Crosstest for omp for reduction */
 int test_omp_parallel_private(FILE * logfile);  /* Test for omp parallel private */

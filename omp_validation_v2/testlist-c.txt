@@ -66,6 +66,6 @@ omp_task_private
 omp_task_firstprivate
 omp_taskwait
 # New tests for OpenMP 3.1
-omp_taskyield
-omp_task_final
+#omp_taskyield
+#omp_task_final
 #omp_for_schedule_static_3
