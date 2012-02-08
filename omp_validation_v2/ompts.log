@@ -1,0 +1,970 @@
+8/2/2012 15.35.15: Warning: Old binary directory detected!
+8/2/2012 15.35.15: Warning: Old binary directory for language c found.
+8/2/2012 15.35.15: Testing for "has_openmp":
+8/2/2012 15.35.15: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_has_openmp >bin/c/test_has_openmp.out"
+8/2/2012 15.35.15: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_has_openmp > bin/c/ctest_has_openmp.out"
+8/2/2012 15.35.15: Testing for "has_openmp" in orphaned mode:
+8/2/2012 15.35.16: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_has_openmp >bin/c/orph_test_has_openmp.out"
+8/2/2012 15.35.16: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_has_openmp > bin/c/orph_ctest_has_openmp.out"
+8/2/2012 15.35.16: Warning: Old binary directory detected!
+8/2/2012 15.35.16: Warning: Old binary directory for language c found.
+8/2/2012 15.35.16: Testing for "omp_atomic":
+8/2/2012 15.35.16: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_atomic >bin/c/test_omp_atomic.out"
+8/2/2012 15.35.16: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_atomic > bin/c/ctest_omp_atomic.out"
+8/2/2012 15.35.16: Testing for "omp_atomic" in orphaned mode:
+8/2/2012 15.35.16: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_atomic >bin/c/orph_test_omp_atomic.out"
+8/2/2012 15.35.16: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_atomic > bin/c/orph_ctest_omp_atomic.out"
+8/2/2012 15.35.16: Warning: Old binary directory detected!
+8/2/2012 15.35.16: Warning: Old binary directory for language c found.
+8/2/2012 15.35.16: Testing for "omp_barrier":
+8/2/2012 15.35.16: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_barrier >bin/c/test_omp_barrier.out"
+8/2/2012 15.35.17: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_barrier > bin/c/ctest_omp_barrier.out"
+8/2/2012 15.35.17: Testing for "omp_barrier" in orphaned mode:
+8/2/2012 15.35.17: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_barrier >bin/c/orph_test_omp_barrier.out"
+8/2/2012 15.35.18: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_barrier > bin/c/orph_ctest_omp_barrier.out"
+8/2/2012 15.35.19: Warning: Old binary directory detected!
+8/2/2012 15.35.19: Warning: Old binary directory for language c found.
+8/2/2012 15.35.19: Testing for "omp_critical":
+8/2/2012 15.35.19: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_critical >bin/c/test_omp_critical.out"
+8/2/2012 15.35.19: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_critical > bin/c/ctest_omp_critical.out"
+8/2/2012 15.35.19: Testing for "omp_critical" in orphaned mode:
+8/2/2012 15.35.19: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_critical >bin/c/orph_test_omp_critical.out"
+8/2/2012 15.35.19: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_critical > bin/c/orph_ctest_omp_critical.out"
+8/2/2012 15.35.19: Warning: Old binary directory detected!
+8/2/2012 15.35.19: Warning: Old binary directory for language c found.
+8/2/2012 15.35.19: Testing for "omp_flush":
+8/2/2012 15.35.19: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_flush >bin/c/test_omp_flush.out"
+8/2/2012 15.35.20: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_flush > bin/c/ctest_omp_flush.out"
+8/2/2012 15.35.20: Testing for "omp_flush" in orphaned mode:
+8/2/2012 15.35.20: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_flush >bin/c/orph_test_omp_flush.out"
+8/2/2012 15.35.20: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_flush > bin/c/orph_ctest_omp_flush.out"
+8/2/2012 15.35.20: Warning: Old binary directory detected!
+8/2/2012 15.35.20: Warning: Old binary directory for language c found.
+8/2/2012 15.35.20: Testing for "omp_for_firstprivate":
+8/2/2012 15.35.20: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_firstprivate >bin/c/test_omp_for_firstprivate.out"
+8/2/2012 15.35.20: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_firstprivate > bin/c/ctest_omp_for_firstprivate.out"
+8/2/2012 15.35.20: Testing for "omp_for_firstprivate" in orphaned mode:
+8/2/2012 15.35.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_firstprivate >bin/c/orph_test_omp_for_firstprivate.out"
+8/2/2012 15.35.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_firstprivate > bin/c/orph_ctest_omp_for_firstprivate.out"
+8/2/2012 15.35.21: Warning: Old binary directory detected!
+8/2/2012 15.35.21: Warning: Old binary directory for language c found.
+8/2/2012 15.35.21: Testing for "omp_for_lastprivate":
+8/2/2012 15.35.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_lastprivate >bin/c/test_omp_for_lastprivate.out"
+8/2/2012 15.35.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_lastprivate > bin/c/ctest_omp_for_lastprivate.out"
+8/2/2012 15.35.21: Testing for "omp_for_lastprivate" in orphaned mode:
+8/2/2012 15.35.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_lastprivate >bin/c/orph_test_omp_for_lastprivate.out"
+8/2/2012 15.35.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_lastprivate > bin/c/orph_ctest_omp_for_lastprivate.out"
+8/2/2012 15.35.21: Warning: Old binary directory detected!
+8/2/2012 15.35.21: Warning: Old binary directory for language c found.
+8/2/2012 15.35.21: Testing for "omp_for_ordered":
+8/2/2012 15.35.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_ordered >bin/c/test_omp_for_ordered.out"
+8/2/2012 15.35.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_ordered > bin/c/ctest_omp_for_ordered.out"
+8/2/2012 15.35.21: Testing for "omp_for_ordered" in orphaned mode:
+8/2/2012 15.35.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_ordered >bin/c/orph_test_omp_for_ordered.out"
+8/2/2012 15.35.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_ordered > bin/c/orph_ctest_omp_for_ordered.out"
+8/2/2012 15.35.21: Warning: Old binary directory detected!
+8/2/2012 15.35.21: Warning: Old binary directory for language c found.
+8/2/2012 15.35.21: Testing for "omp_for_private":
+8/2/2012 15.35.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_private >bin/c/test_omp_for_private.out"
+8/2/2012 15.35.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_private > bin/c/ctest_omp_for_private.out"
+8/2/2012 15.35.21: Testing for "omp_for_private" in orphaned mode:
+8/2/2012 15.35.22: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_private >bin/c/orph_test_omp_for_private.out"
+8/2/2012 15.35.22: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_private > bin/c/orph_ctest_omp_for_private.out"
+8/2/2012 15.35.22: Warning: Old binary directory detected!
+8/2/2012 15.35.22: Warning: Old binary directory for language c found.
+8/2/2012 15.35.22: Testing for "omp_for_reduction":
+8/2/2012 15.35.22: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_reduction >bin/c/test_omp_for_reduction.out"
+8/2/2012 15.35.22: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_reduction > bin/c/ctest_omp_for_reduction.out"
+8/2/2012 15.35.22: Testing for "omp_for_reduction" in orphaned mode:
+8/2/2012 15.35.22: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_reduction >bin/c/orph_test_omp_for_reduction.out"
+8/2/2012 15.35.22: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_reduction > bin/c/orph_ctest_omp_for_reduction.out"
+8/2/2012 15.35.22: Warning: Old binary directory detected!
+8/2/2012 15.35.22: Warning: Old binary directory for language c found.
+8/2/2012 15.35.22: Testing for "omp_for_schedule_dynamic":
+8/2/2012 15.35.22: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_schedule_dynamic >bin/c/test_omp_for_schedule_dynamic.out"
+8/2/2012 15.35.22: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_schedule_dynamic > bin/c/ctest_omp_for_schedule_dynamic.out"
+8/2/2012 15.35.22: Testing for "omp_for_schedule_dynamic" in orphaned mode:
+8/2/2012 15.35.23: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_schedule_dynamic >bin/c/orph_test_omp_for_schedule_dynamic.out"
+8/2/2012 15.35.23: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_schedule_dynamic > bin/c/orph_ctest_omp_for_schedule_dynamic.out"
+8/2/2012 15.35.23: Warning: Old binary directory detected!
+8/2/2012 15.35.23: Warning: Old binary directory for language c found.
+8/2/2012 15.35.23: Testing for "omp_for_schedule_guided":
+8/2/2012 15.35.23: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_schedule_guided >bin/c/test_omp_for_schedule_guided.out"
+8/2/2012 15.35.23: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_schedule_guided > bin/c/ctest_omp_for_schedule_guided.out"
+8/2/2012 15.35.23: Testing for "omp_for_schedule_guided" in orphaned mode:
+8/2/2012 15.35.23: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_schedule_guided >bin/c/orph_test_omp_for_schedule_guided.out"
+8/2/2012 15.35.23: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_schedule_guided > bin/c/orph_ctest_omp_for_schedule_guided.out"
+8/2/2012 15.35.23: Warning: Old binary directory detected!
+8/2/2012 15.35.23: Warning: Old binary directory for language c found.
+8/2/2012 15.35.23: Testing for "omp_for_schedule_static":
+8/2/2012 15.35.23: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_schedule_static >bin/c/test_omp_for_schedule_static.out"
+8/2/2012 15.35.23: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_schedule_static > bin/c/ctest_omp_for_schedule_static.out"
+8/2/2012 15.35.23: Testing for "omp_for_schedule_static" in orphaned mode:
+8/2/2012 15.35.23: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_schedule_static >bin/c/orph_test_omp_for_schedule_static.out"
+8/2/2012 15.35.23: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_schedule_static > bin/c/orph_ctest_omp_for_schedule_static.out"
+8/2/2012 15.35.23: Warning: Old binary directory detected!
+8/2/2012 15.35.23: Warning: Old binary directory for language c found.
+8/2/2012 15.35.23: Testing for "omp_for_nowait":
+8/2/2012 15.35.24: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_nowait >bin/c/test_omp_for_nowait.out"
+8/2/2012 15.35.24: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_nowait > bin/c/ctest_omp_for_nowait.out"
+8/2/2012 15.35.24: Testing for "omp_for_nowait" in orphaned mode:
+8/2/2012 15.35.24: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_nowait >bin/c/orph_test_omp_for_nowait.out"
+8/2/2012 15.35.24: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_nowait > bin/c/orph_ctest_omp_for_nowait.out"
+8/2/2012 15.35.24: Warning: Old binary directory detected!
+8/2/2012 15.35.24: Warning: Old binary directory for language c found.
+8/2/2012 15.35.24: Testing for "omp_get_num_threads":
+8/2/2012 15.35.24: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_get_num_threads >bin/c/test_omp_get_num_threads.out"
+8/2/2012 15.35.24: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_get_num_threads > bin/c/ctest_omp_get_num_threads.out"
+8/2/2012 15.35.24: Testing for "omp_get_num_threads" in orphaned mode:
+8/2/2012 15.35.24: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_get_num_threads >bin/c/orph_test_omp_get_num_threads.out"
+8/2/2012 15.35.24: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_get_num_threads > bin/c/orph_ctest_omp_get_num_threads.out"
+8/2/2012 15.35.24: Warning: Old binary directory detected!
+8/2/2012 15.35.24: Warning: Old binary directory for language c found.
+8/2/2012 15.35.24: Testing for "omp_get_wtick":
+8/2/2012 15.35.24: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_get_wtick >bin/c/test_omp_get_wtick.out"
+8/2/2012 15.35.24: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_get_wtick > bin/c/ctest_omp_get_wtick.out"
+8/2/2012 15.35.24: Testing for "omp_get_wtick" in orphaned mode:
+8/2/2012 15.35.24: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_get_wtick >bin/c/orph_test_omp_get_wtick.out"
+8/2/2012 15.35.24: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_get_wtick > bin/c/orph_ctest_omp_get_wtick.out"
+8/2/2012 15.35.24: Warning: Old binary directory detected!
+8/2/2012 15.35.24: Warning: Old binary directory for language c found.
+8/2/2012 15.35.24: Testing for "omp_get_wtime":
+8/2/2012 15.35.25: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_get_wtime >bin/c/test_omp_get_wtime.out"
+8/2/2012 15.35.26: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_get_wtime > bin/c/ctest_omp_get_wtime.out"
+8/2/2012 15.35.27: Testing for "omp_get_wtime" in orphaned mode:
+8/2/2012 15.35.27: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_get_wtime >bin/c/orph_test_omp_get_wtime.out"
+8/2/2012 15.35.28: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_get_wtime > bin/c/orph_ctest_omp_get_wtime.out"
+8/2/2012 15.35.29: Warning: Old binary directory detected!
+8/2/2012 15.35.29: Warning: Old binary directory for language c found.
+8/2/2012 15.35.29: Testing for "omp_in_parallel":
+8/2/2012 15.35.29: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_in_parallel >bin/c/test_omp_in_parallel.out"
+8/2/2012 15.35.29: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_in_parallel > bin/c/ctest_omp_in_parallel.out"
+8/2/2012 15.35.29: Testing for "omp_in_parallel" in orphaned mode:
+8/2/2012 15.35.29: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_in_parallel >bin/c/orph_test_omp_in_parallel.out"
+8/2/2012 15.35.29: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_in_parallel > bin/c/orph_ctest_omp_in_parallel.out"
+8/2/2012 15.35.29: Warning: Old binary directory detected!
+8/2/2012 15.35.29: Warning: Old binary directory for language c found.
+8/2/2012 15.35.29: Testing for "omp_lock":
+8/2/2012 15.35.29: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_lock >bin/c/test_omp_lock.out"
+8/2/2012 15.35.29: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_lock > bin/c/ctest_omp_lock.out"
+8/2/2012 15.35.29: Testing for "omp_lock" in orphaned mode:
+8/2/2012 15.35.29: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_lock >bin/c/orph_test_omp_lock.out"
+8/2/2012 15.35.29: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_lock > bin/c/orph_ctest_omp_lock.out"
+8/2/2012 15.35.29: Warning: Old binary directory detected!
+8/2/2012 15.35.29: Warning: Old binary directory for language c found.
+8/2/2012 15.35.29: Testing for "omp_master":
+8/2/2012 15.35.30: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_master >bin/c/test_omp_master.out"
+8/2/2012 15.35.30: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_master > bin/c/ctest_omp_master.out"
+8/2/2012 15.35.30: Testing for "omp_master" in orphaned mode:
+8/2/2012 15.35.30: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_master >bin/c/orph_test_omp_master.out"
+8/2/2012 15.35.30: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_master > bin/c/orph_ctest_omp_master.out"
+8/2/2012 15.35.30: Warning: Old binary directory detected!
+8/2/2012 15.35.30: Warning: Old binary directory for language c found.
+8/2/2012 15.35.30: Testing for "omp_nest_lock":
+8/2/2012 15.35.30: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_nest_lock >bin/c/test_omp_nest_lock.out"
+8/2/2012 15.35.30: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_nest_lock > bin/c/ctest_omp_nest_lock.out"
+8/2/2012 15.35.30: Testing for "omp_nest_lock" in orphaned mode:
+8/2/2012 15.35.30: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_nest_lock >bin/c/orph_test_omp_nest_lock.out"
+8/2/2012 15.35.30: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_nest_lock > bin/c/orph_ctest_omp_nest_lock.out"
+8/2/2012 15.35.30: Warning: Old binary directory detected!
+8/2/2012 15.35.30: Warning: Old binary directory for language c found.
+8/2/2012 15.35.30: Testing for "omp_parallel_copyin":
+8/2/2012 15.35.30: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_copyin >bin/c/test_omp_parallel_copyin.out"
+8/2/2012 15.35.30: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_copyin > bin/c/ctest_omp_parallel_copyin.out"
+8/2/2012 15.35.30: Testing for "omp_parallel_copyin" in orphaned mode:
+8/2/2012 15.35.30: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_copyin >bin/c/orph_test_omp_parallel_copyin.out"
+8/2/2012 15.35.30: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_copyin > bin/c/orph_ctest_omp_parallel_copyin.out"
+8/2/2012 15.35.30: Warning: Old binary directory detected!
+8/2/2012 15.35.30: Warning: Old binary directory for language c found.
+8/2/2012 15.35.30: Testing for "omp_parallel_for_firstprivate":
+8/2/2012 15.35.31: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_for_firstprivate >bin/c/test_omp_parallel_for_firstprivate.out"
+8/2/2012 15.35.31: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_for_firstprivate > bin/c/ctest_omp_parallel_for_firstprivate.out"
+8/2/2012 15.35.31: Testing for "omp_parallel_for_firstprivate" in orphaned mode:
+8/2/2012 15.35.31: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_for_firstprivate >bin/c/orph_test_omp_parallel_for_firstprivate.out"
+8/2/2012 15.35.31: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_for_firstprivate > bin/c/orph_ctest_omp_parallel_for_firstprivate.out"
+8/2/2012 15.35.31: Warning: Old binary directory detected!
+8/2/2012 15.35.31: Warning: Old binary directory for language c found.
+8/2/2012 15.35.31: Testing for "omp_parallel_for_lastprivate":
+8/2/2012 15.35.31: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_for_lastprivate >bin/c/test_omp_parallel_for_lastprivate.out"
+8/2/2012 15.35.31: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_for_lastprivate > bin/c/ctest_omp_parallel_for_lastprivate.out"
+8/2/2012 15.35.31: Testing for "omp_parallel_for_lastprivate" in orphaned mode:
+8/2/2012 15.35.31: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_for_lastprivate >bin/c/orph_test_omp_parallel_for_lastprivate.out"
+8/2/2012 15.35.31: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_for_lastprivate > bin/c/orph_ctest_omp_parallel_for_lastprivate.out"
+8/2/2012 15.35.31: Warning: Old binary directory detected!
+8/2/2012 15.35.31: Warning: Old binary directory for language c found.
+8/2/2012 15.35.31: Testing for "omp_parallel_for_ordered":
+8/2/2012 15.35.31: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_for_ordered >bin/c/test_omp_parallel_for_ordered.out"
+8/2/2012 15.35.31: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_for_ordered > bin/c/ctest_omp_parallel_for_ordered.out"
+8/2/2012 15.35.31: Testing for "omp_parallel_for_ordered" in orphaned mode:
+8/2/2012 15.35.31: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_for_ordered >bin/c/orph_test_omp_parallel_for_ordered.out"
+8/2/2012 15.35.31: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_for_ordered > bin/c/orph_ctest_omp_parallel_for_ordered.out"
+8/2/2012 15.35.31: Warning: Old binary directory detected!
+8/2/2012 15.35.31: Warning: Old binary directory for language c found.
+8/2/2012 15.35.31: Testing for "omp_parallel_for_private":
+8/2/2012 15.35.32: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_for_private >bin/c/test_omp_parallel_for_private.out"
+8/2/2012 15.35.32: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_for_private > bin/c/ctest_omp_parallel_for_private.out"
+8/2/2012 15.35.32: Testing for "omp_parallel_for_private" in orphaned mode:
+8/2/2012 15.35.32: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_for_private >bin/c/orph_test_omp_parallel_for_private.out"
+8/2/2012 15.35.32: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_for_private > bin/c/orph_ctest_omp_parallel_for_private.out"
+8/2/2012 15.35.32: Warning: Old binary directory detected!
+8/2/2012 15.35.32: Warning: Old binary directory for language c found.
+8/2/2012 15.35.32: Testing for "omp_parallel_for_reduction":
+8/2/2012 15.35.32: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_for_reduction >bin/c/test_omp_parallel_for_reduction.out"
+8/2/2012 15.35.32: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_for_reduction > bin/c/ctest_omp_parallel_for_reduction.out"
+8/2/2012 15.35.32: Testing for "omp_parallel_for_reduction" in orphaned mode:
+8/2/2012 15.35.32: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_for_reduction >bin/c/orph_test_omp_parallel_for_reduction.out"
+8/2/2012 15.35.32: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_for_reduction > bin/c/orph_ctest_omp_parallel_for_reduction.out"
+8/2/2012 15.35.32: Warning: Old binary directory detected!
+8/2/2012 15.35.32: Warning: Old binary directory for language c found.
+8/2/2012 15.35.32: Testing for "omp_parallel_num_threads":
+8/2/2012 15.35.33: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_num_threads >bin/c/test_omp_parallel_num_threads.out"
+8/2/2012 15.35.33: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_num_threads > bin/c/ctest_omp_parallel_num_threads.out"
+8/2/2012 15.35.33: Testing for "omp_parallel_num_threads" in orphaned mode:
+8/2/2012 15.35.33: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_num_threads >bin/c/orph_test_omp_parallel_num_threads.out"
+8/2/2012 15.35.33: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_num_threads > bin/c/orph_ctest_omp_parallel_num_threads.out"
+8/2/2012 15.35.33: Warning: Old binary directory detected!
+8/2/2012 15.35.33: Warning: Old binary directory for language c found.
+8/2/2012 15.35.33: Testing for "omp_parallel_sections_firstprivate":
+8/2/2012 15.35.33: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_sections_firstprivate >bin/c/test_omp_parallel_sections_firstprivate.out"
+8/2/2012 15.35.33: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_sections_firstprivate > bin/c/ctest_omp_parallel_sections_firstprivate.out"
+8/2/2012 15.35.33: Testing for "omp_parallel_sections_firstprivate" in orphaned mode:
+8/2/2012 15.35.33: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_sections_firstprivate >bin/c/orph_test_omp_parallel_sections_firstprivate.out"
+8/2/2012 15.35.33: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_sections_firstprivate > bin/c/orph_ctest_omp_parallel_sections_firstprivate.out"
+8/2/2012 15.35.33: Warning: Old binary directory detected!
+8/2/2012 15.35.33: Warning: Old binary directory for language c found.
+8/2/2012 15.35.33: Testing for "omp_parallel_sections_lastprivate":
+8/2/2012 15.35.33: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_sections_lastprivate >bin/c/test_omp_parallel_sections_lastprivate.out"
+8/2/2012 15.35.33: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_sections_lastprivate > bin/c/ctest_omp_parallel_sections_lastprivate.out"
+8/2/2012 15.35.33: Testing for "omp_parallel_sections_lastprivate" in orphaned mode:
+8/2/2012 15.35.33: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_sections_lastprivate >bin/c/orph_test_omp_parallel_sections_lastprivate.out"
+8/2/2012 15.35.33: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_sections_lastprivate > bin/c/orph_ctest_omp_parallel_sections_lastprivate.out"
+8/2/2012 15.35.33: Warning: Old binary directory detected!
+8/2/2012 15.35.33: Warning: Old binary directory for language c found.
+8/2/2012 15.35.33: Testing for "omp_parallel_sections_private":
+8/2/2012 15.35.34: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_sections_private >bin/c/test_omp_parallel_sections_private.out"
+8/2/2012 15.35.34: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_sections_private > bin/c/ctest_omp_parallel_sections_private.out"
+8/2/2012 15.35.34: Testing for "omp_parallel_sections_private" in orphaned mode:
+8/2/2012 15.35.34: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_sections_private >bin/c/orph_test_omp_parallel_sections_private.out"
+8/2/2012 15.35.34: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_sections_private > bin/c/orph_ctest_omp_parallel_sections_private.out"
+8/2/2012 15.35.34: Warning: Old binary directory detected!
+8/2/2012 15.35.34: Warning: Old binary directory for language c found.
+8/2/2012 15.35.34: Testing for "omp_parallel_sections_reduction":
+8/2/2012 15.35.34: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_sections_reduction >bin/c/test_omp_parallel_sections_reduction.out"
+8/2/2012 15.35.34: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_sections_reduction > bin/c/ctest_omp_parallel_sections_reduction.out"
+8/2/2012 15.35.34: Testing for "omp_parallel_sections_reduction" in orphaned mode:
+8/2/2012 15.35.34: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_sections_reduction >bin/c/orph_test_omp_parallel_sections_reduction.out"
+8/2/2012 15.35.34: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_sections_reduction > bin/c/orph_ctest_omp_parallel_sections_reduction.out"
+8/2/2012 15.35.34: Warning: Old binary directory detected!
+8/2/2012 15.35.34: Warning: Old binary directory for language c found.
+8/2/2012 15.35.34: Testing for "omp_section_firstprivate":
+8/2/2012 15.35.34: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_section_firstprivate >bin/c/test_omp_section_firstprivate.out"
+8/2/2012 15.35.34: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_section_firstprivate > bin/c/ctest_omp_section_firstprivate.out"
+8/2/2012 15.35.35: Testing for "omp_section_firstprivate" in orphaned mode:
+8/2/2012 15.35.35: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_section_firstprivate >bin/c/orph_test_omp_section_firstprivate.out"
+8/2/2012 15.35.35: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_section_firstprivate > bin/c/orph_ctest_omp_section_firstprivate.out"
+8/2/2012 15.35.35: Warning: Old binary directory detected!
+8/2/2012 15.35.35: Warning: Old binary directory for language c found.
+8/2/2012 15.35.35: Testing for "omp_section_lastprivate":
+8/2/2012 15.35.35: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_section_lastprivate >bin/c/test_omp_section_lastprivate.out"
+8/2/2012 15.35.35: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_section_lastprivate > bin/c/ctest_omp_section_lastprivate.out"
+8/2/2012 15.35.35: Testing for "omp_section_lastprivate" in orphaned mode:
+8/2/2012 15.35.35: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_section_lastprivate >bin/c/orph_test_omp_section_lastprivate.out"
+8/2/2012 15.35.35: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_section_lastprivate > bin/c/orph_ctest_omp_section_lastprivate.out"
+8/2/2012 15.35.35: Warning: Old binary directory detected!
+8/2/2012 15.35.35: Warning: Old binary directory for language c found.
+8/2/2012 15.35.35: Testing for "omp_section_private":
+8/2/2012 15.35.35: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_section_private >bin/c/test_omp_section_private.out"
+8/2/2012 15.35.35: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_section_private > bin/c/ctest_omp_section_private.out"
+8/2/2012 15.35.35: Testing for "omp_section_private" in orphaned mode:
+8/2/2012 15.35.35: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_section_private >bin/c/orph_test_omp_section_private.out"
+8/2/2012 15.35.35: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_section_private > bin/c/orph_ctest_omp_section_private.out"
+8/2/2012 15.35.35: Warning: Old binary directory detected!
+8/2/2012 15.35.35: Warning: Old binary directory for language c found.
+8/2/2012 15.35.35: Testing for "omp_sections_reduction":
+8/2/2012 15.35.36: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_sections_reduction >bin/c/test_omp_sections_reduction.out"
+8/2/2012 15.35.36: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_sections_reduction > bin/c/ctest_omp_sections_reduction.out"
+8/2/2012 15.35.36: Testing for "omp_sections_reduction" in orphaned mode:
+8/2/2012 15.35.36: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_sections_reduction >bin/c/orph_test_omp_sections_reduction.out"
+8/2/2012 15.35.36: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_sections_reduction > bin/c/orph_ctest_omp_sections_reduction.out"
+8/2/2012 15.35.36: Warning: Old binary directory detected!
+8/2/2012 15.35.36: Warning: Old binary directory for language c found.
+8/2/2012 15.35.36: Testing for "omp_sections_nowait":
+8/2/2012 15.35.36: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_sections_nowait >bin/c/test_omp_sections_nowait.out"
+8/2/2012 15.35.36: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_sections_nowait > bin/c/ctest_omp_sections_nowait.out"
+8/2/2012 15.35.36: Testing for "omp_sections_nowait" in orphaned mode:
+8/2/2012 15.35.36: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_sections_nowait >bin/c/orph_test_omp_sections_nowait.out"
+8/2/2012 15.35.36: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_sections_nowait > bin/c/orph_ctest_omp_sections_nowait.out"
+8/2/2012 15.35.36: Warning: Old binary directory detected!
+8/2/2012 15.35.36: Warning: Old binary directory for language c found.
+8/2/2012 15.35.36: Testing for "omp_parallel_for_if":
+8/2/2012 15.35.36: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_for_if >bin/c/test_omp_parallel_for_if.out"
+8/2/2012 15.35.36: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_for_if > bin/c/ctest_omp_parallel_for_if.out"
+8/2/2012 15.35.37: Testing for "omp_parallel_for_if" in orphaned mode:
+8/2/2012 15.35.37: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_for_if >bin/c/orph_test_omp_parallel_for_if.out"
+8/2/2012 15.35.37: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_for_if > bin/c/orph_ctest_omp_parallel_for_if.out"
+8/2/2012 15.35.37: Warning: Old binary directory detected!
+8/2/2012 15.35.37: Warning: Old binary directory for language c found.
+8/2/2012 15.35.37: Testing for "omp_single_copyprivate":
+8/2/2012 15.35.37: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_single_copyprivate >bin/c/test_omp_single_copyprivate.out"
+8/2/2012 15.35.37: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_single_copyprivate > bin/c/ctest_omp_single_copyprivate.out"
+8/2/2012 15.35.37: Testing for "omp_single_copyprivate" in orphaned mode:
+8/2/2012 15.35.37: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_single_copyprivate >bin/c/orph_test_omp_single_copyprivate.out"
+8/2/2012 15.35.37: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_single_copyprivate > bin/c/orph_ctest_omp_single_copyprivate.out"
+8/2/2012 15.35.37: Warning: Old binary directory detected!
+8/2/2012 15.35.37: Warning: Old binary directory for language c found.
+8/2/2012 15.35.37: Testing for "omp_single_nowait":
+8/2/2012 15.35.37: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_single_nowait >bin/c/test_omp_single_nowait.out"
+8/2/2012 15.35.37: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_single_nowait > bin/c/ctest_omp_single_nowait.out"
+8/2/2012 15.35.37: Testing for "omp_single_nowait" in orphaned mode:
+8/2/2012 15.35.37: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_single_nowait >bin/c/orph_test_omp_single_nowait.out"
+8/2/2012 15.35.37: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_single_nowait > bin/c/orph_ctest_omp_single_nowait.out"
+8/2/2012 15.35.37: Warning: Old binary directory detected!
+8/2/2012 15.35.37: Warning: Old binary directory for language c found.
+8/2/2012 15.35.37: Testing for "omp_single_private":
+8/2/2012 15.35.38: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_single_private >bin/c/test_omp_single_private.out"
+8/2/2012 15.35.38: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_single_private > bin/c/ctest_omp_single_private.out"
+8/2/2012 15.35.38: Testing for "omp_single_private" in orphaned mode:
+8/2/2012 15.35.38: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_single_private >bin/c/orph_test_omp_single_private.out"
+8/2/2012 15.35.38: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_single_private > bin/c/orph_ctest_omp_single_private.out"
+8/2/2012 15.35.38: Warning: Old binary directory detected!
+8/2/2012 15.35.38: Warning: Old binary directory for language c found.
+8/2/2012 15.35.38: Testing for "omp_single":
+8/2/2012 15.35.38: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_single >bin/c/test_omp_single.out"
+8/2/2012 15.35.38: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_single > bin/c/ctest_omp_single.out"
+8/2/2012 15.35.38: Testing for "omp_single" in orphaned mode:
+8/2/2012 15.35.38: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_single >bin/c/orph_test_omp_single.out"
+8/2/2012 15.35.38: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_single > bin/c/orph_ctest_omp_single.out"
+8/2/2012 15.35.38: Warning: Old binary directory detected!
+8/2/2012 15.35.38: Warning: Old binary directory for language c found.
+8/2/2012 15.35.38: Testing for "omp_test_lock":
+8/2/2012 15.35.38: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_test_lock >bin/c/test_omp_test_lock.out"
+8/2/2012 15.35.38: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_test_lock > bin/c/ctest_omp_test_lock.out"
+8/2/2012 15.35.38: Testing for "omp_test_lock" in orphaned mode:
+8/2/2012 15.35.38: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_test_lock >bin/c/orph_test_omp_test_lock.out"
+8/2/2012 15.35.38: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_test_lock > bin/c/orph_ctest_omp_test_lock.out"
+8/2/2012 15.35.38: Warning: Old binary directory detected!
+8/2/2012 15.35.38: Warning: Old binary directory for language c found.
+8/2/2012 15.35.38: Testing for "omp_test_nest_lock":
+8/2/2012 15.35.38: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_test_nest_lock >bin/c/test_omp_test_nest_lock.out"
+8/2/2012 15.35.39: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_test_nest_lock > bin/c/ctest_omp_test_nest_lock.out"
+8/2/2012 15.35.39: Testing for "omp_test_nest_lock" in orphaned mode:
+8/2/2012 15.35.39: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_test_nest_lock >bin/c/orph_test_omp_test_nest_lock.out"
+8/2/2012 15.35.39: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_test_nest_lock > bin/c/orph_ctest_omp_test_nest_lock.out"
+8/2/2012 15.35.39: Warning: Old binary directory detected!
+8/2/2012 15.35.39: Warning: Old binary directory for language c found.
+8/2/2012 15.35.39: Testing for "omp_threadprivate":
+8/2/2012 15.35.39: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_threadprivate >bin/c/test_omp_threadprivate.out"
+8/2/2012 15.35.39: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_threadprivate > bin/c/ctest_omp_threadprivate.out"
+8/2/2012 15.35.39: Testing for "omp_threadprivate" in orphaned mode:
+8/2/2012 15.35.39: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_threadprivate >bin/c/orph_test_omp_threadprivate.out"
+8/2/2012 15.35.39: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_threadprivate > bin/c/orph_ctest_omp_threadprivate.out"
+8/2/2012 15.35.39: Warning: Old binary directory detected!
+8/2/2012 15.35.39: Warning: Old binary directory for language c found.
+8/2/2012 15.35.39: Testing for "omp_parallel_default":
+8/2/2012 15.35.39: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_default >bin/c/test_omp_parallel_default.out"
+8/2/2012 15.35.39: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_default > bin/c/ctest_omp_parallel_default.out"
+8/2/2012 15.35.39: Testing for "omp_parallel_default" in orphaned mode:
+8/2/2012 15.35.39: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_default >bin/c/orph_test_omp_parallel_default.out"
+8/2/2012 15.35.39: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_default > bin/c/orph_ctest_omp_parallel_default.out"
+8/2/2012 15.35.39: Warning: Old binary directory detected!
+8/2/2012 15.35.39: Warning: Old binary directory for language c found.
+8/2/2012 15.35.39: Testing for "omp_parallel_shared":
+8/2/2012 15.35.40: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_shared >bin/c/test_omp_parallel_shared.out"
+8/2/2012 15.35.40: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_shared > bin/c/ctest_omp_parallel_shared.out"
+8/2/2012 15.35.40: Testing for "omp_parallel_shared" in orphaned mode:
+8/2/2012 15.35.40: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_shared >bin/c/orph_test_omp_parallel_shared.out"
+8/2/2012 15.35.40: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_shared > bin/c/orph_ctest_omp_parallel_shared.out"
+8/2/2012 15.35.40: Warning: Old binary directory detected!
+8/2/2012 15.35.40: Warning: Old binary directory for language c found.
+8/2/2012 15.35.40: Testing for "omp_parallel_private":
+8/2/2012 15.35.40: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_private >bin/c/test_omp_parallel_private.out"
+8/2/2012 15.35.40: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_private > bin/c/ctest_omp_parallel_private.out"
+8/2/2012 15.35.40: Testing for "omp_parallel_private" in orphaned mode:
+8/2/2012 15.35.40: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_private >bin/c/orph_test_omp_parallel_private.out"
+8/2/2012 15.35.40: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_private > bin/c/orph_ctest_omp_parallel_private.out"
+8/2/2012 15.35.40: Warning: Old binary directory detected!
+8/2/2012 15.35.40: Warning: Old binary directory for language c found.
+8/2/2012 15.35.40: Testing for "omp_parallel_firstprivate":
+8/2/2012 15.35.40: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_firstprivate >bin/c/test_omp_parallel_firstprivate.out"
+8/2/2012 15.35.40: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_firstprivate > bin/c/ctest_omp_parallel_firstprivate.out"
+8/2/2012 15.35.40: Testing for "omp_parallel_firstprivate" in orphaned mode:
+8/2/2012 15.35.40: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_firstprivate >bin/c/orph_test_omp_parallel_firstprivate.out"
+8/2/2012 15.35.40: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_firstprivate > bin/c/orph_ctest_omp_parallel_firstprivate.out"
+8/2/2012 15.35.40: Warning: Old binary directory detected!
+8/2/2012 15.35.40: Warning: Old binary directory for language c found.
+8/2/2012 15.35.40: Testing for "omp_parallel_if":
+8/2/2012 15.35.41: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_if >bin/c/test_omp_parallel_if.out"
+8/2/2012 15.35.41: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_if > bin/c/ctest_omp_parallel_if.out"
+8/2/2012 15.35.41: Testing for "omp_parallel_if" in orphaned mode:
+8/2/2012 15.35.41: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_if >bin/c/orph_test_omp_parallel_if.out"
+8/2/2012 15.35.41: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_if > bin/c/orph_ctest_omp_parallel_if.out"
+8/2/2012 15.35.41: Warning: Old binary directory detected!
+8/2/2012 15.35.41: Warning: Old binary directory for language c found.
+8/2/2012 15.35.41: Testing for "omp_parallel_reduction":
+8/2/2012 15.35.41: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_reduction >bin/c/test_omp_parallel_reduction.out"
+8/2/2012 15.35.41: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_reduction > bin/c/ctest_omp_parallel_reduction.out"
+8/2/2012 15.35.41: Testing for "omp_parallel_reduction" in orphaned mode:
+8/2/2012 15.35.41: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_reduction >bin/c/orph_test_omp_parallel_reduction.out"
+8/2/2012 15.35.41: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_reduction > bin/c/orph_ctest_omp_parallel_reduction.out"
+8/2/2012 15.35.41: Warning: Old binary directory detected!
+8/2/2012 15.35.41: Warning: Old binary directory for language c found.
+8/2/2012 15.35.41: Testing for "omp_for_collapse":
+8/2/2012 15.35.42: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_collapse >bin/c/test_omp_for_collapse.out"
+8/2/2012 15.35.42: Testing for "omp_for_collapse" in orphaned mode:
+8/2/2012 15.35.42: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_collapse >bin/c/orph_test_omp_for_collapse.out"
+8/2/2012 15.35.42: Warning: Old binary directory detected!
+8/2/2012 15.35.42: Warning: Old binary directory for language c found.
+8/2/2012 15.35.42: Testing for "omp_master_3":
+8/2/2012 15.35.42: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_master_3 >bin/c/test_omp_master_3.out"
+8/2/2012 15.35.42: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_master_3 > bin/c/ctest_omp_master_3.out"
+8/2/2012 15.35.42: Testing for "omp_master_3" in orphaned mode:
+8/2/2012 15.35.42: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_master_3 >bin/c/orph_test_omp_master_3.out"
+8/2/2012 15.35.42: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_master_3 > bin/c/orph_ctest_omp_master_3.out"
+8/2/2012 15.35.42: Warning: Old binary directory detected!
+8/2/2012 15.35.42: Warning: Old binary directory for language c found.
+8/2/2012 15.35.42: Testing for "omp_task":
+8/2/2012 15.35.42: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_task >bin/c/test_omp_task.out"
+8/2/2012 15.35.42: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_task > bin/c/ctest_omp_task.out"
+8/2/2012 15.35.43: Testing for "omp_task" in orphaned mode:
+8/2/2012 15.35.43: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_task >bin/c/orph_test_omp_task.out"
+8/2/2012 15.35.43: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_task > bin/c/orph_ctest_omp_task.out"
+8/2/2012 15.35.43: Warning: Old binary directory detected!
+8/2/2012 15.35.43: Warning: Old binary directory for language c found.
+8/2/2012 15.35.43: Testing for "omp_task_if":
+8/2/2012 15.35.43: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_task_if >bin/c/test_omp_task_if.out"
+8/2/2012 15.35.44: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_task_if > bin/c/ctest_omp_task_if.out"
+8/2/2012 15.35.44: Testing for "omp_task_if" in orphaned mode:
+8/2/2012 15.35.44: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_task_if >bin/c/orph_test_omp_task_if.out"
+8/2/2012 15.35.45: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_task_if > bin/c/orph_ctest_omp_task_if.out"
+8/2/2012 15.35.45: Warning: Old binary directory detected!
+8/2/2012 15.35.45: Warning: Old binary directory for language c found.
+8/2/2012 15.35.45: Testing for "omp_task_untied":
+8/2/2012 15.35.46: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_task_untied >bin/c/test_omp_task_untied.out"
+8/2/2012 15.35.46: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_task_untied > bin/c/ctest_omp_task_untied.out"
+8/2/2012 15.35.46: Testing for "omp_task_untied" in orphaned mode:
+8/2/2012 15.35.46: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_task_untied >bin/c/orph_test_omp_task_untied.out"
+8/2/2012 15.35.46: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_task_untied > bin/c/orph_ctest_omp_task_untied.out"
+8/2/2012 15.35.46: Warning: Old binary directory detected!
+8/2/2012 15.35.46: Warning: Old binary directory for language c found.
+8/2/2012 15.35.46: Testing for "omp_task_shared":
+8/2/2012 15.35.47: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_task_shared >bin/c/test_omp_task_shared.out"
+8/2/2012 15.35.47: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_task_shared > bin/c/ctest_omp_task_shared.out"
+8/2/2012 15.35.47: Testing for "omp_task_shared" in orphaned mode:
+8/2/2012 15.35.47: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_task_shared >bin/c/orph_test_omp_task_shared.out"
+8/2/2012 15.35.47: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_task_shared > bin/c/orph_ctest_omp_task_shared.out"
+8/2/2012 15.35.47: Warning: Old binary directory detected!
+8/2/2012 15.35.47: Warning: Old binary directory for language c found.
+8/2/2012 15.35.47: Testing for "omp_task_private":
+8/2/2012 15.35.47: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_task_private >bin/c/test_omp_task_private.out"
+8/2/2012 15.35.47: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_task_private > bin/c/ctest_omp_task_private.out"
+8/2/2012 15.35.47: Testing for "omp_task_private" in orphaned mode:
+8/2/2012 15.35.47: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_task_private >bin/c/orph_test_omp_task_private.out"
+8/2/2012 15.35.47: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_task_private > bin/c/orph_ctest_omp_task_private.out"
+8/2/2012 15.35.47: Warning: Old binary directory detected!
+8/2/2012 15.35.47: Warning: Old binary directory for language c found.
+8/2/2012 15.35.47: Testing for "omp_task_firstprivate":
+8/2/2012 15.35.47: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_task_firstprivate >bin/c/test_omp_task_firstprivate.out"
+8/2/2012 15.35.47: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_task_firstprivate > bin/c/ctest_omp_task_firstprivate.out"
+8/2/2012 15.35.47: Testing for "omp_task_firstprivate" in orphaned mode:
+8/2/2012 15.35.47: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_task_firstprivate >bin/c/orph_test_omp_task_firstprivate.out"
+8/2/2012 15.35.47: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_task_firstprivate > bin/c/orph_ctest_omp_task_firstprivate.out"
+8/2/2012 15.35.47: Warning: Old binary directory detected!
+8/2/2012 15.35.47: Warning: Old binary directory for language c found.
+8/2/2012 15.35.47: Testing for "omp_taskwait":
+8/2/2012 15.35.48: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_taskwait >bin/c/test_omp_taskwait.out"
+8/2/2012 15.35.48: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_taskwait > bin/c/ctest_omp_taskwait.out"
+8/2/2012 15.35.48: Testing for "omp_taskwait" in orphaned mode:
+8/2/2012 15.35.48: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_taskwait >bin/c/orph_test_omp_taskwait.out"
+8/2/2012 15.35.48: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_taskwait > bin/c/orph_ctest_omp_taskwait.out"
+8/2/2012 15.35.48: Warning: Old binary directory detected!
+8/2/2012 15.35.48: Warning: Old binary directory for language c found.
+8/2/2012 15.35.48: Testing for "omp_taskyield":
+8/2/2012 15.35.48: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_taskyield >bin/c/test_omp_taskyield.out"
+8/2/2012 15.35.48: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_taskyield > bin/c/ctest_omp_taskyield.out"
+8/2/2012 15.35.48: Testing for "omp_taskyield" in orphaned mode:
+8/2/2012 15.35.49: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_taskyield >bin/c/orph_test_omp_taskyield.out"
+8/2/2012 15.35.49: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_taskyield > bin/c/orph_ctest_omp_taskyield.out"
+8/2/2012 15.35.49: Warning: Old binary directory detected!
+8/2/2012 15.35.49: Warning: Old binary directory for language c found.
+8/2/2012 15.35.49: Testing for "omp_task_final":
+8/2/2012 15.35.49: ERROR: Compilation of the test failed.
+8/2/2012 15.35.49: Testing for "omp_task_final" in orphaned mode:
+8/2/2012 15.35.49: ERROR: Compilation of the test failed.
+8/2/2012 15.36.54: Warning: Old binary directory detected!
+8/2/2012 15.36.54: Warning: Old binary directory for language c found.
+8/2/2012 15.36.54: Testing for "has_openmp":
+8/2/2012 15.36.55: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_has_openmp >bin/c/test_has_openmp.out"
+8/2/2012 15.36.55: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_has_openmp > bin/c/ctest_has_openmp.out"
+8/2/2012 15.36.55: Testing for "has_openmp" in orphaned mode:
+8/2/2012 15.36.55: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_has_openmp >bin/c/orph_test_has_openmp.out"
+8/2/2012 15.36.55: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_has_openmp > bin/c/orph_ctest_has_openmp.out"
+8/2/2012 15.36.55: Warning: Old binary directory detected!
+8/2/2012 15.36.55: Warning: Old binary directory for language c found.
+8/2/2012 15.36.55: Testing for "omp_atomic":
+8/2/2012 15.36.55: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_atomic >bin/c/test_omp_atomic.out"
+8/2/2012 15.36.55: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_atomic > bin/c/ctest_omp_atomic.out"
+8/2/2012 15.36.55: Testing for "omp_atomic" in orphaned mode:
+8/2/2012 15.36.55: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_atomic >bin/c/orph_test_omp_atomic.out"
+8/2/2012 15.36.55: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_atomic > bin/c/orph_ctest_omp_atomic.out"
+8/2/2012 15.36.55: Warning: Old binary directory detected!
+8/2/2012 15.36.55: Warning: Old binary directory for language c found.
+8/2/2012 15.36.55: Testing for "omp_barrier":
+8/2/2012 15.36.55: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_barrier >bin/c/test_omp_barrier.out"
+8/2/2012 15.36.56: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_barrier > bin/c/ctest_omp_barrier.out"
+8/2/2012 15.36.56: Testing for "omp_barrier" in orphaned mode:
+8/2/2012 15.36.57: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_barrier >bin/c/orph_test_omp_barrier.out"
+8/2/2012 15.36.57: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_barrier > bin/c/orph_ctest_omp_barrier.out"
+8/2/2012 15.36.58: Warning: Old binary directory detected!
+8/2/2012 15.36.58: Warning: Old binary directory for language c found.
+8/2/2012 15.36.58: Testing for "omp_critical":
+8/2/2012 15.36.58: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_critical >bin/c/test_omp_critical.out"
+8/2/2012 15.36.58: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_critical > bin/c/ctest_omp_critical.out"
+8/2/2012 15.36.58: Testing for "omp_critical" in orphaned mode:
+8/2/2012 15.36.58: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_critical >bin/c/orph_test_omp_critical.out"
+8/2/2012 15.36.58: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_critical > bin/c/orph_ctest_omp_critical.out"
+8/2/2012 15.36.58: Warning: Old binary directory detected!
+8/2/2012 15.36.58: Warning: Old binary directory for language c found.
+8/2/2012 15.36.58: Testing for "omp_flush":
+8/2/2012 15.36.58: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_flush >bin/c/test_omp_flush.out"
+8/2/2012 15.36.59: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_flush > bin/c/ctest_omp_flush.out"
+8/2/2012 15.36.59: Testing for "omp_flush" in orphaned mode:
+8/2/2012 15.36.59: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_flush >bin/c/orph_test_omp_flush.out"
+8/2/2012 15.36.59: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_flush > bin/c/orph_ctest_omp_flush.out"
+8/2/2012 15.36.59: Warning: Old binary directory detected!
+8/2/2012 15.36.59: Warning: Old binary directory for language c found.
+8/2/2012 15.36.59: Testing for "omp_for_firstprivate":
+8/2/2012 15.37.00: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_firstprivate >bin/c/test_omp_for_firstprivate.out"
+8/2/2012 15.37.00: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_firstprivate > bin/c/ctest_omp_for_firstprivate.out"
+8/2/2012 15.37.00: Testing for "omp_for_firstprivate" in orphaned mode:
+8/2/2012 15.37.00: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_firstprivate >bin/c/orph_test_omp_for_firstprivate.out"
+8/2/2012 15.37.00: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_firstprivate > bin/c/orph_ctest_omp_for_firstprivate.out"
+8/2/2012 15.37.00: Warning: Old binary directory detected!
+8/2/2012 15.37.00: Warning: Old binary directory for language c found.
+8/2/2012 15.37.00: Testing for "omp_for_lastprivate":
+8/2/2012 15.37.00: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_lastprivate >bin/c/test_omp_for_lastprivate.out"
+8/2/2012 15.37.00: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_lastprivate > bin/c/ctest_omp_for_lastprivate.out"
+8/2/2012 15.37.00: Testing for "omp_for_lastprivate" in orphaned mode:
+8/2/2012 15.37.00: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_lastprivate >bin/c/orph_test_omp_for_lastprivate.out"
+8/2/2012 15.37.00: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_lastprivate > bin/c/orph_ctest_omp_for_lastprivate.out"
+8/2/2012 15.37.00: Warning: Old binary directory detected!
+8/2/2012 15.37.00: Warning: Old binary directory for language c found.
+8/2/2012 15.37.00: Testing for "omp_for_ordered":
+8/2/2012 15.37.00: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_ordered >bin/c/test_omp_for_ordered.out"
+8/2/2012 15.37.00: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_ordered > bin/c/ctest_omp_for_ordered.out"
+8/2/2012 15.37.00: Testing for "omp_for_ordered" in orphaned mode:
+8/2/2012 15.37.00: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_ordered >bin/c/orph_test_omp_for_ordered.out"
+8/2/2012 15.37.00: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_ordered > bin/c/orph_ctest_omp_for_ordered.out"
+8/2/2012 15.37.00: Warning: Old binary directory detected!
+8/2/2012 15.37.00: Warning: Old binary directory for language c found.
+8/2/2012 15.37.00: Testing for "omp_for_private":
+8/2/2012 15.37.01: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_private >bin/c/test_omp_for_private.out"
+8/2/2012 15.37.01: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_private > bin/c/ctest_omp_for_private.out"
+8/2/2012 15.37.01: Testing for "omp_for_private" in orphaned mode:
+8/2/2012 15.37.01: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_private >bin/c/orph_test_omp_for_private.out"
+8/2/2012 15.37.01: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_private > bin/c/orph_ctest_omp_for_private.out"
+8/2/2012 15.37.01: Warning: Old binary directory detected!
+8/2/2012 15.37.01: Warning: Old binary directory for language c found.
+8/2/2012 15.37.01: Testing for "omp_for_reduction":
+8/2/2012 15.37.01: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_reduction >bin/c/test_omp_for_reduction.out"
+8/2/2012 15.37.01: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_reduction > bin/c/ctest_omp_for_reduction.out"
+8/2/2012 15.37.01: Testing for "omp_for_reduction" in orphaned mode:
+8/2/2012 15.37.01: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_reduction >bin/c/orph_test_omp_for_reduction.out"
+8/2/2012 15.37.01: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_reduction > bin/c/orph_ctest_omp_for_reduction.out"
+8/2/2012 15.37.01: Warning: Old binary directory detected!
+8/2/2012 15.37.01: Warning: Old binary directory for language c found.
+8/2/2012 15.37.01: Testing for "omp_for_schedule_dynamic":
+8/2/2012 15.37.02: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_schedule_dynamic >bin/c/test_omp_for_schedule_dynamic.out"
+8/2/2012 15.37.02: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_schedule_dynamic > bin/c/ctest_omp_for_schedule_dynamic.out"
+8/2/2012 15.37.02: Testing for "omp_for_schedule_dynamic" in orphaned mode:
+8/2/2012 15.37.02: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_schedule_dynamic >bin/c/orph_test_omp_for_schedule_dynamic.out"
+8/2/2012 15.37.02: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_schedule_dynamic > bin/c/orph_ctest_omp_for_schedule_dynamic.out"
+8/2/2012 15.37.02: Warning: Old binary directory detected!
+8/2/2012 15.37.02: Warning: Old binary directory for language c found.
+8/2/2012 15.37.02: Testing for "omp_for_schedule_guided":
+8/2/2012 15.37.02: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_schedule_guided >bin/c/test_omp_for_schedule_guided.out"
+8/2/2012 15.37.02: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_schedule_guided > bin/c/ctest_omp_for_schedule_guided.out"
+8/2/2012 15.37.02: Testing for "omp_for_schedule_guided" in orphaned mode:
+8/2/2012 15.37.02: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_schedule_guided >bin/c/orph_test_omp_for_schedule_guided.out"
+8/2/2012 15.37.02: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_schedule_guided > bin/c/orph_ctest_omp_for_schedule_guided.out"
+8/2/2012 15.37.02: Warning: Old binary directory detected!
+8/2/2012 15.37.02: Warning: Old binary directory for language c found.
+8/2/2012 15.37.02: Testing for "omp_for_schedule_static":
+8/2/2012 15.37.02: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_schedule_static >bin/c/test_omp_for_schedule_static.out"
+8/2/2012 15.37.02: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_schedule_static > bin/c/ctest_omp_for_schedule_static.out"
+8/2/2012 15.37.02: Testing for "omp_for_schedule_static" in orphaned mode:
+8/2/2012 15.37.03: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_schedule_static >bin/c/orph_test_omp_for_schedule_static.out"
+8/2/2012 15.37.03: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_schedule_static > bin/c/orph_ctest_omp_for_schedule_static.out"
+8/2/2012 15.37.03: Warning: Old binary directory detected!
+8/2/2012 15.37.03: Warning: Old binary directory for language c found.
+8/2/2012 15.37.03: Testing for "omp_for_nowait":
+8/2/2012 15.37.03: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_nowait >bin/c/test_omp_for_nowait.out"
+8/2/2012 15.37.03: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_for_nowait > bin/c/ctest_omp_for_nowait.out"
+8/2/2012 15.37.03: Testing for "omp_for_nowait" in orphaned mode:
+8/2/2012 15.37.03: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_nowait >bin/c/orph_test_omp_for_nowait.out"
+8/2/2012 15.37.03: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_for_nowait > bin/c/orph_ctest_omp_for_nowait.out"
+8/2/2012 15.37.03: Warning: Old binary directory detected!
+8/2/2012 15.37.03: Warning: Old binary directory for language c found.
+8/2/2012 15.37.03: Testing for "omp_get_num_threads":
+8/2/2012 15.37.03: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_get_num_threads >bin/c/test_omp_get_num_threads.out"
+8/2/2012 15.37.03: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_get_num_threads > bin/c/ctest_omp_get_num_threads.out"
+8/2/2012 15.37.03: Testing for "omp_get_num_threads" in orphaned mode:
+8/2/2012 15.37.03: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_get_num_threads >bin/c/orph_test_omp_get_num_threads.out"
+8/2/2012 15.37.03: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_get_num_threads > bin/c/orph_ctest_omp_get_num_threads.out"
+8/2/2012 15.37.03: Warning: Old binary directory detected!
+8/2/2012 15.37.03: Warning: Old binary directory for language c found.
+8/2/2012 15.37.03: Testing for "omp_get_wtick":
+8/2/2012 15.37.04: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_get_wtick >bin/c/test_omp_get_wtick.out"
+8/2/2012 15.37.04: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_get_wtick > bin/c/ctest_omp_get_wtick.out"
+8/2/2012 15.37.04: Testing for "omp_get_wtick" in orphaned mode:
+8/2/2012 15.37.04: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_get_wtick >bin/c/orph_test_omp_get_wtick.out"
+8/2/2012 15.37.04: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_get_wtick > bin/c/orph_ctest_omp_get_wtick.out"
+8/2/2012 15.37.04: Warning: Old binary directory detected!
+8/2/2012 15.37.04: Warning: Old binary directory for language c found.
+8/2/2012 15.37.04: Testing for "omp_get_wtime":
+8/2/2012 15.37.04: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_get_wtime >bin/c/test_omp_get_wtime.out"
+8/2/2012 15.37.05: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_get_wtime > bin/c/ctest_omp_get_wtime.out"
+8/2/2012 15.37.06: Testing for "omp_get_wtime" in orphaned mode:
+8/2/2012 15.37.06: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_get_wtime >bin/c/orph_test_omp_get_wtime.out"
+8/2/2012 15.37.07: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_get_wtime > bin/c/orph_ctest_omp_get_wtime.out"
+8/2/2012 15.37.08: Warning: Old binary directory detected!
+8/2/2012 15.37.08: Warning: Old binary directory for language c found.
+8/2/2012 15.37.08: Testing for "omp_in_parallel":
+8/2/2012 15.37.08: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_in_parallel >bin/c/test_omp_in_parallel.out"
+8/2/2012 15.37.08: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_in_parallel > bin/c/ctest_omp_in_parallel.out"
+8/2/2012 15.37.08: Testing for "omp_in_parallel" in orphaned mode:
+8/2/2012 15.37.08: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_in_parallel >bin/c/orph_test_omp_in_parallel.out"
+8/2/2012 15.37.08: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_in_parallel > bin/c/orph_ctest_omp_in_parallel.out"
+8/2/2012 15.37.08: Warning: Old binary directory detected!
+8/2/2012 15.37.08: Warning: Old binary directory for language c found.
+8/2/2012 15.37.08: Testing for "omp_lock":
+8/2/2012 15.37.09: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_lock >bin/c/test_omp_lock.out"
+8/2/2012 15.37.09: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_lock > bin/c/ctest_omp_lock.out"
+8/2/2012 15.37.09: Testing for "omp_lock" in orphaned mode:
+8/2/2012 15.37.09: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_lock >bin/c/orph_test_omp_lock.out"
+8/2/2012 15.37.09: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_lock > bin/c/orph_ctest_omp_lock.out"
+8/2/2012 15.37.09: Warning: Old binary directory detected!
+8/2/2012 15.37.09: Warning: Old binary directory for language c found.
+8/2/2012 15.37.09: Testing for "omp_master":
+8/2/2012 15.37.09: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_master >bin/c/test_omp_master.out"
+8/2/2012 15.37.09: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_master > bin/c/ctest_omp_master.out"
+8/2/2012 15.37.09: Testing for "omp_master" in orphaned mode:
+8/2/2012 15.37.09: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_master >bin/c/orph_test_omp_master.out"
+8/2/2012 15.37.09: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_master > bin/c/orph_ctest_omp_master.out"
+8/2/2012 15.37.09: Warning: Old binary directory detected!
+8/2/2012 15.37.09: Warning: Old binary directory for language c found.
+8/2/2012 15.37.09: Testing for "omp_nest_lock":
+8/2/2012 15.37.09: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_nest_lock >bin/c/test_omp_nest_lock.out"
+8/2/2012 15.37.09: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_nest_lock > bin/c/ctest_omp_nest_lock.out"
+8/2/2012 15.37.09: Testing for "omp_nest_lock" in orphaned mode:
+8/2/2012 15.37.09: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_nest_lock >bin/c/orph_test_omp_nest_lock.out"
+8/2/2012 15.37.09: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_nest_lock > bin/c/orph_ctest_omp_nest_lock.out"
+8/2/2012 15.37.09: Warning: Old binary directory detected!
+8/2/2012 15.37.09: Warning: Old binary directory for language c found.
+8/2/2012 15.37.09: Testing for "omp_parallel_copyin":
+8/2/2012 15.37.10: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_copyin >bin/c/test_omp_parallel_copyin.out"
+8/2/2012 15.37.10: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_copyin > bin/c/ctest_omp_parallel_copyin.out"
+8/2/2012 15.37.10: Testing for "omp_parallel_copyin" in orphaned mode:
+8/2/2012 15.37.10: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_copyin >bin/c/orph_test_omp_parallel_copyin.out"
+8/2/2012 15.37.10: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_copyin > bin/c/orph_ctest_omp_parallel_copyin.out"
+8/2/2012 15.37.10: Warning: Old binary directory detected!
+8/2/2012 15.37.10: Warning: Old binary directory for language c found.
+8/2/2012 15.37.10: Testing for "omp_parallel_for_firstprivate":
+8/2/2012 15.37.10: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_for_firstprivate >bin/c/test_omp_parallel_for_firstprivate.out"
+8/2/2012 15.37.10: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_for_firstprivate > bin/c/ctest_omp_parallel_for_firstprivate.out"
+8/2/2012 15.37.10: Testing for "omp_parallel_for_firstprivate" in orphaned mode:
+8/2/2012 15.37.10: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_for_firstprivate >bin/c/orph_test_omp_parallel_for_firstprivate.out"
+8/2/2012 15.37.10: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_for_firstprivate > bin/c/orph_ctest_omp_parallel_for_firstprivate.out"
+8/2/2012 15.37.10: Warning: Old binary directory detected!
+8/2/2012 15.37.10: Warning: Old binary directory for language c found.
+8/2/2012 15.37.10: Testing for "omp_parallel_for_lastprivate":
+8/2/2012 15.37.10: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_for_lastprivate >bin/c/test_omp_parallel_for_lastprivate.out"
+8/2/2012 15.37.10: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_for_lastprivate > bin/c/ctest_omp_parallel_for_lastprivate.out"
+8/2/2012 15.37.10: Testing for "omp_parallel_for_lastprivate" in orphaned mode:
+8/2/2012 15.37.10: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_for_lastprivate >bin/c/orph_test_omp_parallel_for_lastprivate.out"
+8/2/2012 15.37.10: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_for_lastprivate > bin/c/orph_ctest_omp_parallel_for_lastprivate.out"
+8/2/2012 15.37.10: Warning: Old binary directory detected!
+8/2/2012 15.37.10: Warning: Old binary directory for language c found.
+8/2/2012 15.37.10: Testing for "omp_parallel_for_ordered":
+8/2/2012 15.37.11: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_for_ordered >bin/c/test_omp_parallel_for_ordered.out"
+8/2/2012 15.37.11: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_for_ordered > bin/c/ctest_omp_parallel_for_ordered.out"
+8/2/2012 15.37.11: Testing for "omp_parallel_for_ordered" in orphaned mode:
+8/2/2012 15.37.11: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_for_ordered >bin/c/orph_test_omp_parallel_for_ordered.out"
+8/2/2012 15.37.11: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_for_ordered > bin/c/orph_ctest_omp_parallel_for_ordered.out"
+8/2/2012 15.37.11: Warning: Old binary directory detected!
+8/2/2012 15.37.11: Warning: Old binary directory for language c found.
+8/2/2012 15.37.11: Testing for "omp_parallel_for_private":
+8/2/2012 15.37.11: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_for_private >bin/c/test_omp_parallel_for_private.out"
+8/2/2012 15.37.11: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_for_private > bin/c/ctest_omp_parallel_for_private.out"
+8/2/2012 15.37.11: Testing for "omp_parallel_for_private" in orphaned mode:
+8/2/2012 15.37.11: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_for_private >bin/c/orph_test_omp_parallel_for_private.out"
+8/2/2012 15.37.11: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_for_private > bin/c/orph_ctest_omp_parallel_for_private.out"
+8/2/2012 15.37.11: Warning: Old binary directory detected!
+8/2/2012 15.37.11: Warning: Old binary directory for language c found.
+8/2/2012 15.37.11: Testing for "omp_parallel_for_reduction":
+8/2/2012 15.37.11: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_for_reduction >bin/c/test_omp_parallel_for_reduction.out"
+8/2/2012 15.37.11: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_for_reduction > bin/c/ctest_omp_parallel_for_reduction.out"
+8/2/2012 15.37.11: Testing for "omp_parallel_for_reduction" in orphaned mode:
+8/2/2012 15.37.12: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_for_reduction >bin/c/orph_test_omp_parallel_for_reduction.out"
+8/2/2012 15.37.12: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_for_reduction > bin/c/orph_ctest_omp_parallel_for_reduction.out"
+8/2/2012 15.37.12: Warning: Old binary directory detected!
+8/2/2012 15.37.12: Warning: Old binary directory for language c found.
+8/2/2012 15.37.12: Testing for "omp_parallel_num_threads":
+8/2/2012 15.37.12: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_num_threads >bin/c/test_omp_parallel_num_threads.out"
+8/2/2012 15.37.12: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_num_threads > bin/c/ctest_omp_parallel_num_threads.out"
+8/2/2012 15.37.12: Testing for "omp_parallel_num_threads" in orphaned mode:
+8/2/2012 15.37.12: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_num_threads >bin/c/orph_test_omp_parallel_num_threads.out"
+8/2/2012 15.37.12: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_num_threads > bin/c/orph_ctest_omp_parallel_num_threads.out"
+8/2/2012 15.37.12: Warning: Old binary directory detected!
+8/2/2012 15.37.12: Warning: Old binary directory for language c found.
+8/2/2012 15.37.12: Testing for "omp_parallel_sections_firstprivate":
+8/2/2012 15.37.12: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_sections_firstprivate >bin/c/test_omp_parallel_sections_firstprivate.out"
+8/2/2012 15.37.12: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_sections_firstprivate > bin/c/ctest_omp_parallel_sections_firstprivate.out"
+8/2/2012 15.37.12: Testing for "omp_parallel_sections_firstprivate" in orphaned mode:
+8/2/2012 15.37.12: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_sections_firstprivate >bin/c/orph_test_omp_parallel_sections_firstprivate.out"
+8/2/2012 15.37.12: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_sections_firstprivate > bin/c/orph_ctest_omp_parallel_sections_firstprivate.out"
+8/2/2012 15.37.12: Warning: Old binary directory detected!
+8/2/2012 15.37.12: Warning: Old binary directory for language c found.
+8/2/2012 15.37.12: Testing for "omp_parallel_sections_lastprivate":
+8/2/2012 15.37.13: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_sections_lastprivate >bin/c/test_omp_parallel_sections_lastprivate.out"
+8/2/2012 15.37.13: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_sections_lastprivate > bin/c/ctest_omp_parallel_sections_lastprivate.out"
+8/2/2012 15.37.13: Testing for "omp_parallel_sections_lastprivate" in orphaned mode:
+8/2/2012 15.37.13: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_sections_lastprivate >bin/c/orph_test_omp_parallel_sections_lastprivate.out"
+8/2/2012 15.37.13: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_sections_lastprivate > bin/c/orph_ctest_omp_parallel_sections_lastprivate.out"
+8/2/2012 15.37.13: Warning: Old binary directory detected!
+8/2/2012 15.37.13: Warning: Old binary directory for language c found.
+8/2/2012 15.37.13: Testing for "omp_parallel_sections_private":
+8/2/2012 15.37.13: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_sections_private >bin/c/test_omp_parallel_sections_private.out"
+8/2/2012 15.37.13: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_sections_private > bin/c/ctest_omp_parallel_sections_private.out"
+8/2/2012 15.37.13: Testing for "omp_parallel_sections_private" in orphaned mode:
+8/2/2012 15.37.13: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_sections_private >bin/c/orph_test_omp_parallel_sections_private.out"
+8/2/2012 15.37.13: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_sections_private > bin/c/orph_ctest_omp_parallel_sections_private.out"
+8/2/2012 15.37.13: Warning: Old binary directory detected!
+8/2/2012 15.37.13: Warning: Old binary directory for language c found.
+8/2/2012 15.37.13: Testing for "omp_parallel_sections_reduction":
+8/2/2012 15.37.13: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_sections_reduction >bin/c/test_omp_parallel_sections_reduction.out"
+8/2/2012 15.37.13: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_sections_reduction > bin/c/ctest_omp_parallel_sections_reduction.out"
+8/2/2012 15.37.13: Testing for "omp_parallel_sections_reduction" in orphaned mode:
+8/2/2012 15.37.14: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_sections_reduction >bin/c/orph_test_omp_parallel_sections_reduction.out"
+8/2/2012 15.37.14: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_sections_reduction > bin/c/orph_ctest_omp_parallel_sections_reduction.out"
+8/2/2012 15.37.14: Warning: Old binary directory detected!
+8/2/2012 15.37.14: Warning: Old binary directory for language c found.
+8/2/2012 15.37.14: Testing for "omp_section_firstprivate":
+8/2/2012 15.37.14: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_section_firstprivate >bin/c/test_omp_section_firstprivate.out"
+8/2/2012 15.37.14: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_section_firstprivate > bin/c/ctest_omp_section_firstprivate.out"
+8/2/2012 15.37.14: Testing for "omp_section_firstprivate" in orphaned mode:
+8/2/2012 15.37.14: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_section_firstprivate >bin/c/orph_test_omp_section_firstprivate.out"
+8/2/2012 15.37.14: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_section_firstprivate > bin/c/orph_ctest_omp_section_firstprivate.out"
+8/2/2012 15.37.14: Warning: Old binary directory detected!
+8/2/2012 15.37.14: Warning: Old binary directory for language c found.
+8/2/2012 15.37.14: Testing for "omp_section_lastprivate":
+8/2/2012 15.37.14: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_section_lastprivate >bin/c/test_omp_section_lastprivate.out"
+8/2/2012 15.37.14: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_section_lastprivate > bin/c/ctest_omp_section_lastprivate.out"
+8/2/2012 15.37.14: Testing for "omp_section_lastprivate" in orphaned mode:
+8/2/2012 15.37.14: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_section_lastprivate >bin/c/orph_test_omp_section_lastprivate.out"
+8/2/2012 15.37.14: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_section_lastprivate > bin/c/orph_ctest_omp_section_lastprivate.out"
+8/2/2012 15.37.14: Warning: Old binary directory detected!
+8/2/2012 15.37.14: Warning: Old binary directory for language c found.
+8/2/2012 15.37.14: Testing for "omp_section_private":
+8/2/2012 15.37.14: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_section_private >bin/c/test_omp_section_private.out"
+8/2/2012 15.37.15: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_section_private > bin/c/ctest_omp_section_private.out"
+8/2/2012 15.37.15: Testing for "omp_section_private" in orphaned mode:
+8/2/2012 15.37.15: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_section_private >bin/c/orph_test_omp_section_private.out"
+8/2/2012 15.37.15: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_section_private > bin/c/orph_ctest_omp_section_private.out"
+8/2/2012 15.37.15: Warning: Old binary directory detected!
+8/2/2012 15.37.15: Warning: Old binary directory for language c found.
+8/2/2012 15.37.15: Testing for "omp_sections_reduction":
+8/2/2012 15.37.15: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_sections_reduction >bin/c/test_omp_sections_reduction.out"
+8/2/2012 15.37.15: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_sections_reduction > bin/c/ctest_omp_sections_reduction.out"
+8/2/2012 15.37.15: Testing for "omp_sections_reduction" in orphaned mode:
+8/2/2012 15.37.15: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_sections_reduction >bin/c/orph_test_omp_sections_reduction.out"
+8/2/2012 15.37.15: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_sections_reduction > bin/c/orph_ctest_omp_sections_reduction.out"
+8/2/2012 15.37.15: Warning: Old binary directory detected!
+8/2/2012 15.37.15: Warning: Old binary directory for language c found.
+8/2/2012 15.37.15: Testing for "omp_sections_nowait":
+8/2/2012 15.37.15: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_sections_nowait >bin/c/test_omp_sections_nowait.out"
+8/2/2012 15.37.16: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_sections_nowait > bin/c/ctest_omp_sections_nowait.out"
+8/2/2012 15.37.16: Testing for "omp_sections_nowait" in orphaned mode:
+8/2/2012 15.37.16: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_sections_nowait >bin/c/orph_test_omp_sections_nowait.out"
+8/2/2012 15.37.16: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_sections_nowait > bin/c/orph_ctest_omp_sections_nowait.out"
+8/2/2012 15.37.16: Warning: Old binary directory detected!
+8/2/2012 15.37.16: Warning: Old binary directory for language c found.
+8/2/2012 15.37.16: Testing for "omp_parallel_for_if":
+8/2/2012 15.37.16: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_for_if >bin/c/test_omp_parallel_for_if.out"
+8/2/2012 15.37.16: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_for_if > bin/c/ctest_omp_parallel_for_if.out"
+8/2/2012 15.37.16: Testing for "omp_parallel_for_if" in orphaned mode:
+8/2/2012 15.37.16: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_for_if >bin/c/orph_test_omp_parallel_for_if.out"
+8/2/2012 15.37.16: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_for_if > bin/c/orph_ctest_omp_parallel_for_if.out"
+8/2/2012 15.37.16: Warning: Old binary directory detected!
+8/2/2012 15.37.16: Warning: Old binary directory for language c found.
+8/2/2012 15.37.16: Testing for "omp_single_copyprivate":
+8/2/2012 15.37.16: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_single_copyprivate >bin/c/test_omp_single_copyprivate.out"
+8/2/2012 15.37.16: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_single_copyprivate > bin/c/ctest_omp_single_copyprivate.out"
+8/2/2012 15.37.16: Testing for "omp_single_copyprivate" in orphaned mode:
+8/2/2012 15.37.16: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_single_copyprivate >bin/c/orph_test_omp_single_copyprivate.out"
+8/2/2012 15.37.16: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_single_copyprivate > bin/c/orph_ctest_omp_single_copyprivate.out"
+8/2/2012 15.37.16: Warning: Old binary directory detected!
+8/2/2012 15.37.16: Warning: Old binary directory for language c found.
+8/2/2012 15.37.16: Testing for "omp_single_nowait":
+8/2/2012 15.37.17: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_single_nowait >bin/c/test_omp_single_nowait.out"
+8/2/2012 15.37.17: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_single_nowait > bin/c/ctest_omp_single_nowait.out"
+8/2/2012 15.37.17: Testing for "omp_single_nowait" in orphaned mode:
+8/2/2012 15.37.17: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_single_nowait >bin/c/orph_test_omp_single_nowait.out"
+8/2/2012 15.37.17: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_single_nowait > bin/c/orph_ctest_omp_single_nowait.out"
+8/2/2012 15.37.17: Warning: Old binary directory detected!
+8/2/2012 15.37.17: Warning: Old binary directory for language c found.
+8/2/2012 15.37.17: Testing for "omp_single_private":
+8/2/2012 15.37.17: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_single_private >bin/c/test_omp_single_private.out"
+8/2/2012 15.37.17: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_single_private > bin/c/ctest_omp_single_private.out"
+8/2/2012 15.37.17: Testing for "omp_single_private" in orphaned mode:
+8/2/2012 15.37.17: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_single_private >bin/c/orph_test_omp_single_private.out"
+8/2/2012 15.37.17: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_single_private > bin/c/orph_ctest_omp_single_private.out"
+8/2/2012 15.37.17: Warning: Old binary directory detected!
+8/2/2012 15.37.17: Warning: Old binary directory for language c found.
+8/2/2012 15.37.17: Testing for "omp_single":
+8/2/2012 15.37.17: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_single >bin/c/test_omp_single.out"
+8/2/2012 15.37.17: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_single > bin/c/ctest_omp_single.out"
+8/2/2012 15.37.17: Testing for "omp_single" in orphaned mode:
+8/2/2012 15.37.17: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_single >bin/c/orph_test_omp_single.out"
+8/2/2012 15.37.17: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_single > bin/c/orph_ctest_omp_single.out"
+8/2/2012 15.37.17: Warning: Old binary directory detected!
+8/2/2012 15.37.17: Warning: Old binary directory for language c found.
+8/2/2012 15.37.17: Testing for "omp_test_lock":
+8/2/2012 15.37.18: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_test_lock >bin/c/test_omp_test_lock.out"
+8/2/2012 15.37.18: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_test_lock > bin/c/ctest_omp_test_lock.out"
+8/2/2012 15.37.18: Testing for "omp_test_lock" in orphaned mode:
+8/2/2012 15.37.18: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_test_lock >bin/c/orph_test_omp_test_lock.out"
+8/2/2012 15.37.18: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_test_lock > bin/c/orph_ctest_omp_test_lock.out"
+8/2/2012 15.37.18: Warning: Old binary directory detected!
+8/2/2012 15.37.18: Warning: Old binary directory for language c found.
+8/2/2012 15.37.18: Testing for "omp_test_nest_lock":
+8/2/2012 15.37.18: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_test_nest_lock >bin/c/test_omp_test_nest_lock.out"
+8/2/2012 15.37.18: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_test_nest_lock > bin/c/ctest_omp_test_nest_lock.out"
+8/2/2012 15.37.18: Testing for "omp_test_nest_lock" in orphaned mode:
+8/2/2012 15.37.18: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_test_nest_lock >bin/c/orph_test_omp_test_nest_lock.out"
+8/2/2012 15.37.18: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_test_nest_lock > bin/c/orph_ctest_omp_test_nest_lock.out"
+8/2/2012 15.37.18: Warning: Old binary directory detected!
+8/2/2012 15.37.18: Warning: Old binary directory for language c found.
+8/2/2012 15.37.18: Testing for "omp_threadprivate":
+8/2/2012 15.37.18: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_threadprivate >bin/c/test_omp_threadprivate.out"
+8/2/2012 15.37.18: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_threadprivate > bin/c/ctest_omp_threadprivate.out"
+8/2/2012 15.37.18: Testing for "omp_threadprivate" in orphaned mode:
+8/2/2012 15.37.18: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_threadprivate >bin/c/orph_test_omp_threadprivate.out"
+8/2/2012 15.37.18: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_threadprivate > bin/c/orph_ctest_omp_threadprivate.out"
+8/2/2012 15.37.18: Warning: Old binary directory detected!
+8/2/2012 15.37.18: Warning: Old binary directory for language c found.
+8/2/2012 15.37.18: Testing for "omp_parallel_default":
+8/2/2012 15.37.19: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_default >bin/c/test_omp_parallel_default.out"
+8/2/2012 15.37.19: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_default > bin/c/ctest_omp_parallel_default.out"
+8/2/2012 15.37.19: Testing for "omp_parallel_default" in orphaned mode:
+8/2/2012 15.37.19: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_default >bin/c/orph_test_omp_parallel_default.out"
+8/2/2012 15.37.19: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_default > bin/c/orph_ctest_omp_parallel_default.out"
+8/2/2012 15.37.19: Warning: Old binary directory detected!
+8/2/2012 15.37.19: Warning: Old binary directory for language c found.
+8/2/2012 15.37.19: Testing for "omp_parallel_shared":
+8/2/2012 15.37.19: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_shared >bin/c/test_omp_parallel_shared.out"
+8/2/2012 15.37.19: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_shared > bin/c/ctest_omp_parallel_shared.out"
+8/2/2012 15.37.19: Testing for "omp_parallel_shared" in orphaned mode:
+8/2/2012 15.37.19: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_shared >bin/c/orph_test_omp_parallel_shared.out"
+8/2/2012 15.37.19: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_shared > bin/c/orph_ctest_omp_parallel_shared.out"
+8/2/2012 15.37.19: Warning: Old binary directory detected!
+8/2/2012 15.37.19: Warning: Old binary directory for language c found.
+8/2/2012 15.37.19: Testing for "omp_parallel_private":
+8/2/2012 15.37.19: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_private >bin/c/test_omp_parallel_private.out"
+8/2/2012 15.37.19: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_private > bin/c/ctest_omp_parallel_private.out"
+8/2/2012 15.37.19: Testing for "omp_parallel_private" in orphaned mode:
+8/2/2012 15.37.19: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_private >bin/c/orph_test_omp_parallel_private.out"
+8/2/2012 15.37.19: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_private > bin/c/orph_ctest_omp_parallel_private.out"
+8/2/2012 15.37.19: Warning: Old binary directory detected!
+8/2/2012 15.37.19: Warning: Old binary directory for language c found.
+8/2/2012 15.37.19: Testing for "omp_parallel_firstprivate":
+8/2/2012 15.37.20: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_firstprivate >bin/c/test_omp_parallel_firstprivate.out"
+8/2/2012 15.37.20: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_firstprivate > bin/c/ctest_omp_parallel_firstprivate.out"
+8/2/2012 15.37.20: Testing for "omp_parallel_firstprivate" in orphaned mode:
+8/2/2012 15.37.20: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_firstprivate >bin/c/orph_test_omp_parallel_firstprivate.out"
+8/2/2012 15.37.20: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_firstprivate > bin/c/orph_ctest_omp_parallel_firstprivate.out"
+8/2/2012 15.37.20: Warning: Old binary directory detected!
+8/2/2012 15.37.20: Warning: Old binary directory for language c found.
+8/2/2012 15.37.20: Testing for "omp_parallel_if":
+8/2/2012 15.37.20: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_if >bin/c/test_omp_parallel_if.out"
+8/2/2012 15.37.20: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_if > bin/c/ctest_omp_parallel_if.out"
+8/2/2012 15.37.20: Testing for "omp_parallel_if" in orphaned mode:
+8/2/2012 15.37.20: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_if >bin/c/orph_test_omp_parallel_if.out"
+8/2/2012 15.37.20: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_if > bin/c/orph_ctest_omp_parallel_if.out"
+8/2/2012 15.37.20: Warning: Old binary directory detected!
+8/2/2012 15.37.20: Warning: Old binary directory for language c found.
+8/2/2012 15.37.20: Testing for "omp_parallel_reduction":
+8/2/2012 15.37.20: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_parallel_reduction >bin/c/test_omp_parallel_reduction.out"
+8/2/2012 15.37.20: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_parallel_reduction > bin/c/ctest_omp_parallel_reduction.out"
+8/2/2012 15.37.20: Testing for "omp_parallel_reduction" in orphaned mode:
+8/2/2012 15.37.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_parallel_reduction >bin/c/orph_test_omp_parallel_reduction.out"
+8/2/2012 15.37.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_parallel_reduction > bin/c/orph_ctest_omp_parallel_reduction.out"
+8/2/2012 15.37.21: Warning: Old binary directory detected!
+8/2/2012 15.37.21: Warning: Old binary directory for language c found.
+8/2/2012 15.37.21: Testing for "omp_for_collapse":
+8/2/2012 15.37.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_for_collapse >bin/c/test_omp_for_collapse.out"
+8/2/2012 15.37.21: Testing for "omp_for_collapse" in orphaned mode:
+8/2/2012 15.37.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_for_collapse >bin/c/orph_test_omp_for_collapse.out"
+8/2/2012 15.37.21: Warning: Old binary directory detected!
+8/2/2012 15.37.21: Warning: Old binary directory for language c found.
+8/2/2012 15.37.21: Testing for "omp_master_3":
+8/2/2012 15.37.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_master_3 >bin/c/test_omp_master_3.out"
+8/2/2012 15.37.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_master_3 > bin/c/ctest_omp_master_3.out"
+8/2/2012 15.37.21: Testing for "omp_master_3" in orphaned mode:
+8/2/2012 15.37.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_master_3 >bin/c/orph_test_omp_master_3.out"
+8/2/2012 15.37.21: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_master_3 > bin/c/orph_ctest_omp_master_3.out"
+8/2/2012 15.37.21: Warning: Old binary directory detected!
+8/2/2012 15.37.21: Warning: Old binary directory for language c found.
+8/2/2012 15.37.21: Testing for "omp_task":
+8/2/2012 15.37.22: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_task >bin/c/test_omp_task.out"
+8/2/2012 15.37.22: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_task > bin/c/ctest_omp_task.out"
+8/2/2012 15.37.22: Testing for "omp_task" in orphaned mode:
+8/2/2012 15.37.22: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_task >bin/c/orph_test_omp_task.out"
+8/2/2012 15.37.22: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_task > bin/c/orph_ctest_omp_task.out"
+8/2/2012 15.37.22: Warning: Old binary directory detected!
+8/2/2012 15.37.22: Warning: Old binary directory for language c found.
+8/2/2012 15.37.22: Testing for "omp_task_if":
+8/2/2012 15.37.23: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_task_if >bin/c/test_omp_task_if.out"
+8/2/2012 15.37.23: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_task_if > bin/c/ctest_omp_task_if.out"
+8/2/2012 15.37.24: Testing for "omp_task_if" in orphaned mode:
+8/2/2012 15.37.24: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_task_if >bin/c/orph_test_omp_task_if.out"
+8/2/2012 15.37.24: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_task_if > bin/c/orph_ctest_omp_task_if.out"
+8/2/2012 15.37.25: Warning: Old binary directory detected!
+8/2/2012 15.37.25: Warning: Old binary directory for language c found.
+8/2/2012 15.37.25: Testing for "omp_task_untied":
+8/2/2012 15.37.25: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_task_untied >bin/c/test_omp_task_untied.out"
+8/2/2012 15.37.25: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_task_untied > bin/c/ctest_omp_task_untied.out"
+8/2/2012 15.37.25: Testing for "omp_task_untied" in orphaned mode:
+8/2/2012 15.37.25: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_task_untied >bin/c/orph_test_omp_task_untied.out"
+8/2/2012 15.37.25: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_task_untied > bin/c/orph_ctest_omp_task_untied.out"
+8/2/2012 15.37.26: Warning: Old binary directory detected!
+8/2/2012 15.37.26: Warning: Old binary directory for language c found.
+8/2/2012 15.37.26: Testing for "omp_task_shared":
+8/2/2012 15.37.26: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_task_shared >bin/c/test_omp_task_shared.out"
+8/2/2012 15.37.26: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_task_shared > bin/c/ctest_omp_task_shared.out"
+8/2/2012 15.37.26: Testing for "omp_task_shared" in orphaned mode:
+8/2/2012 15.37.26: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_task_shared >bin/c/orph_test_omp_task_shared.out"
+8/2/2012 15.37.26: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_task_shared > bin/c/orph_ctest_omp_task_shared.out"
+8/2/2012 15.37.26: Warning: Old binary directory detected!
+8/2/2012 15.37.26: Warning: Old binary directory for language c found.
+8/2/2012 15.37.26: Testing for "omp_task_private":
+8/2/2012 15.37.26: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_task_private >bin/c/test_omp_task_private.out"
+8/2/2012 15.37.26: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_task_private > bin/c/ctest_omp_task_private.out"
+8/2/2012 15.37.26: Testing for "omp_task_private" in orphaned mode:
+8/2/2012 15.37.26: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_task_private >bin/c/orph_test_omp_task_private.out"
+8/2/2012 15.37.26: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_task_private > bin/c/orph_ctest_omp_task_private.out"
+8/2/2012 15.37.26: Warning: Old binary directory detected!
+8/2/2012 15.37.26: Warning: Old binary directory for language c found.
+8/2/2012 15.37.26: Testing for "omp_task_firstprivate":
+8/2/2012 15.37.27: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_task_firstprivate >bin/c/test_omp_task_firstprivate.out"
+8/2/2012 15.37.27: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_task_firstprivate > bin/c/ctest_omp_task_firstprivate.out"
+8/2/2012 15.37.27: Testing for "omp_task_firstprivate" in orphaned mode:
+8/2/2012 15.37.27: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_task_firstprivate >bin/c/orph_test_omp_task_firstprivate.out"
+8/2/2012 15.37.27: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_task_firstprivate > bin/c/orph_ctest_omp_task_firstprivate.out"
+8/2/2012 15.37.27: Warning: Old binary directory detected!
+8/2/2012 15.37.27: Warning: Old binary directory for language c found.
+8/2/2012 15.37.27: Testing for "omp_taskwait":
+8/2/2012 15.37.27: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/test_omp_taskwait >bin/c/test_omp_taskwait.out"
+8/2/2012 15.37.27: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/ctest_omp_taskwait > bin/c/ctest_omp_taskwait.out"
+8/2/2012 15.37.27: Testing for "omp_taskwait" in orphaned mode:
+8/2/2012 15.37.27: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_test_omp_taskwait >bin/c/orph_test_omp_taskwait.out"
+8/2/2012 15.37.27: Starting command "OMP_NUM_THREADS=8; export OMP_NUM_THREADS; ./bin/c/orph_ctest_omp_taskwait > bin/c/orph_ctest_omp_taskwait.out"
