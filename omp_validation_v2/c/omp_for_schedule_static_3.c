@@ -167,8 +167,8 @@ int <ompts:testcode:functionname>omp_for_schedule_static_3</ompts:testcode:funct
    * We use the nowait clause to increase the probability to get an error. */
 
   /* First we allocate some more memmory */
-  free (tids);
-  tids2 = (int *) malloc (sizeof (int) * LOOPCOUNT);
+ free (tids);
+  tids = (int *) malloc (sizeof (int) * LOOPCOUNT);
   tids2 = (int *) malloc (sizeof (int) * LOOPCOUNT);
 
 #pragma omp parallel 
