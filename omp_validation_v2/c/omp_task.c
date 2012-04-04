@@ -42,7 +42,7 @@ int <ompts:testcode:functionname>omp_task</ompts:testcode:functionname>(FILE * l
 } /*end of parallel */
 
 /* Now we ckeck if more than one thread executed the tasks. */
-    for (i = 0; i < NUM_TASKS; i++) {
+    for (i = 1; i < NUM_TASKS; i++) {
         if (tids[0] != tids[i])
             return 1;
     }

@@ -3,9 +3,9 @@ has_openmp	100	100	100	100
 omp_atomic	100	100	100	100
 omp_barrier	100	100	100	100
 omp_critical	100	100	100	100
-omp_flush	100	100	100	100
+omp_flush	100	100	100	0
 omp_for_firstprivate	100	100	100	100
-omp_for_lastprivate	100	100	100	100
+omp_for_lastprivate	100	0	100	100
 omp_for_ordered	100	100	100	100
 omp_for_private	100	100	100	100
 omp_for_reduction	100	100	100	100
@@ -54,7 +54,7 @@ omp_for_collapse	0	-	0	-
 omp_master_3	100	100	100	100
 omp_task	100	100	100	100
 omp_task_if	100	100	100	100
-omp_task_untied	100	0	100	100
+omp_task_untied	100	100	100	100
 omp_task_shared	100	100	100	100
 omp_task_private	100	100	100	100
 omp_task_firstprivate	100	100	100	100

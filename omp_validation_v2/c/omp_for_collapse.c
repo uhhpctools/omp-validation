@@ -34,7 +34,7 @@ int <ompts:testcode:functionname>omp_for_collapse</ompts:testcode:functionname> 
 	<ompts:orphan>
 	  int i,j;
 	  int my_islarger = 1;
-      #pragma omp for schedule(static,1) <ompts:check>collapse(2)</ompts:check> ordered
+      #pragma omp for private(i,j) schedule(static,1) <ompts:check>collapse(2)</ompts:check> ordered
 	    for (i = 1; i < 100; i++){
           <ompts:crosscheck>my_islarger = check_i_islarger(i)&& my_islarger;</ompts:crosscheck>
           for (j =1; j <100; j++)

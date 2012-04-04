@@ -36,8 +36,8 @@
 
 # GNU Compiler
 CC     = gcc
-CFLAGS = -fopenmp -lm
-#CFLAGS = -fopenmp -lm 
+#CFLAGS = -fopenmp -lm -O3
+CFLAGS = -fopenmp -lm -O3 
 #FC     = gfortran
 #FFLAGS = -fopenmp -lm
 #FFLAGS = -fopenmp -lm -O3
