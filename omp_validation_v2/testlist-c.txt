@@ -20,7 +20,6 @@ omp_get_wtime
 omp_in_parallel
 omp_lock
 omp_master
-#omp_nested
 omp_nest_lock
 omp_parallel_copyin
 omp_parallel_for_firstprivate
@@ -46,8 +45,6 @@ omp_single
 omp_test_lock
 omp_test_nest_lock
 omp_threadprivate
-
-# added by Cheng startted here
 omp_parallel_default
 omp_parallel_shared
 omp_parallel_private
