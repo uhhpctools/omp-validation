@@ -36,14 +36,12 @@
 
 # GNU Compiler
 CC     = gcc
-#CFLAGS = -fopenmp -lm -O3
-CFLAGS = -fopenmp -lm -O3 
+CFLAGS = -fopenmp -lm -O3
+#CFLAGS = -fopenmp -lm -O3 
 #FC     = gfortran
 #FFLAGS = -fopenmp -lm
 #FFLAGS = -fopenmp -lm -O3
 
-#CC=icc
-#CFLAGS=-openmp -lm 
 
 # Fujitsu Compilers:
 #CC = fcc
@@ -64,10 +62,8 @@ CFLAGS = -fopenmp -lm -O3
 
 
 # Intel compilers:
-#CC = ecc
-#CC = icc
-#CC = omcc
-#CFLAGS = -O3 -ip -openmp
+CC = icc
+CFLAGS = -O3 -ip -openmp
 #CFLAGS = -Wall -O0 -openmp
 #CFLAGS =  -openmp -lm
 #CFLAGS =  -openmp -lm -DVERBOSE
@@ -147,8 +143,8 @@ CFLAGS = -fopenmp -lm -O3
 
 
 #OpenUH Compiler
-#CC = uhcc
-#CFLAGS = -mp 
+CC = uhcc
+CFLAGS = -mp 
 
 #FC = uhf90
 #FFLAGS = -mp -O3
@@ -190,6 +186,6 @@ cleanouts:
 	find bin/ -iname *.out -exec rm {} \;
 cleanlogs:
 	find bin/ -iname *.log -exec rm {} \;
-cleanall:
+clean:
 	rm -rf bin/
 

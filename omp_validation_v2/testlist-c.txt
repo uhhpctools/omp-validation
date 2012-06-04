@@ -46,7 +46,6 @@ omp_single
 omp_test_lock
 omp_test_nest_lock
 omp_threadprivate
-#omp_threadprivate_for
 
 # added by Cheng startted here
 omp_parallel_default
@@ -68,4 +67,3 @@ omp_taskwait
 # New tests for OpenMP 3.1
 #omp_taskyield
 #omp_task_final
-#omp_for_schedule_static_3

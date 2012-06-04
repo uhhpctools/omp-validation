@@ -41,7 +41,7 @@ int <ompts:testcode:functionname>omp_parallel_for_ordered</ompts:testcode:functi
 	sum = 0;
 	is_larger = 1;
 	last_i = 0;
-#pragma omp parallel for schedule(static,1) <ompts:check>ordered</ompts:check>
+#pragma omp parallel for schedule(static,1) private(i) <ompts:check>ordered</ompts:check>
 	for (i = 1; i < 100; i++)
 	{
 		ii = i;

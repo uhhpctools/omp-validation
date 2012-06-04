@@ -12,17 +12,19 @@ int <ompts:testcode:functionname>omp_parallel_default</ompts:testcode:functionna
 {
   <ompts:orphan:vars>
   int i;
-  int sum = 0;
+  int sum;
   int mysum;
   </ompts:orphan:vars>
+  
   int known_sum;
-
+  sum =0;
   known_sum = (LOOPCOUNT * (LOOPCOUNT + 1)) / 2 ;
-<ompts:orphan>
-#pragma omp parallel <ompts:check>default(shared)</ompts:check> private(mysum<ompts:crosscheck>,sum</ompts:crosscheck>)
+
+  <ompts:orphan>
+  #pragma omp parallel <ompts:check>default(shared)</ompts:check> private(i) private(mysum<ompts:crosscheck>,sum</ompts:crosscheck>)
   {
 	mysum = 0;
-#pragma omp for
+  #pragma omp for
 	for (i = 1; i <= LOOPCOUNT; i++)
 	{
 	  mysum = mysum + i;

@@ -10,27 +10,38 @@
 
 int <ompts:testcode:functionname>omp_sections_reduction</ompts:testcode:functionname>(FILE * logFile){
 	<ompts:orphan:vars>
-    int sum=7;
+    int sum;
 	int known_sum;
-	double dpt=1,dsum=0;
+	double dpt,dsum;
 	double dknown_sum;
 	double dt=0.5;				/* base of geometric row for + and - test*/
 	double rounding_error= 1.E-9;
 	int diff;
 	double ddiff;
-	int product=1;
+	int product;
 	int known_product;
-	int logic_and=1;
-	int bit_and=1;
-	int logic_or=0;
-	int bit_or=0;
-	int exclusiv_bit_or=0;
+	int logic_and;
+	int bit_and;
+	int logic_or;
+	int bit_or;
+	int exclusiv_bit_or;
 	int logics[1000];
 	int i;
-	int result=0;
+	int result;
     </ompts:orphan:vars>
 	/*  int my_islarger;*/
 	/*int is_larger=1;*/
+
+    sum =7;
+    dpt =1;
+    dsum=0;
+    product =1;
+	logic_and=1;
+	bit_and=1;
+	logic_or=0;
+	bit_or=0;
+	exclusiv_bit_or=0;
+    result = 0;
 	dt = 1./3.;
 	known_sum = (999*1000)/2+7;
 <ompts:orphan>

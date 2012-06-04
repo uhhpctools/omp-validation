@@ -17,7 +17,7 @@
 /* General                                                */
 /**********************************************************/
 #define LOOPCOUNT 	1000
-#define REPETITIONS 	  1
+#define REPETITIONS 	  10
 /* following times are in seconds */
 #define SLEEPTIME	 0.01
 #define SLEEPTIME_LONG	 0.5

@@ -11,7 +11,7 @@ int <ompts:testcode:functionname>omp_section_private</ompts:testcode:functionnam
     <ompts:orphan:vars>
 	int sum;
 	int sum0;
-        int i;
+    int i;
     </ompts:orphan:vars>
     int known_sum;
 

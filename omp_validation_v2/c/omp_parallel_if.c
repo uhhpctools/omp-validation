@@ -12,13 +12,14 @@ int <ompts:testcode:functionname>omp_parallel_if</ompts:testcode:functionname> (
 {
 <ompts:orphan:vars>
   int i;
-  int sum = 0;
+  int sum;
   int known_sum;
   int mysum;
   int control=1;
 </ompts:orphan:vars>
+  sum =0;
   known_sum = (LOOPCOUNT * (LOOPCOUNT + 1)) / 2 ;
-#pragma omp parallel <ompts:check>if(control==0)</ompts:check>
+#pragma omp parallel private(i) <ompts:check>if(control==0)</ompts:check>
   {
 	<ompts:orphan>
     mysum = 0;

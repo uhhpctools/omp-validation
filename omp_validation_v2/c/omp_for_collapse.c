@@ -14,7 +14,7 @@
    with each call */
 static int check_i_islarger (int i)
 {
-    int last_i;
+    static int last_i;
     int islarger;
     if (i==1)
       last_i=0;

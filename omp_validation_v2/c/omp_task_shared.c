@@ -15,8 +15,9 @@
 int <ompts:testcode:functionname>omp_task_imp_shared</ompts:testcode:functionname> (FILE * logFile)
 {
    <ompts:orphan:vars>
-    int i = 0;
+    int i;
    </ompts:orphan:vars>
+    i=0;
     int k = 0;
     int result = 0;
 

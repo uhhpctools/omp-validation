@@ -19,12 +19,16 @@ static void do_some_work (void){
 
 int <ompts:testcode:functionname>omp_parallel_for_private</ompts:testcode:functionname>(FILE * logFile){
     <ompts:orphan:vars>
-    int sum = 0;
-    int i, i2;
+    int sum;
+    int i;
+    int i2;
     </ompts:orphan:vars>
+    
+    sum =0;
+    i2=0;
     int known_sum;
-
-#pragma omp parallel for reduction(+:sum) schedule(static,1) <ompts:check>private(i2)</ompts:check>
+  
+#pragma omp parallel for reduction(+:sum) schedule(static,1) private(i) <ompts:check>private(i2)</ompts:check>
     <ompts:orphan>
     
     for (i=1;i<=LOOPCOUNT;i++)

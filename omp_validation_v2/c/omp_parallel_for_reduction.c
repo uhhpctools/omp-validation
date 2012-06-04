@@ -10,33 +10,44 @@
 
 int <ompts:testcode:functionname>omp_parallel_for_reduction</ompts:testcode:functionname>(FILE * logFile){
 	<ompts:orphan:vars>
-    int sum=0;
+    int sum;
 	int known_sum;
-	double dsum=0;
+	double dsum;
 	double dknown_sum;
 	double dt=0.5;				/* base of geometric row for + and - test*/
 	double rounding_error= 1.E-9;
 #define DOUBLE_DIGITS 20		/* dt^DOUBLE_DIGITS */
 	int diff;
 	double ddiff;
-	int product=1;
+	int product;
 	int known_product;
 #define MAX_FACTOR 10
 #define KNOWN_PRODUCT 3628800	/* 10! */
-	int logic_and=1;
-	int logic_or=0;
-	int bit_and=1;
-	int bit_or=0;
-	int exclusiv_bit_or=0;
+	int logic_and;
+	int logic_or;
+	int bit_and;
+	int bit_or;
+	int exclusiv_bit_or;
 	int logics[LOOPCOUNT];
 	int i;
 	double dpt;
-	int result=0;
+	int result;
     </ompts:orphan:vars>
+
+    sum =0;
+    dsum=0;
 	dt = 1./3.;
+    result = 0;
+    product = 1;
+	logic_and=1;
+	logic_or=0;
+	bit_and=1;
+	bit_or=0;
+	exclusiv_bit_or=0;
+
 	known_sum = (LOOPCOUNT*(LOOPCOUNT+1))/2;
 <ompts:orphan>
-#pragma omp parallel for schedule(dynamic,1) <ompts:check>reduction(+:sum)</ompts:check><ompts:crosscheck></ompts:crosscheck>
+#pragma omp parallel for schedule(dynamic,1) private(i) <ompts:check>reduction(+:sum)</ompts:check><ompts:crosscheck></ompts:crosscheck>
 	for (i=1;i<=LOOPCOUNT;i++)
 	{
 		sum=sum+i;
@@ -49,7 +60,7 @@ int <ompts:testcode:functionname>omp_parallel_for_reduction</ompts:testcode:func
 	}
 
 	diff = (LOOPCOUNT*(LOOPCOUNT+1))/2;
-#pragma omp parallel for schedule(dynamic,1) <ompts:check>reduction(-:diff)</ompts:check><ompts:crosscheck></ompts:crosscheck>
+#pragma omp parallel for schedule(dynamic,1) private(i) <ompts:check>reduction(-:diff)</ompts:check><ompts:crosscheck></ompts:crosscheck>
 	for (i=1;i<=LOOPCOUNT;++i)
 	{
 		diff=diff-i;
@@ -69,7 +80,7 @@ int <ompts:testcode:functionname>omp_parallel_for_reduction</ompts:testcode:func
 		dpt*=dt;
 	}
 	dknown_sum = (1-dpt)/(1-dt);
-#pragma omp parallel for schedule(dynamic,1) <ompts:check>reduction(+:dsum)</ompts:check><ompts:crosscheck></ompts:crosscheck>
+#pragma omp parallel for schedule(dynamic,1) private(i) <ompts:check>reduction(+:dsum)</ompts:check><ompts:crosscheck></ompts:crosscheck>
 	for (i=0;i<DOUBLE_DIGITS;++i)
 	{
 		dsum += pow(dt,i);
@@ -89,7 +100,7 @@ int <ompts:testcode:functionname>omp_parallel_for_reduction</ompts:testcode:func
 	}
 	fprintf(logFile,"\n");
 	ddiff = (1-dpt)/(1-dt);
-#pragma omp parallel for schedule(dynamic,1) <ompts:check>reduction(-:ddiff)</ompts:check><ompts:crosscheck></ompts:crosscheck>
+#pragma omp parallel for schedule(dynamic,1) private(i) <ompts:check>reduction(-:ddiff)</ompts:check><ompts:crosscheck></ompts:crosscheck>
 	for (i=0;i<DOUBLE_DIGITS;++i)
 	{
 		ddiff -= pow(dt,i);
@@ -100,7 +111,7 @@ int <ompts:testcode:functionname>omp_parallel_for_reduction</ompts:testcode:func
 		fprintf(logFile,"Error in Difference with doubles: Result was %E instead of 0.0\n",ddiff);
 	}
 
-#pragma omp parallel for schedule(dynamic,1) <ompts:check>reduction(*:product)</ompts:check><ompts:crosscheck></ompts:crosscheck>
+#pragma omp parallel for schedule(dynamic,1) private(i) <ompts:check>reduction(*:product)</ompts:check><ompts:crosscheck></ompts:crosscheck>
 	for(i=1;i<=MAX_FACTOR;i++)
 	{
 		product *= i;
@@ -118,7 +129,7 @@ int <ompts:testcode:functionname>omp_parallel_for_reduction</ompts:testcode:func
 		logics[i]=1;
 	}
 
-#pragma omp parallel for schedule(dynamic,1) <ompts:check>reduction(&&:logic_and)</ompts:check><ompts:crosscheck></ompts:crosscheck>
+#pragma omp parallel for schedule(dynamic,1) private(i) <ompts:check>reduction(&&:logic_and)</ompts:check><ompts:crosscheck></ompts:crosscheck>
 	for(i=0;i<LOOPCOUNT;++i)
 	{
 		logic_and = (logic_and && logics[i]);
@@ -132,7 +143,7 @@ int <ompts:testcode:functionname>omp_parallel_for_reduction</ompts:testcode:func
 	logic_and = 1;
 	logics[LOOPCOUNT/2]=0;
 
-#pragma omp parallel for schedule(dynamic,1) <ompts:check>reduction(&&:logic_and)</ompts:check><ompts:crosscheck></ompts:crosscheck>
+#pragma omp parallel for schedule(dynamic,1) private(i) <ompts:check>reduction(&&:logic_and)</ompts:check><ompts:crosscheck></ompts:crosscheck>
 	for(i=0;i<LOOPCOUNT;++i)
 	{
 		logic_and = logic_and && logics[i];
@@ -148,7 +159,7 @@ int <ompts:testcode:functionname>omp_parallel_for_reduction</ompts:testcode:func
 		logics[i]=0;
 	}
 
-#pragma omp parallel for schedule(dynamic,1) <ompts:check>reduction(||:logic_or)</ompts:check><ompts:crosscheck></ompts:crosscheck>
+#pragma omp parallel for schedule(dynamic,1) private(i) <ompts:check>reduction(||:logic_or)</ompts:check><ompts:crosscheck></ompts:crosscheck>
 	for(i=0;i<LOOPCOUNT;++i)
 	{
 		logic_or = logic_or || logics[i];
@@ -161,7 +172,7 @@ int <ompts:testcode:functionname>omp_parallel_for_reduction</ompts:testcode:func
 	logic_or = 0;
 	logics[LOOPCOUNT/2]=1;
 
-#pragma omp parallel for schedule(dynamic,1) <ompts:check>reduction(||:logic_or)</ompts:check><ompts:crosscheck></ompts:crosscheck>
+#pragma omp parallel for schedule(dynamic,1) private(i) <ompts:check>reduction(||:logic_or)</ompts:check><ompts:crosscheck></ompts:crosscheck>
 	for(i=0;i<LOOPCOUNT;++i)
 	{
 		logic_or = logic_or || logics[i];
@@ -178,7 +189,7 @@ int <ompts:testcode:functionname>omp_parallel_for_reduction</ompts:testcode:func
 		logics[i]=1;
 	}
 
-#pragma omp parallel for schedule(dynamic,1) <ompts:check>reduction(&:bit_and)</ompts:check><ompts:crosscheck></ompts:crosscheck>
+#pragma omp parallel for schedule(dynamic,1) private(i) <ompts:check>reduction(&:bit_and)</ompts:check><ompts:crosscheck></ompts:crosscheck>
 	for(i=0;i<LOOPCOUNT;++i)
 	{
 		bit_and = (bit_and & logics[i]);
@@ -192,7 +203,7 @@ int <ompts:testcode:functionname>omp_parallel_for_reduction</ompts:testcode:func
 	bit_and = 1;
 	logics[LOOPCOUNT/2]=0;
 
-#pragma omp parallel for schedule(dynamic,1) <ompts:check>reduction(&:bit_and)</ompts:check><ompts:crosscheck></ompts:crosscheck>
+#pragma omp parallel for schedule(dynamic,1) private(i) <ompts:check>reduction(&:bit_and)</ompts:check><ompts:crosscheck></ompts:crosscheck>
 	for(i=0;i<LOOPCOUNT;++i)
 	{
 		bit_and = bit_and & logics[i];
@@ -208,7 +219,7 @@ int <ompts:testcode:functionname>omp_parallel_for_reduction</ompts:testcode:func
 		logics[i]=0;
 	}
 
-#pragma omp parallel for schedule(dynamic,1) <ompts:check>reduction(|:bit_or)</ompts:check><ompts:crosscheck></ompts:crosscheck>
+#pragma omp parallel for schedule(dynamic,1) private(i) <ompts:check>reduction(|:bit_or)</ompts:check><ompts:crosscheck></ompts:crosscheck>
 	for(i=0;i<LOOPCOUNT;++i)
 	{
 		bit_or = bit_or | logics[i];
@@ -221,7 +232,7 @@ int <ompts:testcode:functionname>omp_parallel_for_reduction</ompts:testcode:func
 	bit_or = 0;
 	logics[LOOPCOUNT/2]=1;
 
-#pragma omp parallel for schedule(dynamic,1) <ompts:check>reduction(|:bit_or)</ompts:check><ompts:crosscheck></ompts:crosscheck>
+#pragma omp parallel for schedule(dynamic,1) private(i) <ompts:check>reduction(|:bit_or)</ompts:check><ompts:crosscheck></ompts:crosscheck>
 	for(i=0;i<LOOPCOUNT;++i)
 	{
 		bit_or = bit_or | logics[i];
@@ -237,7 +248,7 @@ int <ompts:testcode:functionname>omp_parallel_for_reduction</ompts:testcode:func
 		logics[i]=0;
 	}
 
-#pragma omp parallel for schedule(dynamic,1) <ompts:check>reduction(^:exclusiv_bit_or)</ompts:check><ompts:crosscheck></ompts:crosscheck>
+#pragma omp parallel for schedule(dynamic,1) private(i) <ompts:check>reduction(^:exclusiv_bit_or)</ompts:check><ompts:crosscheck></ompts:crosscheck>
 	for(i=0;i<LOOPCOUNT;++i)
 	{
 		exclusiv_bit_or = exclusiv_bit_or ^ logics[i];
@@ -251,7 +262,7 @@ int <ompts:testcode:functionname>omp_parallel_for_reduction</ompts:testcode:func
 	exclusiv_bit_or = 0;
 	logics[LOOPCOUNT/2]=1;
 
-#pragma omp parallel for schedule(dynamic,1) <ompts:check>reduction(^:exclusiv_bit_or)</ompts:check><ompts:crosscheck></ompts:crosscheck>
+#pragma omp parallel for schedule(dynamic,1) private(i) <ompts:check>reduction(^:exclusiv_bit_or)</ompts:check><ompts:crosscheck></ompts:crosscheck>
 	for(i=0;i<LOOPCOUNT;++i)
 	{
 		exclusiv_bit_or = exclusiv_bit_or ^ logics[i];

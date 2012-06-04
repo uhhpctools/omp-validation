@@ -9,13 +9,16 @@
 
 int <ompts:testcode:functionname>omp_parallel_for_lastprivate</ompts:testcode:functionname>(FILE * logFile){
     <ompts:orphan:vars>
-    int sum = 0;
+    int sum;
     int i;
-    int i0 = -1;
+    int i0;
     </ompts:orphan:vars>
+
+    sum =0;
+    i0 = -1;
     int known_sum;
 
-#pragma omp parallel for reduction(+:sum) schedule(static,7) <ompts:check>lastprivate(i0)</ompts:check><ompts:crosscheck>private(i0)</ompts:crosscheck>
+#pragma omp parallel for reduction(+:sum) schedule(static,7) private(i) <ompts:check>lastprivate(i0)</ompts:check><ompts:crosscheck>private(i0)</ompts:crosscheck>
     <ompts:orphan>
     for (i = 1; i <= LOOPCOUNT; i++)
     {

@@ -9,10 +9,13 @@
 
 int <ompts:testcode:functionname>omp_parallel_sections_firstprivate</ompts:testcode:functionname>(FILE * logFile){
   <ompts:orphan:vars>
-  int sum=7;
-  int sum0=11;
+  int sum;
+  int sum0;
   </ompts:orphan:vars>
   int known_sum;
+  sum =7;
+  sum0=11;
+
 <ompts:orphan>
 #pragma omp parallel sections <ompts:check>firstprivate(sum0)</ompts:check><ompts:crosscheck>private(sum0)</ompts:crosscheck>
   {

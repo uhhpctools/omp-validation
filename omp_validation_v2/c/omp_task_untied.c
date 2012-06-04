@@ -13,34 +13,37 @@ int <ompts:testcode:functionname>omp_task_untied</ompts:testcode:functionname>(F
 
   <ompts:orphan:vars>
   int i;
-  int count = 0;
+  int count;
   int start_tid[NUM_TASKS];
   int current_tid[NUM_TASKS];
   </ompts:orphan:vars>
+  count = 0;
+  
+  /*initialization*/
   for (i=0; i< NUM_TASKS; i++){
     start_tid[i]=0;
     current_tid[i]=0;
   }
   
-  #pragma omp parallel
+  #pragma omp parallel firstprivate(i)
   {
     #pragma omp single
     {
       for (i = 0; i < NUM_TASKS; i++) {
         <ompts:orphan>
         int myi = i;
-        <ompts:check>#pragma omp task untied</ompts:check>
+        #pragma omp task <ompts:check>untied</ompts:check>
         {
           my_sleep(SLEEPTIME);
           start_tid[myi] = omp_get_thread_num();
           
           #pragma omp taskwait
           
-          if((start_tid[myi] %2) ==0){
-            //my_sleep(SLEEPTIME);
+          <ompts:check>if((start_tid[myi] %2) !=0){</ompts:check>
+            my_sleep(SLEEPTIME);
             current_tid[myi] = omp_get_thread_num();
           } /*end of if*/
-        } /* end of omp task */
+        <ompts:check>} /* end of omp task */ </ompts:check>
         </ompts:orphan>
       } /* end of for */
     } /* end of single */
@@ -48,7 +51,7 @@ int <ompts:testcode:functionname>omp_task_untied</ompts:testcode:functionname>(F
 
   for (i=0;i<NUM_TASKS; i++)
   {
-    //printf("start_tid[%d]=%d, current_tid[%d]=%d\n",i, start_tid[i], i , current_tid[i]);
+    printf("start_tid[%d]=%d, current_tid[%d]=%d\n",i, start_tid[i], i , current_tid[i]);
     if (current_tid[i] == start_tid[i])
       count++;
   }

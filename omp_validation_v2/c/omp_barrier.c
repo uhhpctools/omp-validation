@@ -34,6 +34,7 @@ int <ompts:testcode:functionname>omp_barrier</ompts:testcode:functionname> (FILE
 	}
     </ompts:orphan>
     }
+    printf("result1=%d\n",result1);
     return (result1 == 3);
 }
 </ompts:testcode>

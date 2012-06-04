@@ -13,10 +13,10 @@
 int <ompts:testcode:functionname>omp_task_if</ompts:testcode:functionname>(FILE * logFile){
     <ompts:orphan:vars>
     int condition_false;
-    int count = 0;
+    int count;
     int result;
     </ompts:orphan:vars>
-
+    count=0;
     condition_false = (logFile == NULL);
 #pragma omp parallel 
 {

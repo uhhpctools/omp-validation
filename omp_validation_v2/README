@@ -1,7 +1,7 @@
  ============================================================================
-|                   OpenMP Validation Suite  V 2.0                           | 
+|                   OpenMP Validation Suite  V 3.0                           | 
 |  High Performance Computing Center Stuttgart & University of Houston       |
-|                              Aug. 2006                                     | 
+|                              Jan. 2012                                     | 
  ============================================================================
 
 
@@ -165,11 +165,8 @@ Because many files are generated for each tested directive, it is often necessar
 to clean the main directory after a battery of tests. To clean all generated files
 in the main directory including the results and log files, 
 
->     make cleanall
-
-To clean only the test files, leaving the results and logs,
-
 >     make clean
+
 
 To clean only the logs and out files,
 

@@ -11,14 +11,17 @@
 int <ompts:testcode:functionname>omp_parallel_for_if</ompts:testcode:functionname>(FILE * logFile){
     int known_sum;
     <ompts:orphan:vars>
-    int num_threads = 0, num_threads2 = 0;
-    int sum = 0, sum2 = 0;
+    int num_threads;
+    int sum, sum2;
     int i;
     int control;
     </ompts:orphan:vars>
     control = 0;
+    num_threads=0;
+    sum = 0;
+    sum2 = 0;
 
-#pragma omp parallel for <ompts:check>if (control==1)</ompts:check>
+#pragma omp parallel for private(i) <ompts:check>if (control==1)</ompts:check>
     <ompts:orphan>
     for (i=0; i <= LOOPCOUNT; i++)
     {
