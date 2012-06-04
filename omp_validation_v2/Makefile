@@ -62,8 +62,8 @@ CFLAGS = -fopenmp -lm -O3
 
 
 # Intel compilers:
-CC = icc
-CFLAGS = -O3 -ip -openmp
+#CC = icc
+#CFLAGS = -O3 -ip -openmp
 #CFLAGS = -Wall -O0 -openmp
 #CFLAGS =  -openmp -lm
 #CFLAGS =  -openmp -lm -DVERBOSE
@@ -143,8 +143,8 @@ CFLAGS = -O3 -ip -openmp
 
 
 #OpenUH Compiler
-CC = uhcc
-CFLAGS = -mp 
+#CC = uhcc
+#CFLAGS = -mp 
 
 #FC = uhf90
 #FFLAGS = -mp -O3

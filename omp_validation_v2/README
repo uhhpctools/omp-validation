@@ -89,7 +89,10 @@ II.1. First run with make
 
 You can do a first simple run of the testsuite only after one step of configuration:
 
-1.) Modify the Makefile, uncommenting the CC/FC and CFLAGS/FFLAGS variables
+1.) Modify the ompts.conf and ompts-c.conf file, change the number of threads and
+number of repetitions of each test.
+
+2.) Modify the Makefile, uncommenting the CC/FC and CFLAGS/FFLAGS variables
     for the compiler of your choice.
 
 And now you can run the testsuite either for a c compiler with
@@ -132,9 +135,8 @@ II.3. Understanding the results
 
 When running the testsuite the results will be shown on the screen.
 
-If you need the results for further purpose you can use the cresults.txt or
-fresults.txt depending on whether c or fortran directives were tested. The 
-results.txt files is a simple list containing the results for each directive
+If you need the results for further purpose you can use the results.txt, which 
+is a simple list containing the results for each directive
 in a single line. Each line starts with the name of the directive. Then follows
 the result of the test given in the percentage of the passed tests. If 100% of
 the tests passed successfully, the second number gives the result of the 
@@ -148,11 +150,10 @@ If you run the testsuite with different numbers of threads (e.g. using the
 runtest.pl script) the results are shown in blocks of 4 columns for each number
 of threads.
 
-If a test fails you can find more detailed information in the compile.log, 
-*.out and *.log files.
-While the compile.log file contains all compiler error messages for all tests, the
-*.out and *.log files contain detailed inforamtion on the execution process of the
-single tests.
+If a test fails you can find more detailed information in the ompts.log,
+bin/c/*.out and *.log files. While the ompts.log file contains all compiler 
+error messages for all tests, the *.out and *.log files contain detailed inforamtion 
+on the execution process of the single tests.
 In the *.out files there are listed all the results of the single executions of 
 the tests. In the *.log files there are error messages of the tests itself.
 
@@ -190,8 +191,8 @@ after two steps of modifications:
  
 1.) Modify the Makefile to your wishes choosing your compiler and the necessary
     compiler flags.  
-2.) If necessary edit one of the test lists and comment out the tests you do not
-    want to run using # at the beginning of a line. Testlists for Fortran end 
+2.) If necessary edit one of the test lists (testlist-c.txt) and comment out the 
+    tests you do not want to run using # at the beginning of a line. Testlists for Fortran end 
     with -f.txt while test lists for c with -c.txt.
 
 And now you can run the test suite either for Fortran using
@@ -203,12 +204,8 @@ With the --help option you can show the complete list of options and their
 explanations.
 
 The test results are summarized in cresults or fresults.txt while *.log keep 
-details for individual tests. There is also a file (compile.log) keeping 
+details for individual tests. There is also a file (ompts.log) keeping 
 compilation information. (see section II.2 )
-
-With the test suite there are three test lists: One containing all tests, one
-with the tests for version 1.0 of OpenMP and one with the tests for version
-2.0/2.5 of OpenMP. 
 
 If you don't want to test the directives in orphaned mode you can use the
 -norphan option. You also can use the runtest.pl script either to compile all

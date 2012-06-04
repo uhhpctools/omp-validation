@@ -1,2 +1,2 @@
 #Tested Directive	t	ct	ot	oct
-omp_parallel_num_threads	100	100	100	100
+omp_for_lastprivate	100	100	100	60
