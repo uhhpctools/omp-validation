@@ -8,6 +8,7 @@
 <ompts:orphan:vars>
         DOUBLE PRECISION tick
         COMMON /orphvars/ tick
+        include "omp_lib.h"
 </ompts:orphan:vars>
 !        DOUBLE PRECISION omp_get_wtick
         tick = 1

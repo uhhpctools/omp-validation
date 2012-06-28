@@ -6,7 +6,7 @@
 <ompts:testcode>
 
 
-      INTEGER FUNCTION <ompts:testcode:functionname>do_schedule_dynamic</ompts:testcode:functionname>(logfile)
+      INTEGER FUNCTION <ompts:testcode:functionname>do_schedule_dynamic</ompts:testcode:functionname>()
         IMPLICIT NONE
         CHARACTER*30 logfile
         INTEGER omp_get_thread_num,omp_get_num_threads

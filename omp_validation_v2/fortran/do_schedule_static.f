@@ -5,7 +5,7 @@
 <ompts:dependences>omp do nowait,omp flush,omp critical,omp single</ompts:dependences>
 <ompts:testcode>
 
-      INTEGER FUNCTION <ompts:testcode:functionname>do_schedule_static</ompts:testcode:functionname>(logfile)
+      INTEGER FUNCTION <ompts:testcode:functionname>do_schedule_static</ompts:testcode:functionname>()
         IMPLICIT NONE
         INTEGER omp_get_thread_num,omp_get_num_threads
         CHARACTER*30 logfile

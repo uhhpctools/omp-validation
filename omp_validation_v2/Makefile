@@ -68,8 +68,8 @@ CFLAGS = -fopenmp -lm -O3
 #CFLAGS =  -openmp -lm
 #CFLAGS =  -openmp -lm -DVERBOSE
 
-#FC = ifort
-#FFLAGS = -openmp -lm -fpp
+FC = ifort
+FFLAGS = -openmp -lm -fpp
 
 
 # Omni compilers:

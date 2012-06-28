@@ -3,12 +3,13 @@
 <ompts:ompversion>2.0</ompts:ompversion>
 <ompts:directive>omp_get_wtime</ompts:directive>
 <ompts:testcode>
-      INTEGER FUNCTION <ompts:testcode:functionname>omp_wtime</ompts:testcode:functionname>(fileunit)
+      INTEGER FUNCTION <ompts:testcode:functionname>omp_wtime</ompts:testcode:functionname>()
         IMPLICIT NONE
         <ompts:orphan:vars>
         DOUBLE PRECISION start
         DOUBLE PRECISION endtime
         COMMON start, endtime
+        include "omp_lib.h"
         </ompts:orphan:vars>
         INTEGER wait_time
         DOUBLE PRECISION measured_time
