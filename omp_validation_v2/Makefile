@@ -206,13 +206,13 @@ print_compile_options:
 	@$(FC) --version
 
 cleansrcs:
-	find bin/ -iname *.[cf] -exec rm {} \;
+	find bin/ -iname "*.[cf]" -exec rm {} \;
 cleanbins:
-	find bin/ -perm +111 -exec rm {} \;
+	find bin/ -perm /a+x -type f -exec rm {} \;
 cleanouts:
-	find bin/ -iname *.out -exec rm {} \;
+	find bin/ -iname "*.out" -exec rm {} \;
 cleanlogs:
-	find bin/ -iname *.log -exec rm {} \;
+	find bin/ -iname "*.log" -exec rm {} \;
 
 clean: cleansrcs cleanbins
 

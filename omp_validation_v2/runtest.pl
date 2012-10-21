@@ -2,7 +2,7 @@
 
 # runtest [options] FILENAME
 #
-# Read the file FILENAME. Each line contains a test. 
+# Read the file FILENAME. Each line contains a test.
 # Convert template to test and crosstest.
 # If possilble generate orphaned testversions, too.
 # Use make to compile the test
@@ -97,7 +97,7 @@ $num_orphaned_tests_verified = 0;
 if ($opt_help)         { print_help_text ();   exit 0; }
 if ($opt_listlanguages){ print_avail_langs (); exit 0; }
 if ($opt_list)     { print_avail_tests ();   exit 0; }
-if ($opt_testinfo) { print_testinfo ();      exit 0; } 
+if ($opt_testinfo) { print_testinfo ();      exit 0; }
 if ($opt_test)     { write_result_file_head();
                      execute_single_test (); exit 0; }
 if (-e $ARGV[0])   { write_result_file_head();
@@ -171,13 +171,13 @@ sub timed_sys_command
         alarm 0;
     };
 # check if command finished during the maximum execution time
-    if ($@ eq "alarm\n") { 
+    if ($@ eq "alarm\n") {
 # test timed out
 #		my $pid = Unix::PID->new();
 #		$pid->get_pidof($command, 1);
 #		$pid->kill();
-        if ($debug_mode) { 
-	    log_message_add ("Command \"$command\" reached max execution time.\n"); 
+        if ($debug_mode) {
+	    log_message_add ("Command \"$command\" reached max execution time.\n");
         }
         return "TO";
     }
@@ -186,7 +186,7 @@ sub timed_sys_command
 }
 
 # Function that runs the tests given as a array containing the testnames
-# Returns an array containing the percent values of the passed tests and the 
+# Returns an array containing the percent values of the passed tests and the
 # successful crosstests.
 sub run_test
 {
@@ -211,7 +211,7 @@ sub run_test
 # run the test
     $cmd = "$env_set_threads_command ./$bin_name >$bin_name.out";
     print "Running test with $numthreads threads .";
-    $exit_status = timed_sys_command ($cmd); 
+    $exit_status = timed_sys_command ($cmd);
 ############################################################
 # Check if test finished within max execution time
     if ($exit_status eq 'TO') {
@@ -352,16 +352,15 @@ sub test_is_orphanable
 
 sub write_result_file_head
 {
-    $resultline = "$testname\t";
     open (RESULTS, ">$opt_resultsfile") or error ("Could not open file '$opt_resultsfile' to write results.", 1);
-    print RESULTS "#Tested Directive\tt\tct\tot\toct\n";
+    $resultline = sprintf "%-25s %-s\n", "#Tested Directive", "\tt\tct\tot\toct";
+    print RESULTS $resultline;
 }
 
 # Function which adds a result to the list of results
 sub add_result
 {
     my ($testname, $result) = @_;
-    $resultline = "$testname\t";
 #	print Dumper(@{$result});
 
     $num_constructs++;
@@ -370,18 +369,18 @@ sub add_result
 
     if (${$result}[0][0]) {
 		$num_tests ++;}
-    
-	if ($opt_compile and ${$result}[0][1] eq 0) { 
-		${$result}[0][2]{test}      = 'ce'; 
-		${$result}[0][2]{crosstest} = '-';	
+
+	if ($opt_compile and ${$result}[0][1] eq 0) {
+		${$result}[0][2]{test}      = 'ce';
+		${$result}[0][2]{crosstest} = '-';
 		$num_normal_tests_compile_error++;
 	    $num_normal_tests_failed++;
 	}
 
     if ($opt_run and ${$result}[0][2] and ${$result}[0][2]{test} ne 'ce') {
-        if (${$result}[0][2]{test} == 100) { 
-            $num_normal_tests_successful++; 
-            if (${$result}[0][2]{crosstest} == 100){ 
+        if (${$result}[0][2]{test} == 100) {
+            $num_normal_tests_successful++;
+            if (${$result}[0][2]{crosstest} == 100){
 				$num_normal_tests_verified++;}
 		} elsif (${$result}[0][2]{test} eq 'TO'){
 			$num_normal_tests_timed_out++;
@@ -390,23 +389,23 @@ sub add_result
 			$num_normal_tests_failed++;
 		}
     }
-    $resultline .= "${$result}[0][2]{test}\t${$result}[0][2]{crosstest}\t";
+    $resultline = "${$result}[0][2]{test}\t${$result}[0][2]{crosstest}\t";
 
-    if (${$result}[1][0]) { 
-		$num_tests ++;} 
+    if (${$result}[1][0]) {
+		$num_tests ++;}
     else { $resultline .= "-\t-\n"; }
 
-    if ($opt_compile and ${$result}[1][1] eq 0) { 
-		${$result}[1][2]{test}      = 'ce'; 
-		${$result}[1][2]{crosstest} = '-'; 
+    if ($opt_compile and ${$result}[1][1] eq 0) {
+		${$result}[1][2]{test}      = 'ce';
+		${$result}[1][2]{crosstest} = '-';
 		$num_orphaned_tests_compile_error++;
 		$num_orphaned_tests_failed++;
 	}
 
     if ($opt_run and ${$result}[1][2] and ${$result}[1][2]{test} ne 'ce') {
-        if (${$result}[1][2]{test} == 100) { 
-            $num_orphaned_tests_successful++; 
-            if (${$result}[1][2]{crosstest} == 100){ 
+        if (${$result}[1][2]{test} == 100) {
+            $num_orphaned_tests_successful++;
+            if (${$result}[1][2]{crosstest} == 100){
 				$num_orphaned_tests_verified++;}
 		} elsif (${$result}[1][2]{test} eq 'TO'){
 			$num_orphaned_tests_timed_out++;
@@ -422,7 +421,8 @@ sub add_result
 	$num_successful_tests = $num_normal_tests_successful + $num_orphaned_tests_successful;
 	$num_verified_tests = $num_normal_tests_verified + $num_orphaned_tests_verified;
 
-    print RESULTS $resultline;
+    $resultline2 = sprintf "%-25s %-s", "$testname", "\t$resultline";
+    print RESULTS $resultline2;
 }
 
 # Function which executes a single test
@@ -436,7 +436,7 @@ sub execute_single_test
 # tests in normal mode
     if ($opt_compile){ $result[0][0] = make_src ($opt_test, 0);
                        $result[0][1] = compile_src ($opt_test, 0);}
-    if ($opt_run && $result[0][1] == 1) { 
+    if ($opt_run && $result[0][1] == 1) {
                        $result[0][2] = {run_test ($opt_test, 0)};}
 # tests in orphaned mode
     if ($opt_orphan && test_is_orphanable($opt_test)){
@@ -451,7 +451,7 @@ sub execute_single_test
 }
 
 # Function that prints info about a given test
-sub print_testinfo 
+sub print_testinfo
 {
     init_language_settings($opt_lang);
     my $doc = "";
@@ -489,7 +489,7 @@ sub init_language_settings
         }
     }
     # Check if we found the specified language in the config file
-    if (!$extension and !$dir) { 
+    if (!$extension and !$dir) {
       error ("Language $language could not be found.\n", 3);
     }
 }
@@ -497,7 +497,7 @@ sub init_language_settings
 
 
 # Function that prints all available tests for the given language
-sub print_avail_tests 
+sub print_avail_tests
 {
     init_language_settings($opt_lang);
     my @tests;
@@ -523,7 +523,7 @@ sub print_avail_langs
 }
 
 # Function that prints the error message
-sub print_help_text 
+sub print_help_text
 {
     print <<EOF;
 runtest.pl [options] [FILE]
