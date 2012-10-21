@@ -6,7 +6,7 @@
 
 # Content:
 #########################################################
- 
+
 # 1. Basic usage
 # 2. General testsuite settings
 # 3. Compiler selection and Flags
@@ -35,9 +35,9 @@
 #########################################################
 
 # GNU Compiler
-CC     = gcc
-CFLAGS = -fopenmp -lm -O3
-#CFLAGS = -fopenmp -lm -O3 
+#CC     = gcc
+#CFLAGS = -fopenmp -lm -O3
+#CFLAGS = -fopenmp -lm -O3
 #FC     = gfortran
 #FFLAGS = -fopenmp -lm
 #FFLAGS = -fopenmp -lm -O3
@@ -68,13 +68,12 @@ CFLAGS = -fopenmp -lm -O3
 #CFLAGS =  -openmp -lm
 #CFLAGS =  -openmp -lm -DVERBOSE
 
-FC = ifort
-FFLAGS = -openmp -lm -fpp
-
+#FC = ifort
+#FFLAGS = -openmp -lm -fpp
 
 # Omni compilers:
 #CC = ompcc
-#CFLAGS = -O3 -lm 
+#CFLAGS = -O3 -lm
 
 
 # Assure compilers:
@@ -84,8 +83,8 @@ FFLAGS = -openmp -lm -fpp
 #FFLAGS =
 
 # NEC:
-#CC = c++ 
-#CC = sxc++ 
+#CC = c++
+#CC = sxc++
 #CFLAGS = -Popenmp
 
 #FC=sxf90
@@ -93,7 +92,7 @@ FFLAGS = -openmp -lm -fpp
 
 
 # Hitachi:
-#CC = xcc 
+#CC = xcc
 #CFLAGS = -O4 -pvec +Op -parallel -omp
 #FC =
 #FFLAGS =
@@ -101,7 +100,7 @@ FFLAGS = -openmp -lm -fpp
 
 # SGI:
 #CC = cc
-#CFLAGS = -mp -lm 
+#CFLAGS = -mp -lm
 #FC =
 #FFLAGS =
 
@@ -126,7 +125,7 @@ FFLAGS = -openmp -lm -fpp
 # open64 compilers
 # remark: -I. was a workaround because the installation came without omp.h file
 #CC = opencc
-#CFLAGS = -O0 -openmp -lm -I. -lomp -lpthread 
+#CFLAGS = -O0 -openmp -lm -I. -lomp -lpthread
 #CFLAGS = -O0 -openmp -lm -I /home/matthew/opt/usr/include -lpthread
 #CFLAGS = -openmp -lm
 
@@ -143,14 +142,39 @@ FFLAGS = -openmp -lm -fpp
 
 
 #OpenUH Compiler
-#CC = uhcc
-#CFLAGS = -mp 
+CC = uhcc
+CFLAGS = -mp
 
-#FC = uhf90
-#FFLAGS = -mp -O3
+FC = uhf90
+FFLAGS = -mp
 
+#########################################################################
 
-omp_my_sleep: 
+help:
+	@echo "OpenMP Validation Suite, v3.0"
+	@echo "(C) University of Stuttgart, University of Houston"
+	@echo ""
+	@echo "Do make [rule], where rule may be one of:"
+	@echo "  ctest"
+	@echo "    Build and run the OpenMP/C validation tests."
+	@echo "  ftest"
+	@echo "    Build and run the OpenMP/Fortran validation tests."
+	@echo "  print_compile_options"
+	@echo "    Display the default compiler and compiler options being tested"
+	@echo "  cleansrcs"
+	@echo "    Remove sources generated from the templates"
+	@echo "  cleanbins"
+	@echo "    Remove executables from bin/ directory"
+	@echo "  cleanouts"
+	@echo "    Remove all *.out files from bin/ directory"
+	@echo "  cleanlogs"
+	@echo "    Remove all *.log files from bin/ directory"
+	@echo "  clean"
+	@echo "    Remove all sources and executables from bin/ directory"
+	@echo "  cleanall"
+	@echo "    Remove the entire bin/ directory"
+
+omp_my_sleep:
 	mkdir -p bin/c
 	cp omp_my_sleep.h bin/c/
 omp_testsuite: omp_testsuite.h
@@ -164,19 +188,22 @@ omp_testsuite.h: ompts-c.conf c/*
 ctest: omp_my_sleep omp_testsuite
 	./runtest.pl --lang=c testlist-c.txt
 
-ftest: 
+ftest:
 	mkdir -p bin/fortran
 	cp omp_testsuite.f bin/fortran
 	./runtest.pl --lang=fortran testlist-f.txt
 
 print_compile_options:
-	@echo "C compiler: $(CC)"
-	$(CC) --version
-	@echo "CFLAGS: $(CFLAGS)"
-	@echo ""
-	@echo "Fortran compiler: $(FC)"
-	$(FC) --version
-	@echo "FFLAGS: $(FFLAGS)"
+	@echo "-------------------"
+	@echo "C compiler"
+	@echo "-------------------"
+	@echo "compilation: $(CC) $(CFLAGS)"
+	@$(CC) --version
+	@echo "-------------------"
+	@echo "Fortran compiler"
+	@echo "-------------------"
+	@echo "compilation: $(FC) $(FFLAGS)"
+	@$(FC) --version
 
 cleansrcs:
 	find bin/ -iname *.[cf] -exec rm {} \;
@@ -186,6 +213,9 @@ cleanouts:
 	find bin/ -iname *.out -exec rm {} \;
 cleanlogs:
 	find bin/ -iname *.log -exec rm {} \;
-clean:
+
+clean: cleansrcs cleanbins
+
+cleanall:
 	rm -rf bin/
 
