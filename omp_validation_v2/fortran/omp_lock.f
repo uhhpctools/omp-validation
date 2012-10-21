@@ -6,23 +6,21 @@
 <ompts:testcode>
       INTEGER FUNCTION <ompts:testcode:functionname>omp_lock</ompts:testcode:functionname>()
         IMPLICIT NONE
-        <ompts:orphan>
-        include "omp_lib.h"
-        </ompts:orphan>
-	    INTEGER result
+        INTEGER result
         INTEGER nr_threads_in_single
         INTEGER nr_iterations
         INTEGER i
 !lock variable
                 <ompts:orphan:vars>
-        INTEGER (KIND=OMP_LOCK_KIND) :: lock 
+        INCLUDE "omp_lib.h"
+        INTEGER (KIND=OMP_LOCK_KIND) :: lock
         COMMON /orphvars/ lock
                 </ompts:orphan:vars>
+        INCLUDE "omp_testsuite.f"
 
 !result is:
 !  0 -- if the test fails
 !  1 -- if the test succeeds
-        INCLUDE "omp_testsuite.f"
         CALL omp_init_lock(lock)
         nr_iterations=0
         nr_threads_in_single=0
@@ -30,22 +28,22 @@
 !$omp parallel shared(lock,nr_threads_in_single,nr_iterations,result)
 !$omp do
         DO i=1,LOOPCOUNT
-        !          <ompts:orphan>
+                  <ompts:orphan>
                   <ompts:check>
           CALL omp_set_lock(lock)
                   </ompts:check>
-         !         </ompts:orphan>
+                  </ompts:orphan>
 !$omp flush
           nr_threads_in_single=nr_threads_in_single+1
 !$omp flush
           nr_iterations=nr_iterations+1
           nr_threads_in_single=nr_threads_in_single-1
           result=result+nr_threads_in_single
-          !        <ompts:orphan>
+                  <ompts:orphan>
                   <ompts:check>
           CALL omp_unset_lock(lock)
                   </ompts:check>
-          !        </ompts:orphan>
+                  </ompts:orphan>
         END DO
 !$omp end do
 !$omp end parallel

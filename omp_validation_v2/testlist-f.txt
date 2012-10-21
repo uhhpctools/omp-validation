@@ -20,7 +20,7 @@ omp_lock
 omp_master
 omp_nest_lock
 omp_test_nest_lock
-#omp_nested
+omp_nested
 omp_num_threads
 omp_testlock
 omp_threadprivate
@@ -46,3 +46,13 @@ omp_single
 single_copyprivate
 single_nowait
 single_private
+
+# New tests for OpenMP 3.0
+#  omp_master_3
+#  omp_task
+#  omp_task_if
+#  omp_task_untied
+#  omp_task_shared
+#  omp_task_private
+#  omp_task_firstprivate
+#  omp_taskwait

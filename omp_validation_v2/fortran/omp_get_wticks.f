@@ -13,9 +13,9 @@
 !        DOUBLE PRECISION omp_get_wtick
         tick = 1
                 <ompts:orphan>
-		<ompts:check>
+<ompts:check>
         tick=omp_get_wticK()
-		</ompts:check>
+</ompts:check>
                 </ompts:orphan>
         WRITE(1,*) "work took",tick,"sec. time."
         IF(tick .GT. 0. .AND. tick .LT. 0.01) THEN

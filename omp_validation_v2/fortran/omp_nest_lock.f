@@ -6,19 +6,20 @@
 <ompts:testcode>
       INTEGER FUNCTION <ompts:testcode:functionname>omp_nest_lock</ompts:testcode:functionname>()
         IMPLICIT NONE
-        include "omp_lib.h"
-        INTEGER result
 !result is:
 !  0 -- if the test fails
 !  1 -- if the test succeeds
+        INTEGER result
         INTEGER nr_threads_in_single
         INTEGER nr_iterations
         INTEGER i
                 <ompts:orphan:vars>
+        INCLUDE "omp_lib.h"
         INTEGER (KIND=OMP_NEST_LOCK_KIND) :: lock
         COMMON /orphvars/ lock
                 </ompts:orphan:vars>
         INCLUDE "omp_testsuite.f"
+
         nr_iterations=0
         nr_threads_in_single=0
         CALL omp_init_nest_lock(lock)
