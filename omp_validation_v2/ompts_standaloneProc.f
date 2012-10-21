@@ -25,7 +25,7 @@
 
       OPEN (1, FILE = logfilename)
  
-      WRITE (*,*) "######## OpenMP Validation Suite V 0.93 ######"
+      WRITE (*,*) "######## OpenMP Validation Suite V 3.0a ######"
       WRITE (*,*) "## Repetitions:", N 
       WRITE (*,*) "## Loop Count :", LOOPCOUNT
       WRITE (*,*) "##############################################"
