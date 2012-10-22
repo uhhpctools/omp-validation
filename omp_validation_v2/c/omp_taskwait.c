@@ -2,7 +2,7 @@
 <ompts:testdescription>Test which checks the omp taskwait directive. First we generate a set of tasks, which set the elements of an array to a specific value. Then we do a taskwait and check if all tasks finished meaning all array elements contain the right value. Then we generate a second set setting the array elements to another value. After the parallel region we check if all tasks of the second set finished and were executed after the tasks of the first set.</ompts:testdescription>
 <ompts:ompversion>3.0</ompts:ompversion>
 <ompts:directive>omp taskwait</ompts:directive>
-<ompts:dependences>omp single</ompts:dependences>
+<ompts:dependences>omp single,omp task</ompts:dependences>
 <ompts:testcode>
 #include <stdio.h>
 #include <math.h>

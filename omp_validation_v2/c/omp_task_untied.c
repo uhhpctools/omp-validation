@@ -36,14 +36,21 @@ int <ompts:testcode:functionname>omp_task_untied</ompts:testcode:functionname>(F
         {
           my_sleep(SLEEPTIME);
           start_tid[myi] = omp_get_thread_num();
+          current_tid[myi] = omp_get_thread_num();
           
           #pragma omp taskwait
           
           <ompts:check>if((start_tid[myi] %2) !=0){</ompts:check>
             my_sleep(SLEEPTIME);
             current_tid[myi] = omp_get_thread_num();
-          } /*end of if*/
-        <ompts:check>} /* end of omp task */ </ompts:check>
+          <ompts:check>
+          } /* end of if */ 
+          else {
+            current_tid[myi] = omp_get_thread_num();
+          }
+          </ompts:check>
+
+        } /*end of omp task */
         </ompts:orphan>
       } /* end of for */
     } /* end of single */

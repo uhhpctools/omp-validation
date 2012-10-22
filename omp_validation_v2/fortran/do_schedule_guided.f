@@ -26,12 +26,12 @@
         INTEGER tid
         INTEGER count
 
-        INTEGER SLEEPTIME 
+        INTEGER DELAY 
         INTEGER MAX_TIME
         INTEGER CFSMAX_SIZE
 
 ! ... choose small iteration space for small sync. overhead
-        PARAMETER (SLEEPTIME = 1)
+        PARAMETER (DELAY = 1)
         PARAMETER (MAX_TIME = 5)
         PARAMETER (CFSMAX_SIZE = 150)
 
@@ -91,8 +91,8 @@
      &         .AND. maxiter .EQ. i ) THEN
               DO WHILE ( notout .GE. 1 .AND. count .LT. MAX_TIME
      &          .AND. maxiter .EQ. i )
-                CALL sleep(SLEEPTIME)
-                count = count + SLEEPTIME
+                CALL sleep(DELAY)
+                count = count + DELAY
               END DO         
           END IF
            tids(i) = tid
