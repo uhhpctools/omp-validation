@@ -51,8 +51,9 @@ omp_parallel_private
 omp_parallel_firstprivate
 omp_parallel_if
 omp_parallel_reduction
-omp_for_collapse
+
 # New tests for OpenMP 3.0
+omp_for_collapse
 omp_master_3
 omp_task
 omp_task_if
@@ -61,6 +62,7 @@ omp_task_shared
 omp_task_private
 omp_task_firstprivate
 omp_taskwait
+
 # New tests for OpenMP 3.1
-#omp_taskyield
-#omp_task_final
+omp_taskyield
+omp_task_final

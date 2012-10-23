@@ -48,6 +48,7 @@ single_nowait
 single_private
 
 # New tests for OpenMP 3.0
+do_collapse
 omp_master_3
 omp_task
 omp_task_if
@@ -56,3 +57,7 @@ omp_task_shared
 omp_task_private
 omp_task_firstprivate
 omp_taskwait
+
+# New tests for OpenMP 3.1
+#omp_taskyield
+#omp_task_final
