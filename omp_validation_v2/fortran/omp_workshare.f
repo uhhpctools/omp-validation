@@ -19,10 +19,16 @@
 !********************************************************************
         INTEGER FUNCTION <ompts:testcode:functionname>omp_workshare</ompts:testcode:functionname>()
         IMPLICIT NONE
-        INTEGER scalar0,scalar1,scalar2,scalar3,result,i
+        INTEGER result,i
         INTEGER scalar02,scalar12,scalar22,scalar32,count
+        REAL, DIMENSION(1000)::FF
+<ompts:orphan:vars>
+        INTEGER scalar0,scalar1,scalar2,scalar3
         INTEGER, DIMENSION(1000)::AA,BB,CC
-        REAL, DIMENSION(1000)::DD,FF
+        REAL, DIMENSION(1000)::DD
+        COMMON /orphvars/ scalar0,scalar1,scalar2,scalar3,
+     &      AA,BB,CC,DD
+</ompts:orphan:vars>
 
         result=0
         scalar0=0
@@ -45,6 +51,7 @@
         end do
 
 !$OMP PARALLEL
+<ompts:orphan>
 <ompts:check>!$OMP   WORKSHARE</ompts:check>
 
 ! test if work is divided or not for array assignment
@@ -71,6 +78,7 @@
         FORALL (I=1:1000) CC(i) = -i
 
 <ompts:check>!$OMP   END WORKSHARE</ompts:check>
+</ompts:orphan>
 !$OMP END PARALLEL
 
 !sequential equivalent statements for comparison 

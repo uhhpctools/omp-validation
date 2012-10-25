@@ -101,11 +101,18 @@ if ($opt_testinfo) { print_testinfo ();      exit 0; }
 if ($opt_test)     { write_result_file_head();
                      execute_single_test (); exit 0; }
 if (-e $ARGV[0])   { write_result_file_head();
-                     execute_testlist($ARGV[0]); result_summary(); exit 0;}
+                     execute_testlist($ARGV[0]); print_results();
+                     result_summary(); exit 0;}
 
 ################################################################################
 # sub function definitions
 ################################################################################
+
+# Function which prints the results file
+sub print_results
+{
+    system("echo; cat $opt_resultsfile; echo;");
+}
 
 # Function which prints a summary of all test
 sub result_summary
