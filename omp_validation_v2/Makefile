@@ -191,6 +191,7 @@ ctest: omp_my_sleep omp_testsuite
 ftest:
 	mkdir -p bin/fortran
 	cp omp_testsuite.f bin/fortran
+	cp omp_my_sleep.f bin/fortran
 	./runtest.pl --lang=fortran testlist-f.txt
 
 print_compile_options:
