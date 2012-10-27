@@ -11,12 +11,13 @@
         INCLUDE "omp_testsuite.f"
         <ompts:orphan:vars>
         EXTERNAL my_sleep
-        INTEGER myi
-        INTEGER i
+        INTEGER omp_get_num_threads, omp_get_thread_num
+        INTEGER myj
+        INTEGER i,j
         INTEGER cnt
         INTEGER start_tid(NUM_TASKS)
         INTEGER current_tid(NUM_TASKS)
-        COMMON /orphvars/ i, cnt, start_tid, current_tid
+        COMMON /orphvars/ j, cnt, start_tid, current_tid
         </ompts:orphan:vars>
 
         cnt = 0
@@ -25,21 +26,22 @@
           current_tid(i) = 0
         end do
 
-!$omp parallel private(myi) shared(i)
+!$omp parallel private(myj) shared(j)
 !$omp single
         do i=1, NUM_TASKS
+        j = i
         <ompts:orphan>
-        myi = i
+        myj = j
 !$omp task <ompts:check>untied</ompts:check>
           call my_sleep(SLEEPTIME)
-          start_tid(myi) = omp_get_thread_num()
+          start_tid(myj) = omp_get_thread_num()
 !$omp taskwait
-      <ompts:check>if (MOD(start_tid(myi),2) .ne. 0) then</ompts:check>
+      <ompts:check>if (MOD(start_tid(myj),2) .ne. 0) then</ompts:check>
         call my_sleep(SLEEPTIME)
-        current_tid(myi) = omp_get_thread_num()
+        current_tid(myj) = omp_get_thread_num()
       <ompts:check>
        else
-        current_tid(myi) = omp_get_thread_num()
+        current_tid(myj) = omp_get_thread_num()
        end if</ompts:check>
 !$omp end task
         </ompts:orphan>

@@ -10,22 +10,24 @@
         IMPLICIT NONE
         INCLUDE "omp_testsuite.f"
         <ompts:orphan:vars>
+        INTEGER omp_get_num_threads, omp_get_thread_num
         EXTERNAL my_sleep
-        INTEGER myi
-        INTEGER i
+        INTEGER myj
+        INTEGER i,j
         INTEGER tids(NUM_TASKS)
-        COMMON /orphvars/ i, tids
+        COMMON /orphvars/ j,tids
         </ompts:orphan:vars>
-!$omp parallel private(myi) shared(i)
+!$omp parallel private(myj) shared(j)
 !$omp single
         do i=1, NUM_TASKS
+        j = i
         <ompts:orphan>
-        myi = i
+        myj = j
         <ompts:check>
 !$omp task
         </ompts:check>
           call my_sleep(SLEEPTIME)
-          tids(myi) = omp_get_thread_num()
+          tids(myj) = omp_get_thread_num()
         <ompts:check>
 !$omp end task
         </ompts:check>
