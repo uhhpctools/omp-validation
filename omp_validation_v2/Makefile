@@ -35,12 +35,12 @@
 #########################################################
 
 # GNU Compiler
-#CC     = gcc
-#CFLAGS = -fopenmp -lm -O3
-#CFLAGS = -fopenmp -lm -O3
-#FC     = gfortran
-#FFLAGS = -fopenmp -lm
-#FFLAGS = -fopenmp -lm -O3
+CC     = gcc
+CFLAGS = -fopenmp -lm -O3
+CFLAGS = -fopenmp -lm -O3
+FC     = gfortran
+FFLAGS = -fopenmp -lm
+FFLAGS = -fopenmp -lm -O3
 
 
 # Fujitsu Compilers:
@@ -142,11 +142,10 @@
 
 
 #OpenUH Compiler
-CC = uhcc
-CFLAGS = -mp
-
-FC = uhf90
-FFLAGS = -mp
+#CC = uhcc
+#CFLAGS = -mp
+#FC = uhf90
+#FFLAGS = -mp
 
 #########################################################################
 
