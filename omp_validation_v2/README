@@ -12,15 +12,15 @@ I    	INTRODUCTION
 I.1.	  Aims and general function
 I.2. 	  Files and directories
 
-II		USAGE
-II.1.	  First run with make
-II.2	  Where to search for results
-II.3.	  Using the runtest script
+II      USAGE
+II.1.     First run with make
+II.2      Where to search for results
+II.3.     Using the runtest script
 
-III		Adding and modifying tests
-III.1.	  The template structure
+III     Adding and modifying tests
+III.1.    The template structure
 
-IV		Known Issues and Workaround
+IV      Known Issues and Workaround
 
 V       Contact and Support
 
