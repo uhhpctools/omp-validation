@@ -13,6 +13,7 @@
 int <ompts:testcode:functionname>omp_task_final</ompts:testcode:functionname>(FILE * logFile){
     <ompts:orphan:vars>
     int tids[NUM_TASKS];
+    int includedtids[NUM_TASKS];
     int i;
     </ompts:orphan:vars>
     int error;
@@ -32,18 +33,30 @@ int <ompts:testcode:functionname>omp_task_final</ompts:testcode:functionname>(FI
 
             #pragma omp task <ompts:check>final(i>=10)</ompts:check>
             {
-                my_sleep (SLEEPTIME);
-
                 tids[myi] = omp_get_thread_num();
+                /*we generate included tasks for final tasks*/
+                if(myi >= 10){
+                    int included = myi;
+                    #pragma omp task
+                    {
+                        my_sleep (SLEEPTIME);
+
+                        includedtids[included] = omp_get_thread_num();
+                    } /* end of omp included task of the final task */
+
+                    my_sleep (SLEEPTIME);
+
+                } /* end of if it is a final task*/
+
             } /* end of omp task */
             </ompts:orphan>
         } /* end of for */
     } /* end of single */
 } /*end of parallel */
 
-/* Now we ckeck if more than one thread executed the tasks. */
+/* Now we check if more than one thread executed the final task and its included task. */
     for (i = 10; i < NUM_TASKS; i++) {
-        if (tids[10] != tids[i])
+        if (tids[i] != includedtids[i])
             error++;
     }
     return (error==0);
